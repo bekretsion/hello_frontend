@@ -1,0 +1,141 @@
+/* Audio Visualization Animations */
+@keyframes audioDotPulse {
+  0%,
+  100% {
+    transform: scale(0.4);
+    opacity: 0.4;
+  }
+  50% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes audioMicPulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.4;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.2;
+  }
+  100% {
+    transform: scale(1.3);
+    opacity: 0;
+  }
+}
+
+@keyframes audioRingWave {
+  0% {
+    transform: scale(1);
+    opacity: 0.3;
+  }
+  100% {
+    transform: scale(1.8);
+    opacity: 0;
+  }
+}
+
+/* Audio Component Styles */
+.audio-dot {
+  height: 0.5rem;
+  width: 0.5rem;
+  border-radius: 50%;
+  background: var(--primary);
+  opacity: 0.3;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.audio-dot-active {
+  height: 1rem;
+  width: 1rem;
+  box-shadow: 0 0 8px var(--primary);
+  animation: audioDotPulse 1.2s ease-in-out infinite;
+  opacity: 0.4;
+}
+
+.audio-mic-container {
+  position: relative;
+  display: flex;
+  height: 4rem;
+  width: 4rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: linear-gradient(
+    135deg,
+    var(--primary),
+    color-mix(in srgb, var(--primary) 80%, transparent)
+  );
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: all 0.15s ease-out;
+}
+
+.audio-mic-container.audio-mic-active {
+  background: linear-gradient(
+    135deg,
+    var(--primary),
+    color-mix(in srgb, var(--primary) 90%, transparent)
+  );
+}
+
+.audio-mic-icon {
+  height: 2rem;
+  width: 2rem;
+  color: white;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.1));
+  z-index: 10;
+}
+
+.audio-mic-ripple {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  background: var(--primary);
+  animation: audioMicPulse 1.2s ease-out infinite;
+}
+
+.audio-ring-wave {
+  position: absolute;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  border: 2px solid var(--primary);
+  animation: audioRingWave 1.4s ease-out infinite;
+}
+
+/* Smooth state transitions */
+.audio-mic-container,
+.audio-dot {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Responsive design */
+@media (max-width: 640px) {
+  .audio-mic-container {
+    height: 3.5rem;
+    width: 3.5rem;
+  }
+
+  .audio-mic-icon {
+    height: 1.75rem;
+    width: 1.75rem;
+  }
+
+  .audio-dot {
+    height: 0.4rem;
+    width: 0.4rem;
+  }
+
+  .audio-dot-active {
+    height: 0.75rem;
+    width: 0.75rem;
+  }
+
+  .audio-ring-wave {
+    height: 4rem;
+    width: 4rem;
+  }
+}

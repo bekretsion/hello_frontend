@@ -1,0 +1,95 @@
+/* /components/ui/fullcalendar.css */
+
+/* --- General & Theme Variables --- */
+.fc {
+  --fc-border-color: hsl(var(--border));
+  --fc-daygrid-event-dot-width: 8px;
+  --fc-list-event-dot-width: 10px;
+  --fc-event-bg-color: hsl(var(--primary));
+  --fc-event-border-color: hsl(var(--primary));
+  --fc-event-text-color: hsl(var(--primary-foreground));
+  --fc-event-selected-overlay-bg: hsla(var(--primary), 0.25);
+  --fc-more-link-bg-color: hsl(var(--muted));
+  --fc-more-link-text-color: hsl(var(--muted-foreground));
+  --fc-event-resizer-dot-bg-color: hsl(var(--foreground));
+  --fc-today-bg-color: hsla(var(--accent));
+  --fc-bg-event-color: hsl(var(--muted));
+}
+
+/* --- Borders & Grid Lines --- */
+/* This section is updated to create clear grid lines without doubling borders. */
+
+.fc .fc-scrollgrid {
+  border-radius: var(--radius);
+  /* The main border is handled by the cells to form a complete grid. */
+  border: none;
+  overflow: hidden;
+}
+
+/* FIX: Explicitly set the header cell background to transparent */
+.fc-theme-standard th {
+  background-color: transparent !important;
+}
+
+/* Month View: Add borders to the day frames */
+.fc-daygrid-day-frame {
+  border-bottom: 1px solid hsl(var(--border));
+  border-right: 1px solid hsl(var(--border));
+}
+
+/* Header Cells (Sun, Mon, etc.): Add borders */
+.fc .fc-col-header-cell {
+  border-bottom: 1px solid hsl(var(--border));
+  border-right: 1px solid hsl(var(--border));
+  border-top: 1px solid hsl(var(--border));
+}
+
+/* Add the final left border to the first column of headers and data */
+.fc-theme-standard th:first-child,
+.fc-theme-standard td:first-child {
+  border-left: 1px solid hsl(var(--border));
+}
+
+/* Week & Day Views: Add horizontal lines for time slots */
+.fc .fc-timegrid-slot {
+  border-bottom: 1px solid hsl(var(--border));
+}
+
+/* Week & Day Views: Add vertical lines between days */
+.fc-timegrid-col.fc-day {
+  border-right: 1px solid hsl(var(--border));
+}
+
+
+/* --- Header Cells (Sun, Mon, etc.) --- */
+.fc .fc-col-header-cell-cushion {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: hsl(var(--muted-foreground));
+}
+
+/* --- Day Numbers --- */
+.fc .fc-daygrid-day-number {
+  padding: 0.5rem;
+  font-size: 0.875rem;
+}
+
+/* FIX: Style for days belonging to the previous/next month */
+.fc .fc-day-other .fc-daygrid-day-top {
+  color: hsl(var(--muted-foreground));
+  opacity: 0.7;
+}
+
+/* --- Events --- */
+.fc .fc-event {
+  border-radius: calc(var(--radius) - 4px);
+  padding: 2px 4px;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.fc .fc-event-main {
+  padding-left: 0.25rem;
+}

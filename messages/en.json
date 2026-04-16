@@ -1,0 +1,2458 @@
+{
+  "analytics": {
+    "title": "Overview",
+    "description": "Call performance and metrics",
+    "totalCalls": "Total Calls",
+    "avgDuration": "Avg Duration",
+    "successRate": "Success Rate",
+    "failureRate": "Failure Rate",
+    "callsOverTime": "Calls Over Time",
+    "callDuration": "Call Duration Distribution",
+    "assistantPerformance": "Assistant Performance",
+    "callStatusDistribution": "Call Status Distribution",
+    "timeFilters": {
+      "custom": "Custom Days",
+      "customDays": "days",
+      "today": "Today",
+      "7days": "7 Days",
+      "30days": "30 Days",
+      "3months": "3 Months",
+      "all": "All Time"
+    },
+    "tabLabels": {
+      "overview": "Overview",
+      "calls": "Calls",
+      "duration": "Duration",
+      "assistants": "Assistants"
+    },
+    "callTypes": {
+      "Web Call": "Web Call",
+      "Inbound Call": "Inbound Call",
+      "Outbound Call": "Outbound Call"
+    },
+    "callStatus": {
+      "completed": "Completed",
+      "failed": "Failed",
+      "inProgress": "In Progress",
+      "cancelled": "Cancelled"
+    },
+    "filters": {
+      "all": "All"
+    },
+    "assistants": {
+      "salesAgent": "Sales Agent",
+      "supportBot": "Support Bot",
+      "freshCutz": "Fresh Cutz",
+      "bookingAI": "Booking AI",
+      "defaultAssistant": "Default Assistant"
+    },
+    "endReasons": {
+      "customer-ended-call": "Customer Ended",
+      "assistant-ended-call": "Assistant Ended",
+      "customer-did-not-give-microphone-permission": "No Microphone Permission",
+      "assistant-said-end-call-phrase": "End Call Phrase Used",
+      "exceeded-max-duration": "Exceeded Max Duration",
+      "exceeded-silence-threshold": "Silence Threshold",
+      "machine-detected": "Machine Detected"
+    },
+    "metrics": {
+      "minutes": "minutes",
+      "calls": "calls",
+      "percent": "%"
+    },
+    "tabs": {
+      "costs": "Costs",
+      "failureReasons": "Failure Reasons"
+    },
+    "charts": {
+      "costBreakdown": "Cost Breakdown",
+      "costBreakdownDescription": "Daily breakdown of LLM, STT, TTS, and Vapi costs in USD",
+      "failedCallReasons": "Failed Call Reasons",
+      "failedCallReasonsDescription": "Distribution of reasons why calls ended",
+      "noCallsInPeriod": "No calls in this period"
+    },
+    "export": "Export CSV",
+    "refresh": "Refresh",
+    "avgDurationApprox": "≈ {seconds} sec"
+  },
+  "auth": {
+    "loginPage": {
+      "signInTitle": "Welcome Back",
+      "signInDescription": "Sign in to your account to continue",
+      "heroTitleLine1": "Manage your",
+      "heroTitleLine2": "business <span>with ease.</span>",
+      "features": {
+        "analytics": "Real-time analytics and reporting",
+        "security": "Secure data management",
+        "support": "24/7 customer support"
+      },
+      "testimonial": {
+        "quote": "The most intuitive business tool we've ever used. It transformed how we track our growth.",
+        "author": "Robinson Jalut",
+        "position": "CEO, Hello."
+      }
+    },
+    "loginForm": {
+      "welcomeBack": "Welcome Back",
+      "pleaseLogin": "Please log in to continue",
+      "email": "Email",
+      "emailPlaceholder": "you@example.com",
+      "password": "Password",
+      "accountType": "Account Type",
+      "selectType": "Select type...",
+      "inbound": "Inbound",
+      "outbound": "Outbound",
+      "inboundOutbound": "Inbound + Outbound",
+      "signingIn": "Signing In...",
+      "signIn": "Sign In",
+      "forgotPassword": "Forgot your password?",
+      "RememberMe": "Remember me",
+      "SignUp": "Sign Up",
+      "haveAccount": "Don't have an account",
+      "toasts": {
+        "loginSuccessful": "Login Successful!",
+        "welcomeBack": "Welcome back, {email}. Redirecting...",
+        "loginFailed": "Login Failed",
+        "unexpectedError": "Unexpected error occurred."
+      },
+      "validation": {
+        "passwordRequired": "Password is required.",
+        "emailInvalid": "Please enter a valid email.",
+        "accountTypeRequired": "Please select an account type."
+      }
+    },
+    "signupPage": {
+      "welcomeTitle": "Welcome to",
+      "createAccountTitle": "Create Account",
+      "createAccountDescription": "Get started with Hello today",
+      "fullName": "Full Name",
+      "emailAddress": "Email Address",
+      "emailPlaceholder": "you@example.com",
+      "companyName": "Company Name",
+      "phoneNumber": "Phone Number",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "createAccountBtn": "Create Account",
+      "alreadyHaveAccount": "Already have an account?",
+      "logIn": "Log in",
+      "signingUp": "Signing up...",
+      "bySigningUp": "By signing up, you agree to our",
+      "toasts": {
+        "accountCreated": "Account created!",
+        "checkEmail": "Please check your email for the verification code.",
+        "signupError": "Signup Error",
+        "unexpectedError": "An unexpected error occurred"
+      },
+      "heroTitle": "Transform your business with AI-powered voice assistants",
+      "features": {
+        "support": "24/7 Automated Customer Support",
+        "leadQualification": "Intelligent Lead Qualification",
+        "crmIntegration": "Seamless CRM Integration",
+        "analytics": "Real-time Analytics & Insights"
+      },
+      "testimonial": {
+        "quote": "Hello has transformed how we handle customer inquiries. Our team is more efficient than ever!",
+        "author": "Sarah Johnson",
+        "position": "DEMO Testimonial"
+      },
+      "legal": {
+        "iAccept": "I accept",
+        "termsOfUse": "Terms of Use",
+        "and": "and",
+        "privacyPolicy": "Privacy Policy"
+      },
+      "copyright": "© 2024 Hello AI. All rights reserved."
+    },
+    "adminLogin": {
+      "title": "Admin Portal",
+      "description": "Enter your administrator credentials to continue.",
+      "adminEmail": "Admin Email",
+      "adminEmailPlaceholder": "admin@example.com",
+      "authenticating": "Authenticating...",
+      "signInAsAdmin": "Sign In as Admin",
+      "restrictedArea": "This is a restricted access area.",
+      "password": "Password"
+    },
+    "forgotPassword": {
+      "title": "Forgot your password?",
+      "description": "Enter your email address and we will send you a link to reset your password",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@example.com",
+      "submitButton": "Send Reset Link",
+      "submitting": "Sending...",
+      "backToLogin": "Back to Login",
+      "validation": {
+        "email": "Please enter a valid email address"
+      },
+      "success": {
+        "title": "Check your email",
+        "description": "If an account exists with that email address, we have sent you a password reset link.",
+        "didNotReceive": "Did not receive the email?",
+        "spam": "Check your spam or junk folder",
+        "correctEmail": "Make sure you entered the correct email",
+        "wait": "Wait a few minutes for the email to arrive"
+      },
+      "toasts": {
+        "error": "Error",
+        "failedToSend": "Failed to send reset email",
+        "successTitle": "Email sent!",
+        "successDesc": "A password reset link has been sent to your email address.",
+        "timeoutTitle": "Request timed out",
+        "timeoutDesc": "The request took too long. Please check your connection and try again.",
+        "generalErrorTitle": "Something went wrong",
+        "tryAgain": "Please try again later"
+      }
+    },
+    "businessInfo": {
+      "title": "Business Information",
+      "description": "Tell us about yourself and your company to get started.",
+      "fullName": "Full Name",
+      "fullNamePlaceholder": "John Doe",
+      "role": "Your Role",
+      "rolePlaceholder": "Select your role",
+      "companyName": "Company Name",
+      "companyNamePlaceholder": "Acme Inc.",
+      "industry": "Industry",
+      "industryPlaceholder": "e.g., Technology, Healthcare, Retail",
+      "phoneNumber": "Phone Number",
+      "phoneNumberPlaceholder": "+1234567890",
+      "submitButton": "Complete Onboarding",
+      "submitting": "Saving...",
+      "roles": {
+        "owner": "Business Owner",
+        "manager": "Manager",
+        "developer": "Developer",
+        "other": "Other"
+      },
+      "validation": {
+        "fullNameRequired": "Full name is required.",
+        "fullNameMin": "Full name must be at least 2 characters.",
+        "roleRequired": "Role is required.",
+        "companyNameRequired": "Company name is required.",
+        "companyNameMin": "Company name must be at least 2 characters.",
+        "industryRequired": "Industry is required.",
+        "phoneNumberRequired": "Phone number is required.",
+        "phoneNumberMin": "Please enter a valid phone number."
+      },
+      "toasts": {
+        "successTitle": "Onboarding complete!",
+        "successDesc": "Welcome to Hello.",
+        "errorTitle": "Onboarding Error",
+        "sessionExpired": "Session expired",
+        "sessionExpiredDesc": "Please verify your email again to continue."
+      }
+    },
+    "profile": {
+      "title": "Profile",
+      "description": "Your personal and company information.",
+      "logo": {
+        "label": "Logo / Profile Picture",
+        "upload": "Upload Logo",
+        "change": "Change Logo",
+        "update": "Update Logo",
+        "remove": "Remove",
+        "saved": "Profile picture saved successfully!",
+        "removed": "Profile picture removed",
+        "saveError": "Failed to save profile picture",
+        "typeError": "Please select an image file",
+        "sizeError": "Image size must be less than 5MB",
+        "formatInfo": "JPG, PNG or GIF. Max size 5MB"
+      },
+      "form": {
+        "fullName": "Full Name",
+        "email": "Email",
+        "companyName": "Company Name",
+        "phoneNumber": "Phone Number",
+        "saveButton": "Save Profile",
+        "saving": "Saving...",
+        "validation": {
+          "fullName": "Full name is required.",
+          "email": "Valid email is required.",
+          "companyName": "Company name is required.",
+          "phoneNumber": "Valid phone number is required."
+        }
+      },
+      "success": {
+        "title": "Profile updated successfully!",
+        "description": "Your profile information has been saved."
+      },
+      "error": {
+        "title": "Update Error",
+        "updateFailed": "Failed to update profile",
+        "unexpected": "An unexpected error occurred"
+      }
+    },
+    "profileCompletion": {
+      "title": "Complete your profile",
+      "description": "Add a few extra details so we can better understand your business and keep your account in good standing.",
+      "progress": "Profile completion",
+      "organizationNumber": "Organization number",
+      "organizationNumberPlaceholder": "Enter your organization number",
+      "organizationNumberHelper": "Letters, spaces, hyphens, and dots are allowed. Must be more than 3 characters.",
+      "websiteUrls": "Website URLs",
+      "websiteUrlsPlaceholder": "Add up to 3 website URLs",
+      "socialMediaLinks": "Social media links",
+      "socialMediaLinksPlaceholder": "Add up to 3 social media profile links",
+      "cancel": "Cancel",
+      "saving": "Saving...",
+      "saveChanges": "Save changes",
+      "add": "Add",
+      "setup": {
+        "complete": "Setup"
+      },
+      "errors": {
+        "atLeastOneField": "Add at least one detail before saving.",
+        "organizationNumberDigitsOnly": "Organization number must contain only digits.",
+        "organizationNumberInvalidChars": "Organization number can only contain letters, spaces, hyphens, and dots.",
+        "organizationNumberMinLength": "Organization number must be more than 3 characters.",
+        "fixUrlErrors": "Please fix the URL errors before saving.",
+        "duplicateWebsiteUrls": "You have duplicate website URLs. Each website should be unique.",
+        "duplicateSocialMediaUrls": "You have duplicate social media URLs. Each link should be unique.",
+        "duplicateUrls": "You have entered the same URL more than once.",
+        "maximumItems": "You can only add up to {maxTags} items.",
+        "invalidUrl": "Please enter a valid URL.",
+        "completeUrl": "Enter a complete URL (for example, https://example.com)."
+      },
+      "success": {
+        "profileUpdated": "Profile updated",
+        "onboardingSaved": "Your additional business details have been saved."
+      }
+    }
+  },
+  "phoneNumbers": {
+    "title": "Phone Numbers",
+    "description": "Manage phone numbers assigned to your users.",
+    "searchPlaceholder": "Search by alias number, provider ID, user, or email...",
+    "addNewNumber": "Add New Number",
+    "copySuccess": "{label} copied to clipboard",
+    "deleting": "Deleting phone number...",
+    "deleteSuccess": "Phone number deleted successfully",
+    "noNumbersFound": "No phone numbers found",
+    "labels": {
+      "aliasNumber": "Alias number",
+      "phoneNumberId": "Phone number ID"
+    },
+    "table": {
+      "aliasNumber": "Alias Number",
+      "phoneNumberId": "Phone Number ID",
+      "assignedUser": "Assigned User",
+      "created": "Created",
+      "actions": "Actions"
+    },
+    "deleteDialog": {
+      "title": "Delete phone number",
+      "description": "Are you sure you want to delete {aliasNumber} for {email}? This action cannot be undone.",
+      "cancel": "Cancel",
+      "confirm": "Delete"
+    },
+    "errors": {
+      "fetchFailed": "Failed to load phone numbers.",
+      "fetchError": "Unable to fetch phone numbers",
+      "deleteFailed": "Failed to delete phone number.",
+      "deletionFailed": "Deletion failed"
+    }
+  },
+  "scheduleCall": {
+    "title": "Schedule Calls",
+    "description": "Set a time and date to initiate calls for your selected contacts.",
+    "form": {
+      "title": "Call Configuration",
+      "description": "This will schedule an individual call for all {count} selected contacts at the specified time.",
+      "contactsToSchedule": "Contacts to Schedule",
+      "callFrom": "Call From",
+      "date": "Date",
+      "time": "Time",
+      "pickDate": "Pick a date",
+      "selectNumberPlaceholder": "Select a number to call from...",
+      "noNumbersFound": "No phone numbers found.",
+      "unnamedContact": "Unnamed Contact"
+    },
+    "buttons": {
+      "cancel": "Cancel",
+      "confirmSchedule": "Confirm Schedule"
+    },
+    "validation": {
+      "allFieldsRequired": "Please select a date, time, and a number to call from."
+    },
+    "messages": {
+      "schedulingCalls": "Scheduling calls..."
+    },
+    "errors": {
+      "loadNumbersFailed": "Failed to load your phone numbers.",
+      "noPhoneNumbers": "None of the selected contacts have a primary phone number."
+    }
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "users": "Users",
+    "analytics": "Overview",
+    "calls": "Calls",
+    "phonecalls": "Phone Calls",
+    "settings": "Settings",
+    "store": "Store",
+    "profile": "Profile",
+    "reports": "Reports",
+    "overview": "Overview",
+    "assistants": "Assistants",
+    "my-assistants": "My Assistants",
+    "performance": "Performance",
+    "statistics": "Statistics",
+    "billing": "Billing",
+    "integrations": "Integrations",
+    "integration-requests": "Integration Requests",
+    "assistant-requests": "Assistant Requests",
+    "assistant-edit-requests": "Edit Requests",
+    "phonenumbers": "Phone Numbers",
+    "success": "Success",
+    "kanban": "Kanban",
+    "help": "Help",
+    "notifications": "Notifications",
+    "meeting": "meeting",
+    "calendar": "Calendar",
+    "documents": "Documents",
+    "plan-addons": "Plan & Add-ons",
+    "underReview": "Under Review",
+    "analyse": "Analyse",
+    "preview": "Preview",
+    "upload": "Upload",
+    "product": "Products",
+    "schedule-call": "Schedule Call",
+    "schedule": "Schedule Meeting",
+    "scheduled-calls": "Scheduled Calls",
+    "admin": "Admin",
+    "customers": "Customers",
+    "projects": "Projects",
+    "templates": "Templates",
+    "edit": "Edit",
+    "call": {
+      "details": "Call Details",
+      "logs": "Call Logs",
+      "history": "Call History"
+    },
+    "user": {
+      "management": "User Management"
+    },
+    "api": {
+      "settings": "API Settings"
+    },
+    "logout": "Log out",
+    "assistant": {
+      "details": "Assistant Details"
+    },
+    "setup": {
+      "complete": "Complete setup"
+    },
+    "scripts": "Scripts",
+    "create": "Create",
+    "voices": "Voices",
+    "onboarding": "Onboarding",
+    "voice-assistant": "Voice Assistant",
+    "meeting-slots": "Meeting Slots",
+    "appointments": "Appointments",
+    "receipts": "Receipts",
+    "pending": "Pending Signature",
+    "all-documents": "All Documents",
+    "signed": "Signed",
+    "invoices": "Invoices / Bills"
+  },
+  "userNav": {
+    "myAccount": "My Account",
+    "active": "Active",
+    "request": "Request",
+    "apply": "Apply",
+    "comingSoon": "Coming soon",
+    "comingSoonDescription": "Handle your outbound calls",
+    "changePassword": "Change Password",
+    "outboundAccount": "Outbound Account",
+    "inboundAccount": "Inbound Account",
+    "requestOutbound": "Outbound Account",
+    "requestInbound": "Request Inbound",
+    "logOut": "Log out"
+  },
+  "users": {
+    "title": "User Management",
+    "description": "View, create, and manage all non-admin users.",
+    "searchPlaceholder": "Search by username, email, or role...",
+    "createUser": "Create User",
+    "apiKeyCopied": "API key copied to clipboard!",
+    "noUsersFound": "No users found.",
+    "table": {
+      "username": "Username",
+      "email": "Email",
+      "role": "Role",
+      "apiKey": "API Key",
+      "created": "Created",
+      "actions": "Actions"
+    },
+    "roles": {
+      "inboundBasic": "Inbound Basic",
+      "outboundBasic": "Outbound Basic",
+      "inboundAdvanced": "Inbound Advanced",
+      "outboundAdvanced": "Outbound Advanced",
+      "inOutBasic": "In/Out Basic",
+      "inOutAdvanced": "In/Out Advanced"
+    },
+    "actions": {
+      "editUser": "Edit User",
+      "deleteUser": "Delete User"
+    },
+    "errors": {
+      "fetchError": "Error fetching users",
+      "fetchFailed": "Failed to fetch users. Status:"
+    }
+  },
+  "editUser": {
+    "title": "Edit User",
+    "description": "Modify the details of an existing user.",
+    "loadingDesc": "Loading user data...",
+    "backToUsers": "Back to User List",
+    "updateUser": "Update User",
+    "togglePassword": "Toggle password visibility",
+    "passwordDescription": "Leave blank to keep current password.",
+    "fields": {
+      "username": "Username",
+      "email": "Email",
+      "newPassword": "New Password (optional)",
+      "role": "Role",
+      "apiKey": "API Key",
+      "assistantId": "Assistant ID (optional)"
+    },
+    "placeholders": {
+      "username": "johndoe",
+      "email": "john.doe@example.com",
+      "password": "••••••••",
+      "selectRole": "Select a role",
+      "apiKey": "Enter VAPI API key",
+      "assistantId": "Enter Assistant ID"
+    },
+    "roles": {
+      "admin": "Administrator",
+      "inboundBasic": "Inbound Script",
+      "outboundBasic": "Outbound Script",
+      "inboundAdvanced": "Inbound Recording",
+      "outboundAdvanced": "Outbound Recording",
+      "inboundOutboundBasic": "Inbound & Outbound Basic",
+      "inboundOutboundAdvanced": "Inbound & Outbound Advanced"
+    },
+    "validation": {
+      "usernameMin": "Username must be at least 2 characters.",
+      "emailInvalid": "Please enter a valid email address.",
+      "passwordMin": "Password must be at least 8 characters.",
+      "apiKeyRequired": "API key is required."
+    },
+    "success": {
+      "userUpdated": "User Updated!",
+      "userUpdatedDesc": "Username: {username} has been updated."
+    },
+    "errors": {
+      "fetchFailed": "Failed to fetch user data.",
+      "loadFailed": "Failed to load user",
+      "updateFailed": "Update failed"
+    }
+  },
+  "createUser": {
+    "title": "Create New User",
+    "description": "Fill out the form below to add a new user to the system.",
+    "userDetails": "User Details",
+    "formDescription": "The password will be hashed and the API key must match exactly as provided by VAPI. Assistant ID is optional.",
+    "createUser": "Create User",
+    "fields": {
+      "username": "Username",
+      "email": "Email",
+      "password": "Password",
+      "role": "Role",
+      "apiKey": "API Key",
+      "assistantId": "Assistant ID (optional)"
+    },
+    "placeholders": {
+      "username": "johndoe",
+      "email": "john.doe@example.com",
+      "password": "••••••••",
+      "selectRole": "Select a role",
+      "apiKey": "Enter VAPI API key",
+      "assistantId": "Enter Assistant ID"
+    },
+    "roles": {
+      "admin": "Administrator",
+      "inboundBasic": "Inbound Script",
+      "outboundBasic": "Outbound Script",
+      "inboundAdvanced": "Inbound Recording",
+      "outboundAdvanced": "Outbound Recording"
+    },
+    "validation": {
+      "usernameMin": "Username must be at least 2 characters.",
+      "emailInvalid": "Please enter a valid email address.",
+      "passwordMin": "Password must be at least 8 characters.",
+      "apiKeyRequired": "API key is required."
+    },
+    "success": {
+      "userCreated": "User Created!",
+      "userCreatedDesc": "Username: {username} has been created successfully."
+    },
+    "errors": {
+      "createFailed": "Failed to create user.",
+      "loadFailed": "Failed to load roles"
+    }
+  },
+  "userProfile": {
+    "title": "User Profile",
+    "description": "Manage your personal information and preferences.",
+    "personalInfo": "Personal Information",
+    "contactInfo": "Contact Information",
+    "preferences": "Preferences",
+    "saveChanges": "Save Changes",
+    "cancel": "Cancel",
+    "saving": "Saving...",
+    "saved": "Saved!",
+    "saveFailed": "Save failed",
+    "fields": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "phone": "Phone Number",
+      "timezone": "Timezone",
+      "language": "Language"
+    },
+    "placeholders": {
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "john.doe@example.com",
+      "phone": "+1 (555) 123-4567",
+      "selectTimezone": "Select timezone",
+      "selectLanguage": "Select language"
+    },
+    "languages": {
+      "english": "English",
+      "norwegian": "Norwegian"
+    },
+    "timezones": {
+      "utc": "UTC",
+      "est": "Eastern Time (ET)",
+      "pst": "Pacific Time (PT)",
+      "cet": "Central European Time (CET)"
+    }
+  },
+  "changePassword": {
+    "title": "Change Password",
+    "description": "Update your account password.",
+    "currentPassword": "Current Password",
+    "newPassword": "New Password",
+    "confirmNewPassword": "Confirm New Password",
+    "changePassword": "Change Password",
+    "changing": "Changing...",
+    "changed": "Password Changed!",
+    "changeFailed": "Password change failed",
+    "validation": {
+      "currentPasswordRequired": "Current password is required.",
+      "newPasswordMin": "New password must be at least 8 characters.",
+      "passwordsMustMatch": "Passwords must match."
+    },
+    "placeholders": {
+      "currentPassword": "Enter current password",
+      "newPassword": "Enter new password",
+      "confirmNewPassword": "Confirm new password"
+    }
+  },
+  "updatePassword": {
+    "title": "Update Password",
+    "description": "Enter your current password and a new password to update your credentials.",
+    "fields": {
+      "currentPassword": "Current Password",
+      "newPassword": "New Password",
+      "confirmNewPassword": "Confirm New Password"
+    },
+    "placeholders": {
+      "password": "••••••••"
+    },
+    "buttons": {
+      "updatePassword": "Save new Password"
+    },
+    "accessibility": {
+      "togglePassword": "Toggle password visibility"
+    },
+    "validation": {
+      "currentPasswordRequired": "Current password is required",
+      "newPasswordMinLength": "Password must be at least 8 characters",
+      "confirmPasswordRequired": "Please confirm your password",
+      "passwordsNoMatch": "Passwords do not match"
+    },
+    "messages": {
+      "passwordUpdated": "Password updated successfully"
+    },
+    "errors": {
+      "unexpectedError": "An unexpected error occurred",
+      "tryAgain": "Please try again",
+      "updateFailed": "Failed to update password"
+    }
+  },
+  "billing": {
+    "title": "Billing",
+    "description": "Manage your subscription and payment methods.",
+    "addOns": {
+      "genericName": "Service",
+      "addedToPackage": "{name} added to your package",
+      "removedFromPackage": "{name} removed from your package"
+    },
+    "manageSubscription": {
+      "title": "Manage Your Subscription",
+      "description": "Schedule an upgrade or downgrade for your next billing period",
+      "scheduledChangeTitle": "Scheduled Plan Change",
+      "scheduledChangeDescription": "Your plan will change to {nextPlan} on {date}",
+      "cancelScheduledChange": "Cancel Scheduled Change",
+      "scheduledChangeCancelled": "Scheduled plan change cancelled",
+      "currentPlan": "Current Plan",
+      "monthly": "Monthly",
+      "annual": "Annual",
+      "other": "Other",
+      "minutesRemaining": "{remaining} of {total} minutes remaining",
+      "expires": "Expires {date}",
+      "selectNewPackage": "Select New Package",
+      "monthlyPlansOnly": "Monthly plans only",
+      "annualPlansOnly": "Annual plans only",
+      "monthlyAndAnnualPlans": "Switch to a different monthly plan or upgrade to an annual plan",
+      "sameCycleOnly": "Same billing cycle only",
+      "noPackagesAvailable": "No other packages available in your subscription tier",
+      "upgrade": "Upgrade",
+      "downgrade": "Downgrade",
+      "scheduled": "Scheduled",
+      "switchToAnnual": "Annual",
+      "switchToAnnualPlan": "Switch to {planName} (Annual)",
+      "annualSwitchSummary": "You will pay {price} for the full year. You'll receive {minutes} minutes each month for 12 months.",
+      "annualSwitchKeepBundle": "Your current monthly minutes will continue until they expire. Annual allocations will begin after that.",
+      "annualUpgradeSummary": "You'll pay the upgrade difference. A brand-new 12-month cycle with {minutes} minutes/month will start when your current minutes run out or at your next refill.",
+      "annualUpgradeNewCycle": "Your current minutes remain until used up. Then a new 12-month subscription begins.",
+      "upgradeTo": "Upgrade to {planName}",
+      "downgradeTo": "Downgrade to {planName}",
+      "changeSummary": "Your current plan will continue until {date}. After that, you will be charged {price} for your new plan.",
+      "upgradeBenefit": "You will receive {minutes} minutes per billing period.",
+      "upgradePaymentSummary": "You will pay the full price of {price} for the new plan. Your future billing will continue at this price.",
+      "upgradeAppliesAtZero": "Your upgrade to {minutes} minutes will activate as soon as your current minutes run out, or at your next billing cycle.",
+      "planChangePaymentSummary": "You will pay the full price of {price} for the new plan. Your future billing will continue at this price.",
+      "planChangeAppliesAtZero": "Your new plan ({minutes} minutes) will activate as soon as your current minutes run out, or at your next billing cycle.",
+      "payAndUpgrade": "Pay & Upgrade",
+      "payAndDowngrade": "Pay & Change Plan",
+      "payAndSwitch": "Pay & Switch to Annual",
+      "cancel": "Cancel",
+      "schedulePlanChange": "Schedule Plan Change",
+      "processing": "Processing...",
+      "successMessage": "Plan change scheduled successfully",
+      "errorMessage": "Failed to schedule plan change",
+      "selectPackageError": "Please select a package",
+      "alreadyOnPackageError": "You are already on this package",
+      "billingPeriod": "Billing Period",
+      "minutes": "Minutes",
+      "packageDetails": "{minutes} minutes • {days} days",
+      "monthlySubscription": "Monthly subscription",
+      "annualSubscription": "Annual subscription",
+      "minutesPerMonth": "minutes per month",
+      "minutesPerMonthForYear": "minutes per month for a year",
+      "minutesPerYear": "minutes per year",
+      "bestValue": "(Best Value)",
+      "enterprise": "Enterprise",
+      "enterpriseSubtitle": "AI Phone Assistant",
+      "customPricing": "Custom pricing for your business needs",
+      "contactSales": "Contact Sales",
+      "unlimitedMinutes": "Unlimited minutes",
+      "prioritySupport": "Priority support",
+      "customIntegrations": "Custom integrations",
+      "dedicatedManager": "Dedicated account manager"
+    },
+    "plan": "Current Plan",
+    "subscription": "Subscription Details",
+    "paymentMethods": "Payment Methods",
+    "invoices": "Invoice History",
+    "upgrade": "Upgrade Plan",
+    "cancel": "Cancel Subscription",
+    "addPaymentMethod": "Add Payment Method",
+    "download": "Download",
+    "viewInvoice": "View Invoice",
+    "status": {
+      "active": "Active",
+      "cancelled": "Cancelled",
+      "pastDue": "Past Due"
+    },
+    "plans": {
+      "basic": "Basic Plan",
+      "pro": "Professional Plan",
+      "enterprise": "Enterprise Plan"
+    },
+    "features": {
+      "calls": "{count} monthly calls",
+      "storage": "{size} storage",
+      "support": "{level} support",
+      "integrations": "{count} integrations"
+    },
+    "quote": {
+      "title": "Your Plan",
+      "description": "Review your selected services",
+      "serviceAddOns": "Service Add-ons",
+      "addOns": "Add-ons",
+      "selectServicesToSeePricing": "Select services to see pricing",
+      "monthlySubscription": "Monthly subscription",
+      "addOnServices": "Add-on Services",
+      "serviceAddOnsTitle": "Service Add-ons",
+      "selected": "selected",
+      "noServicesSelected": "No services selected",
+      "basePlanIncluded": "Base Plan Included",
+      "oneTimeSetupFees": "One-Time Setup Fees",
+      "setupFeeDescription": "Setup and configuration fees",
+      "totalDueToday": "Total Due Today",
+      "monthlyRecurring": "Monthly Recurring",
+      "proceedToCheckout": "Proceed to Checkout"
+    },
+    "pricing": {
+      "perMonth": "/mo"
+    },
+    "checkout": {
+      "redirecting": "Redirecting to checkout..."
+    },
+    "errors": {
+      "selectService": "Please select at least one service",
+      "unexpectedError": "An unexpected error occurred",
+      "checkoutFailed": "Checkout failed",
+      "checkoutFailedTitle": "Checkout Failed",
+      "loadMinutePackagesFailed": "Failed to load minute packages",
+      "loadPlansFailed": "Failed to load your plans"
+    },
+    "messages": {
+      "emergencyTopupAdded": "Emergency top-up added! ({current}/{max} top-ups) 🎉"
+    },
+    "settingsSection": {
+      "title": "Billing Settings",
+      "description": "Configure automatic billing and notifications"
+    },
+    "serviceInterrupted": {
+      "title": "Service Interrupted",
+      "description": "Your service has been interrupted. Please purchase a minute package to continue using the dashboard."
+    },
+    "goToBilling": "Go to Billing",
+    "newUserBanner": {
+      "title": "Welcome to Hello!",
+      "description": "To start handling calls, your account needs available call minutes.\\nChoose a minute package below to activate calling and start using the service immediately.\\nYou can monitor usage and remaining minutes in real time directly from the dashboard.",
+      "browseButton": "Choose minute package",
+      "feature1": "Instant activation",
+      "feature2": "Real-time usage overview",
+      "feature3": "Ready to use immediately",
+      "dismiss": "Dismiss",
+      "noMinutesTitle": "No minutes remaining",
+      "noMinutesDescription": "You've used all your available call minutes. Top up now to continue making calls without interruption.",
+      "topUpButton": "Top up minutes",
+      "mustBuyTitle": "Get started with call minutes",
+      "mustBuyDescription": "To start handling calls, your account needs available call minutes.\\nChoose a minute package below to activate calling and start using the service immediately."
+    },
+    "minutePackages": {
+      "monthly": "Monthly",
+      "annual": "Annual",
+      "minutes": "Minutes",
+      "perMinute": "per minute",
+      "perMonth": "per month",
+      "callingMinutes": "calling minutes",
+      "daysValidity": "days validity",
+      "premiumVoiceQuality": "Premium voice quality",
+      "supportIncluded": "24/7 support included",
+      "getStarted": "Get Started",
+      "managePlan": "Manage Plan",
+      "processing": "Processing...",
+      "mostPopular": "Most Popular",
+      "oneMonthValidity": "1 Month Validity",
+      "twelveMonthsValidity": "12 Months Validity",
+      "packageAddedSuccess": "Package added successfully!",
+      "purchaseFailed": "Purchase failed. Please try again."
+    },
+    "success": {
+      "processing": "Processing your purchase...",
+      "processingDescription": "Please wait while we activate your minute package. This usually takes just a few seconds.",
+      "purchaseFailed": "Purchase Failed",
+      "backToBilling": "Back to Billing",
+      "tryAgain": "Try Again",
+      "purchaseSuccessful": "Purchase Successful!",
+      "minutePackageActivated": "Your minute package has been activated and is ready to use.",
+      "serviceSubscriptionActivated": "Your service subscription has been activated and is ready to use.",
+      "minutesAdded": "Minutes Added",
+      "newMinutePackageDetails": "Your new minute package details",
+      "minutesAddedToAccount": "minutes added to your account",
+      "bundleId": "Bundle ID",
+      "status": "Status",
+      "active": "Active",
+      "serviceActivated": "Service Activated",
+      "newSubscriptionDetails": "Your new subscription details",
+      "goToDashboard": "Go to Dashboard",
+      "viewBilling": "View Billing",
+      "whatsNext": "What's Next?",
+      "startMakingCalls": "Start Making Calls",
+      "startMakingCallsDescription": "Your minutes are ready! You can now make calls through the dashboard.",
+      "trackUsage": "Track Usage",
+      "trackUsageDescription": "Monitor your minute usage and get alerts when running low."
+    },
+    "minutes": {
+      "remaining": "Minutes remaining"
+    },
+    "settings": {
+      "autoRenewal": "Automatic renewal",
+      "autoRenewalSubtitle": "Renews your selected minute package each billing period",
+      "autoRenewalTooltip": "Your minute package is automatically renewed at the end of each billing period to avoid service interruption.",
+      "autoCharge": "Automatic charge",
+      "autoChargeSubtitle": "Charges your card when minutes run low",
+      "autoChargeTooltip": "When your available minutes drop below the threshold, your payment method is automatically charged to purchase additional minutes.",
+      "autoTopup": "Automatic minute top-up",
+      "autoTopupSubtitle": "Purchases extra minutes when balance runs out",
+      "autoTopupTooltip": "When your available minutes are used up, additional minutes are automatically purchased to keep calls running.",
+      "notifications": "Notifications",
+      "minutes": "minutes",
+      "minutesUsed": "used",
+      "autoRenewalUpdated": "Auto-Renewal updated",
+      "autoRenewalUpdateFailed": "Could not update Auto-Renewal",
+      "autoChargeUpdated": "Auto-Charge updated",
+      "autoChargeUpdateFailed": "Could not update Auto-Charge",
+      "autoTopupUpdated": "Auto Top-up updated",
+      "autoTopupUpdateFailed": "Could not update Auto Top-up",
+      "notificationsUpdated": "Notifications updated",
+      "notificationsUpdateFailed": "Could not update Notifications"
+    },
+    "bundles": {
+      "bundleDiscount": "Bundle Discount",
+      "addMinutes": "100 minutes"
+    },
+    "services": {
+      "100minTopup": "100 Minute Top-up",
+      "100minTopupDesc": "Add 100 calling minutes to your account",
+      "voiceClone": "Voice Clone",
+      "voiceCloneDesc": "Create a custom voice clone for your assistant",
+      "phoneNumbers": "Phone Numbers",
+      "phoneNumbersDesc": "Additional dedicated phone numbers for your assistants",
+      "additionalAssistants": "Additional Assistants",
+      "additionalAssistantsDesc": "Add more AI assistants to your account",
+      "minuteTopup100": "100 Minute Top-up",
+      "minuteTopup100Desc": "Add 100 calling minutes to your account",
+      "callWhispering": "Call Whispering",
+      "callWhisperingDesc": "Listen to calls in real-time and coach agents",
+      "voicemailHandling": "Voicemail Handling",
+      "voicemailHandlingDesc": "Automated voicemail detection and handling",
+      "multilingualSupport": "Multilingual Support",
+      "multilingualSupportDesc": "Support for 50+ languages",
+      "weeklyReports": "Weekly Reports",
+      "weeklyReportsDesc": "Receive weekly performance reports via email",
+      "realTimeDashboard": "Real-Time Dashboard",
+      "realTimeDashboardDesc": "Access to real-time analytics and monitoring dashboard",
+      "calendarIntegration": "Calendar Integration",
+      "calendarIntegrationDesc": "Sync with Google Calendar, Outlook, and other calendar services",
+      "menuManagement": "Menu Management",
+      "menuManagementDesc": "Advanced menu and IVR management features",
+      "customVoice": "Custom Voice",
+      "customVoiceDesc": "Use custom voice models for your assistants",
+      "crmIntegration": "CRM Integration",
+      "crmIntegrationDesc": "Connect with your CRM (Salesforce, HubSpot, etc.)",
+      "customAnalytics": "Custom Analytics",
+      "customAnalyticsDesc": "Advanced reporting and custom dashboards",
+      "prioritySupport": "Priority Support",
+      "prioritySupportDesc": "Dedicated account manager and priority support",
+      "apiAccess": "API Access",
+      "apiAccessDesc": "Full access to our API for custom integrations",
+      "integrations": "Integrations",
+      "integrationsDesc": "Connect with third-party tools and services"
+    },
+    "settingsPage": {
+      "minutesAndSubscriptions": "Usage & subscriptions",
+      "minutesAndSubscriptionsDesc": "View and manage your plans / add-ons",
+      "realTimeMinutes": "Real-time Minutes",
+      "activeSubscriptions": "Active Subscriptions",
+      "activeBundles": "Active Bundles",
+      "activeBundlesDesc": "Your remaining minutes and expiry dates",
+      "totalMinutes": "{count} minutes",
+      "totalAvailable": "Total available across {count} bundle(s)",
+      "estimated": "Estimated",
+      "estimatedTime": "~{hours}h {minutes}m",
+      "noActiveBundles": "No active bundles",
+      "bundleDetails": "Bundle Details",
+      "bundlePagination": {
+        "showing": "Showing",
+        "of": "of",
+        "bundles": "bundles"
+      },
+      "remainingOf": "{remaining} of {total} minutes remaining",
+      "minutesRemaining": "Minutes Remaining",
+      "percentUsed": "{percent}% used",
+      "usagePeriod": {
+        "label": "Usage period",
+        "value": "You are currently using {minutes} minutes per day on average"
+      },
+      "estimatedDaysRemaining": {
+        "label": "At your current usage, your plan will last approximately",
+        "value": "{days} days"
+      },
+      "nextRenewalDate": {
+        "label": "Next renewal day"
+      },
+      "purchaseAdditionalMinutes": "You can purchase Additional 100 minutes if needed",
+      "expired": "Expired",
+      "expires": "Expires {date}",
+      "neverExpires": "Never expires",
+      "daysValidity": "{days} days validity",
+      "billingLogs": "Billing Logs",
+      "autoTopup": {
+        "title": "Auto Top-up",
+        "description": "Automatically buy extra minutes when your balance gets low.",
+        "disabledByAutoCharge": "Auto Top-up is disabled while Auto-Charge is enabled.",
+        "threshold": "Threshold (minutes)",
+        "minutes": "minutes",
+        "note": "Top-up minutes (max 500 minutes, only in hundreds)"
+      },
+      "billingSettings": "Billing Settings",
+      "autoCharge": {
+        "title": "Auto-Charge",
+        "description": "Automatically buy minutes when your balance is low",
+        "enable": "Enable",
+        "makePurchaseFirst": "⚠️ Make a purchase first",
+        "threshold": "Threshold (minutes)",
+        "topup": "Top-up minutes"
+      },
+      "autoRenewal": {
+        "title": "Auto-Renewal",
+        "description": "Renew your bundle before it expires",
+        "enable": "Enable",
+        "triggerHours": "Trigger hours before expiry",
+        "hrsBefore": "hrs before expiry"
+      },
+      "autoRetry": {
+        "title": "Auto-Retry",
+        "description": "Retry failed payments automatically",
+        "enable": "Enable",
+        "info": "Up to 2 retries (2h, 4h delay)"
+      },
+      "notifications": {
+        "title": "Notifications",
+        "description": "Email notifications for billing events",
+        "email": "Email address",
+        "changeAlertsLink": "Change where you get email notifications",
+        "changeAlertsLinkShort": "Manage alerts",
+        "addEmail": "Add Email",
+        "removeEmail": "Remove",
+        "saveEmail": "Save",
+        "maxEmails": "Maximum of 3 email addresses allowed",
+        "invalidEmail": "Invalid email format"
+      },
+      "saveSettings": "Save Settings",
+      "messages": {
+        "fetchError": "Failed to load billing settings",
+        "saveSuccess": "Billing settings updated successfully",
+        "saveError": "Failed to update billing settings",
+        "userMinutesError": "Failed to fetch user minutes"
+      },
+      "addOns": {
+        "genericName": "Service",
+        "addedToPackage": "{name} added to your package",
+        "removedFromPackage": "{name} removed from your package"
+      },
+      "currentBundle": {
+        "minutesLabel": "{count} Minutes",
+        "fallbackName": "Minute Package",
+        "manageBundle": "Manage Bundle"
+      }
+    },
+    "logs": {
+      "title": "Billing history",
+      "loading": "Loading your billing activity history...",
+      "recentActivity": "Recent billing activities and transactions (last {limit})",
+      "completeActivity": "Your billing events and transactions",
+      "export": "Export",
+      "searchPlaceholder": "Search logs...",
+      "filterEventType": "Filter by event type",
+      "eventType": "Event Type",
+      "filterDate": "Filter by date",
+      "period": "Period",
+      "showingLogs": "Showing {count} of {total} logs",
+      "refresh": "Refresh",
+      "noLogs": "No billing logs found",
+      "adjustFilters": "Try adjusting your filters to see more results.",
+      "emptyState": "Your billing activity will appear here.",
+      "loadMore": "Load More Logs",
+      "paginationNotImplemented": "Pagination not implemented yet",
+      "messages": {
+        "fetchError": "Failed to fetch billing history",
+        "loadError": "Error loading billing history",
+        "noExport": "No logs to export",
+        "exportSuccess": "Billing logs exported successfully"
+      },
+      "eventTypes": {
+        "package_purchase": {
+          "label": "Package Purchase",
+          "description": "Purchased minute package"
+        },
+        "topup_purchase": {
+          "label": "Emergency Top-up",
+          "description": "Emergency minute top-up"
+        },
+        "auto_charge_success": {
+          "label": "Auto-charge Success",
+          "description": "Automatic charge completed"
+        },
+        "auto_charge_failed": {
+          "label": "Auto-charge Failed",
+          "description": "Automatic charge failed"
+        },
+        "bundle_expired": {
+          "label": "Bundle Expired",
+          "description": "Minute bundle expired"
+        },
+        "low_minutes_warning": {
+          "label": "Low Minutes Warning",
+          "description": "Low minutes threshold reached"
+        },
+        "payment_retry": {
+          "label": "Payment Retry",
+          "description": "Payment retry attempt"
+        },
+        "calls_blocked": {
+          "label": "Calls Blocked",
+          "description": "Calls blocked due to insufficient minutes"
+        },
+        "renewal_reminder": {
+          "label": "Renewal Reminder",
+          "description": "Bundle renewal reminder sent"
+        },
+        "auto_renewal_success": {
+          "label": "Auto-renewal Success",
+          "description": "Automatic renewal completed"
+        },
+        "auto_renewal_failed": {
+          "label": "Auto-renewal Failed",
+          "description": "Automatic renewal failed"
+        },
+        "unknown": {
+          "label": "{type}",
+          "description": "Unknown event"
+        },
+        "subscription_activated": {
+          "label": "Subscription Activated",
+          "description": "Service subscription activated"
+        },
+        "package_upgrade_scheduled": {
+          "label": "Package Upgrade Scheduled",
+          "description": "Scheduled upgrade to a larger package"
+        },
+        "package_downgrade_scheduled": {
+          "label": "Package Downgrade Scheduled",
+          "description": "Scheduled downgrade to a smaller package"
+        },
+        "admin_package_assign": {
+          "label": "Admin Package Assignment",
+          "description": "Package assigned by administrator"
+        },
+        "admin_manual_topup": {
+          "label": "Admin Top-up",
+          "description": "Manual top-up by administrator"
+        }
+      },
+      "showingRange": "Showing {start}-{end} of {total} logs",
+      "minutesCount": "{count} minutes",
+      "bundleNumber": "Bundle #{id}",
+      "previous": "Previous",
+      "next": "Next",
+      "periods": {
+        "today": "Today",
+        "week": "7 Days",
+        "month": "30 Days",
+        "quarter": "3 Months"
+      }
+    },
+    "subscriptions": {
+      "title": "Active Subscriptions",
+      "loading": "Loading subscription data...",
+      "description": "Your current subscription status and active add-ons",
+      "noActive": {
+        "title": "No Active Subscriptions",
+        "message": "You don't have any active add-on subscriptions yet.",
+        "button": "Add-ons & Subscription"
+      },
+      "status": {
+        "active": "Subscription Active",
+        "summary": "{count} add-on active",
+        "summaryPlural": "{count} add-ons active"
+      },
+      "addons": {
+        "title": "Active Add-on Services",
+        "monthly": "{cost}/month",
+        "mo": "/mo",
+        "active": "Active"
+      },
+      "summary": {
+        "totalCost": "Total Monthly Cost:",
+        "nextBilling": "Next Billing:",
+        "automatic": "Monthly (automatic)"
+      },
+      "actions": {
+        "manage": "Manage Subscription",
+        "addMore": "Add More Services"
+      },
+      "errors": {
+        "fetchFailed": "Failed to fetch subscription",
+        "loadFailed": "Failed to load subscription data"
+      }
+    },
+    "alerts": {
+      "lowMinutes": {
+        "title": "Low Minutes Warning",
+        "description": "Get notified when your minutes are running low",
+        "enable": "Enable notifications",
+        "threshold": "Threshold",
+        "unit": "minutes",
+        "info": "You'll be notified when your total minutes fall below this threshold"
+      },
+      "expiry": {
+        "title": "Expiry Warning",
+        "description": "Get notified before your bundles expire",
+        "enable": "Enable notifications",
+        "warningTime": "Warning Time",
+        "unit": "hours",
+        "info": "You'll be notified this many hours before a bundle expires"
+      },
+      "paymentFailures": {
+        "title": "Payment Failures",
+        "description": "Get notified about failed payment attempts",
+        "enable": "Enable notifications"
+      },
+      "messages": {
+        "fetchError": "Failed to load alert settings",
+        "saveSuccess": "Alert settings updated successfully",
+        "saveError": "Failed to update alert settings"
+      }
+    },
+    "manageBundleDialog": {
+      "title": "Manage Your Subscription",
+      "description": "Schedule an upgrade or downgrade for your next billing period",
+      "scheduledChange": {
+        "title": "Scheduled Plan Change",
+        "message": "Your plan will change to {name} on {date}",
+        "cancelButton": "Cancel Scheduled Change"
+      },
+      "currentPlan": {
+        "badge": "Current Plan",
+        "monthly": "Monthly",
+        "annual": "Annual",
+        "other": "Other",
+        "minutesRemaining": "{remaining} of {total} minutes remaining",
+        "expires": "Expires {date}"
+      },
+      "selectPackage": {
+        "title": "Select New Package",
+        "monthlyOnly": "Monthly plans only",
+        "annualOnly": "Annual plans only",
+        "sameBillingCycle": "Same billing cycle only",
+        "noPackages": "No other packages available in your subscription tier"
+      },
+      "package": {
+        "upgrade": "Upgrade",
+        "downgrade": "Downgrade",
+        "scheduled": "Scheduled",
+        "details": "{minutes} minutes • {days} days",
+        "nameFormat": "{minutes} Minutes",
+        "descriptionMonthly": "Monthly subscription - {minutes} minutes per month (Best Value)",
+        "descriptionAnnual": "Annual subscription - {minutes} minutes per year (Best Value)"
+      },
+      "summary": {
+        "upgrade": "Upgrade to {name}",
+        "downgrade": "Downgrade to {name}",
+        "message": "Your current plan will continue until {date}. After that, you will be charged {price} for your new plan.",
+        "upgradeBonus": "You will receive {minutes} minutes per billing period."
+      },
+      "actions": {
+        "cancel": "Cancel",
+        "processing": "Processing...",
+        "scheduleChange": "Schedule Plan Change"
+      },
+      "errors": {
+        "loadPackagesFailed": "Failed to load available packages",
+        "selectPackage": "Please select a package",
+        "alreadyOnPackage": "You are already on this package",
+        "scheduleFailed": "Failed to schedule plan change",
+        "timeout": "Request timed out. Please try again.",
+        "cancelFailed": "Failed to cancel scheduled change",
+        "cancelSuccess": "Scheduled plan change cancelled",
+        "scheduleSuccess": "Plan change scheduled successfully"
+      }
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "description": "Manage your account and application settings.",
+    "general": "General",
+    "security": "Security",
+    "notifications": "Notifications",
+    "api": "API",
+    "webhooks": "Webhooks",
+    "tabs": {
+      "profile": "Profile",
+      "account": "Account",
+      "security": "Security",
+      "billing": "Billing",
+      "alerts": "Alerts & Notifications"
+    },
+    "changeNotificationsLink": "Change where you get email notifications",
+    "generalSettings": {
+      "title": "General Settings",
+      "description": "Manage your basic account settings.",
+      "accountInfo": "Account Information",
+      "companyInfo": "Company Information",
+      "save": "Save Changes",
+      "saving": "Saving...",
+      "saved": "Settings Saved!",
+      "saveFailed": "Save failed"
+    },
+    "securitySettings": {
+      "title": "Security Settings",
+      "description": "Manage your account security preferences.",
+      "twoFactor": "Two-Factor Authentication",
+      "password": "Password",
+      "sessions": "Active Sessions",
+      "enable2fa": "Enable 2FA",
+      "changePassword": "Change Password",
+      "revokeSession": "Revoke Session"
+    },
+    "notificationSettings": {
+      "title": "Notification Settings",
+      "description": "Choose how you want to be notified.",
+      "email": "Email Notifications",
+      "sms": "SMS Notifications",
+      "push": "Push Notifications",
+      "callSummary": "Call Summaries",
+      "assistantActivity": "Assistant Activity",
+      "billing": "Billing Updates",
+      "marketing": "Marketing Emails"
+    },
+    "apiSettings": {
+      "title": "API Settings",
+      "description": "Manage your API keys and access.",
+      "apiKey": "API Key",
+      "regenerate": "Regenerate Key",
+      "regenerated": "API Key Regenerated!",
+      "regenerateWarning": "Regenerating your API key will invalidate the current key."
+    },
+    "webhookSettings": {
+      "title": "Webhook Settings",
+      "description": "Configure webhook endpoints for real-time notifications.",
+      "endpoint": "Endpoint URL",
+      "events": "Events",
+      "addEndpoint": "Add Endpoint",
+      "save": "Save Webhook",
+      "saving": "Saving...",
+      "saved": "Webhook Saved!",
+      "saveFailed": "Save failed",
+      "test": "Test Webhook",
+      "tested": "Webhook Tested!"
+    },
+    "deleteAccount": {
+      "title": "Delete Account",
+      "description": "Permanently delete your account and all associated personal data.",
+      "warningTitle": "This action cannot be undone",
+      "warningDescription": "Upon account deletion, all personal data is permanently deleted or anonymized. This includes:",
+      "items": {
+        "nameEmailPhone": "Name, email, phone number",
+        "recordingsAndTranscripts": "Voice recordings and call transcripts",
+        "chatAndCrm": "Chat history and CRM data",
+        "integrations": "Integrations data",
+        "profileAndSettings": "User profile and settings",
+        "trainingData": "AI training data linked to your account"
+      },
+      "legalNote": "Certain billing and security records are retained only as required by law (5–10 years for billing, up to 12 months for security logs).",
+      "dialog": {
+        "body1": "This will permanently delete your account and all your personal data. This action cannot be undone.",
+        "body2": "You will be immediately logged out and redirected to the home page.",
+        "cancel": "Cancel",
+        "confirm": "Yes, delete my account",
+        "deleting": "Deleting..."
+      }
+    }
+  },
+  "integrations": {
+    "title": "Integrations",
+    "description": "Connect your favorite tools and services.",
+    "request": {
+      "buttonText": "Request Integration",
+      "modalTitle": "Request New Integration",
+      "modalDescription": "Tell us which tool you would like to connect with.",
+      "integrationNameLabel": "Integration Name",
+      "integrationNamePlaceholder": "e.g., Salesforce, HubSpot, Slack",
+      "notesLabel": "Additional Notes (Optional)",
+      "notesPlaceholder": "Describe your use case or specific requirements...",
+      "cancelButton": "Cancel",
+      "submitButton": "Submit Request",
+      "validationError": "Please enter an integration name.",
+      "successMessage": "Integration request submitted!",
+      "errorMessage": "Failed to submit request."
+    },
+    "cards": {
+      "googleTitle": "Google Calendar",
+      "googleDescription": "Sync calls with Google Calendar.",
+      "outlookTitle": "Outlook Calendar",
+      "outlookDescription": "Sync calls with Outlook Calendar.",
+      "connected": "Connected",
+      "disconnected": "Disconnected",
+      "enabled": "Enabled",
+      "disabled": "Disabled",
+      "processing": "Processing...",
+      "switchEmail": "Switch Email"
+    },
+    "connection": {
+      "disconnectConfirmation": "Are you sure you want to disconnect? This will stop syncing for this integration.",
+      "disconnectSuccess": "Disconnected successfully",
+      "disconnectFailed": "Failed to disconnect"
+    },
+    "errors": {
+      "fetchStatusFailed": "Failed to fetch integration status",
+      "authFailed": "Authentication failed",
+      "unexpectedError": "An unexpected error occurred",
+      "connectionFailedTitle": "Connection Failed"
+    },
+    "connected": "Connected",
+    "notConnected": "Not Connected",
+    "connect": "Connect",
+    "disconnect": "Disconnect",
+    "configure": "Configure",
+    "apiKey": "API Key",
+    "webhookUrl": "Webhook URL",
+    "save": "Save",
+    "cancel": "Cancel",
+    "saving": "Saving...",
+    "saved": "Saved!",
+    "saveFailed": "Save failed",
+    "popular": "Popular Integrations",
+    "all": "All Integrations",
+    "search": "Search integrations...",
+    "noResults": "No integrations found."
+  },
+  "assistants": {
+    "title": "Assistants",
+    "myAssistants": "My Assistants",
+    "pageDescription": "Manage your AI voice assistants.",
+    "myAssistantsDescription": "View and manage your assigned AI assistants",
+    "total": "total",
+    "createAssistant": "Create Assistant",
+    "editAssistant": "Edit Assistant",
+    "deleteAssistant": "Delete Assistant",
+    "name": "Assistant Name",
+    "description": "Description",
+    "status": "Status",
+    "actions": "Actions",
+    "active": "Active",
+    "inactive": "Inactive",
+    "draft": "Draft",
+    "published": "Published",
+    "search": "Search assistants...",
+    "noAssistants": "No assistants found.",
+    "noAssistantsAssigned": {
+      "title": "No Assistants Assigned",
+      "description": "You don't have any assistants assigned to your account yet. Please contact your administrator to get assistants assigned.",
+      "needAssistants": "Need assistants?",
+      "needAssistantsDescription": "Assistants are required to make calls. Each assistant comes with scripts and voices that determine how your calls will be handled. Contact your administrator to get started."
+    },
+    "noAssistantsAvailable": {
+      "title": "No Assistants Available",
+      "analyticsDescription": "You don't have any assistants assigned to your account, so there's no call analytics to display. Request a new assistant to get started.",
+      "callsDescription": "You need an assistant to view calls. Request a new assistant and an administrator will review and assign it to your account."
+    },
+    "create": {
+      "title": "Create New Assistant",
+      "description": "Build a custom AI voice assistant for your business.",
+      "namePlaceholder": "e.g., Sales Assistant",
+      "descriptionPlaceholder": "Describe what this assistant does...",
+      "create": "Create Assistant",
+      "creating": "Creating...",
+      "created": "Assistant Created!"
+    },
+    "edit": {
+      "title": "Edit Assistant",
+      "description": "Modify your assistant's configuration.",
+      "save": "Save Changes",
+      "saving": "Saving...",
+      "saved": "Changes Saved!",
+      "saveFailed": "Save failed",
+      "editNameTitle": "Edit Assistant Name",
+      "editNamePlaceholder": "Enter assistant name",
+      "editDescriptionPlaceholder": "Enter assistant description (optional)",
+      "descriptionCharCount": "{count} characters",
+      "noDescription": "No description yet",
+      "editScriptTitle": "Edit Script Content for {name}",
+      "autoSyncDescription": "✨ Auto-Sync: This script will automatically sync to Vapi when you save! The content becomes your assistant's system prompt.",
+      "editingScript": "Editing: {name} ({type})",
+      "editing": "Editing: {name}",
+      "scriptContentLabel": "Script Content / System Prompt",
+      "scriptContentPlaceholder": "Enter script content...",
+      "scriptContentNote": "This content will be used as the system prompt for your AI assistant in Vapi.",
+      "firstMessageLabel": "First Message (Optional)",
+      "firstMessagePlaceholder": "What should the assistant say when the call starts? (e.g., 'Hello! How can I help you today?')",
+      "firstMessageDescription": "This is the greeting message your assistant will say at the start of each call.",
+      "saveChanges": "Save Changes",
+      "saveAndSync": "Save & Sync to Vapi",
+      "savingAndSyncing": "Saving & Syncing...",
+      "scriptUpdated": "Script updated in Vapi! 🎉",
+      "changeVoiceTitle": "Change Voice for {name}",
+      "voiceSelectionDescription": "🎤 Voice Selection: Choose from real Vapi voices (11Labs).",
+      "currentVoice": "Current: {name}",
+      "selectVoice": "Select Voice",
+      "selectVoicePlaceholder": "Select a voice",
+      "loadingVoices": "Loading voices from Vapi...",
+      "voicesAvailable": "{count} voices available from Vapi (11Labs)",
+      "selectedVoicePreview": "Selected Voice Preview:",
+      "name": "Name:",
+      "type": "Type:",
+      "language": "Language:",
+      "provider": "Provider:",
+      "descriptionLabel": "Description:",
+      "testVoice": "🔊 Test Voice",
+      "connecting": "Connecting...",
+      "playing": "Playing... (Click to Stop)",
+      "previewNote": "Click the button to hear a live preview of this voice",
+      "saveVoice": "Save Voice",
+      "savingVoice": "Saving.. ",
+      "voiceUpdated": "Voice updated in Vapi! 🎤",
+      "pleaseSelectVoice": "Please select a voice",
+      "editAssistantTitle": "Edit Assistant",
+      "editAssistantDescription": "Update name, greeting, script, and voice in one place. You can also preview the selected voice.",
+      "assistantNameLabel": "Assistant Name",
+      "typeText": "Type Text",
+      "uploadFile": "Upload File",
+      "clearAll": "Clear all",
+      "scriptPlaceholder": "Type your script content or system prompt here...",
+      "scriptTip": "Tip: You can also switch to file upload if you have documents ready",
+      "fileUploadTip": "Supported: PDF, DOCX, TXT, ZIP files (max 5MB each)",
+      "knowledgeBase": "Knowledge Base / File Upload",
+      "firstMessageLabel2": "First Message",
+      "noVoicesFound": "No voices found with the selected filters",
+      "clearFilters": "Clear filters",
+      "showMoreVoices": "Show More Voices ({count} remaining)",
+      "loading": "Loading...",
+      "assistantUpdated": "Assistant updated"
+    },
+    "delete": {
+      "title": "Delete Assistant",
+      "description": "Are you sure you want to delete this assistant? This action cannot be undone.",
+      "confirm": "Yes, Delete",
+      "cancel": "Cancel",
+      "deleted": "Assistant Deleted!"
+    },
+    "validation": {
+      "assistantNameRequired": "Assistant Name is required",
+      "firstMessageRequired": "First Message is required",
+      "scriptContentRequired": "System Prompt / Script Content is required"
+    },
+    "stats": {
+      "myAssistants": "My Assistants",
+      "totalScripts": "Total Scripts",
+      "totalVoices": "Total Voices"
+    },
+    "filters": {
+      "searchPlaceholder": "Search assistants...",
+      "filterByType": "Filter by type",
+      "allTypes": "All Types",
+      "inbound": "Inbound",
+      "outbound": "Outbound",
+      "both": "Both",
+      "comingSoon": "Coming soon"
+    },
+    "card": {
+      "phoneNumbers": "Phone Numbers",
+      "active": "Active",
+      "type": "Type",
+      "language": "Language",
+      "voice": "Voice",
+      "script": "Script",
+      "model": "Model",
+      "vapiAssistantId": "VAPI Assistant ID",
+      "notSet": "Not set",
+      "loading": "Loading…",
+      "default": "Default",
+      "selectAssistant": "Select an Assistant",
+      "selectAssistantDescription": "Choose an assistant from the list on the left to view its detailed information, scripts, and voice settings.",
+      "assistantList": "Assistant List",
+      "phone": "phone",
+      "phones": "phones",
+      "noPhoneAssigned": "Phone number not assigned yet"
+    },
+    "request": {
+      "requestNew": "Request New Assistant",
+      "requestPhoneNumber": "Request Phone Number",
+      "underReview": "Under Review",
+      "pendingApproval": "Your request is pending admin approval. You'll be notified once it's processed.",
+      "phoneRequestReviewDescription": "Your phone number request is being reviewed by our team. Once approved and a number is assigned to your account, it will automatically appear here.",
+      "phoneRequestNotification": "You will be notified when your phone number is ready to use.",
+      "phoneRequestSubmitted": "Phone number request submitted",
+      "phoneRequestFailed": "Failed to request phone number",
+      "requestNewTitle": "Request New Assistant",
+      "requestNewDescription": "Submit a request for a new assistant. An admin will review and create it for you. Provide as much detail as possible to help the admin configure it correctly.",
+      "editRequestTitle": "Edit Assistant Request",
+      "editRequestDescription": "Update your assistant request details while it's still pending review.",
+      "assistantName": "Assistant Name",
+      "assistantNameRequired": "Assistant Name *",
+      "type": "Type",
+      "typeRequired": "Type *",
+      "selectType": "Select type",
+      "selectLanguage": "Select language",
+      "firstMessage": "First Message (Opening Greeting)",
+      "firstMessageRequired": "First Message (Opening Greeting) *",
+      "firstMessageDescription": "This is what the assistant will say when starting a call",
+      "firstMessagePlaceholder": "e.g., Hello! Thank you for calling. How can I assist you today?",
+      "scriptContent": "System Prompt / Script Content",
+      "scriptContentRequired": "System Prompt / Script Content *",
+      "scriptContentDescription": "Describe how the assistant should behave and respond. This is the system prompt that guides the AI.",
+      "scriptContentPlaceholder": "e.g., You are a helpful sales assistant. Your goal is to understand the customer's needs and guide them to the best solution...",
+      "voicePreference": "Voice Preference",
+      "voicePreferenceDescription": "Admin will select the closest matching voice from available options",
+      "selectVoiceType": "Select preferred voice type",
+      "noPreference": "No Preference",
+      "maleVoice": "Male Voice",
+      "femaleVoice": "Female Voice",
+      "neutralVoice": "Neutral Voice",
+      "youngVoice": "Young Voice",
+      "matureVoice": "Mature Voice",
+      "professionalVoice": "Professional Voice",
+      "friendlyVoice": "Friendly Voice",
+      "useCaseDescription": "Use Case Description",
+      "useCasePlaceholder": "Describe how you plan to use this assistant...",
+      "additionalNotes": "Additional Notes",
+      "notesPlaceholder": "Any specific requirements or preferences...",
+      "cancel": "Cancel",
+      "submitRequest": "Submit Request",
+      "submitting": "Submitting...",
+      "updateRequest": "Update Request",
+      "updating": "Updating...",
+      "submitSuccess": "Assistant request submitted successfully!",
+      "submitSuccessDescription": "Your request has been sent to our admin team. We'll notify you once your assistant is ready.",
+      "updateSuccess": "Assistant request updated successfully!",
+      "editRequestSent": "Edit request sent",
+      "adminReviewMessage": "Your request will be reviewed by an admin. You'll receive a notification once it's approved and the assistant is ready to use.",
+      "needActiveBundle": "You need an active minute bundle to request an assistant. Please purchase a minute package first.",
+      "purchaseBundlePrompt": "Go to Billing to purchase a minute package and unlock this feature.",
+      "assistantNamePlaceholder": "e.g., Inbound Sales Assistant",
+      "assistantNameDescription": "Give your assistant a clear, descriptive name so your team knows what it does.",
+      "typeDescription": "Choose whether this assistant will handle inbound calls, outbound calls, or both.",
+      "languageDescription": "Select the primary language your assistant should speak on calls.",
+      "descriptionOptional": "Optional: Add any extra context or notes that will help the admin configure this assistant."
+    },
+    "messages": {
+      "failedToLoadAssistants": "Failed to load assistants",
+      "failedToLoadVoices": "Failed to load available voices",
+      "showingDefaultVoices": "Showing default voices (Vapi connection unavailable)",
+      "nameRequired": "Name is required",
+      "scriptRequired": "Script content is required"
+    },
+    "languages": {
+      "english": "English",
+      "spanish": "Spanish",
+      "french": "French",
+      "german": "German",
+      "italian": "Italian",
+      "portuguese": "Portuguese",
+      "norwegian": "Norwegian"
+    },
+    "fileupload": {
+      "selected_single": "file selected",
+      "selected_multiple": "files selected",
+      "add_single": "Add New",
+      "add_multiple": "Add More",
+      "remove_all": "Remove all",
+      "remove_file": "Remove file",
+      "upload_instructions": "Click or drag to upload",
+      "upload_drag_active": "Drop files here",
+      "file_requirements": {
+        "single": "Max {maxSize}MB • {accept}",
+        "multiple": "Up to {maxFiles} files • Max {maxSize}MB each • {accept}"
+      },
+      "scroll_hint": "Scroll →",
+      "file_types": {
+        "image": "Image",
+        "pdf": "PDF",
+        "doc": "Document",
+        "text": "Text",
+        "archive": "Archive",
+        "file": "File"
+      },
+      "alerts": {
+        "max_files": "Maximum {maxFiles} files allowed",
+        "file_too_large": "File \"{fileName}\" exceeds {maxSize}MB limit",
+        "unsupported_format": "File \"{fileName}\" is not a supported format. Accepted: {accept}"
+      }
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "noData": "No data available",
+    "error": "An error occurred",
+    "unknown": "Unknown"
+  },
+  "calls": {
+    "title": "Calls",
+    "description": "View and manage your call history.",
+    "search": "Search calls...",
+    "searchPlaceholder": "Search by phone number, date, transcript or type",
+    "filter": "Filter",
+    "dateRange": "Date Range",
+    "dateLabel": "Date",
+    "timeRangePlaceholder": "Time Range",
+    "status": "Status",
+    "type": "Type",
+    "duration": "Duration",
+    "actions": "Actions",
+    "viewDetails": "View Details",
+    "download": "Download",
+    "exportButton": "Export",
+    "clear": "Clear",
+    "export": {
+      "button": "Export",
+      "sheetName": "Calls",
+      "fileName": "Calls",
+      "noData": "No data to export",
+      "downloadXlsx": "Download xlsx",
+      "short": "Export"
+    },
+    "noCalls": "No calls found.",
+    "noResults": "No calls found.",
+    "noSummary": "No summary available",
+    "noTranscript": "No transcript available",
+    "filters": {
+      "allTime": "All Time",
+      "today": "Today",
+      "last7Days": "7 Days",
+      "last30Days": "30 Days",
+      "last3Months": "3 Months",
+      "last6Months": "6 Months",
+      "thisMonth": "This Month",
+      "lastMonth": "Last Month",
+      "allStatuses": "All Status",
+      "pickDate": "Pick a date",
+      "clearFilters": "Clear Filters"
+    },
+    "statuses": {
+      "completed": "Completed",
+      "failed": "Failed",
+      "inProgress": "In progress",
+      "cancelled": "Canceled",
+      "ended": "Ended",
+      "queued": "Queued",
+      "ringing": "Ringing",
+      "initiated": "Initiated",
+      "in-progress": "In progress"
+    },
+    "types": {
+      "inbound": "Inbound",
+      "outbound": "Outbound",
+      "web": "Web Call"
+    },
+    "table": {
+      "phoneNumber": "Phone Number",
+      "type": "Type",
+      "status": "Status",
+      "startedAt": "Started At",
+      "endedAt": "Ended At",
+      "endReason": "End Reason",
+      "summary": "Summary",
+      "actions": "Actions"
+    },
+    "details": {
+      "summary": "Call Summary",
+      "transcript": "Transcript",
+      "recording": "Recording",
+      "loadingDetails": "Loading transcript and recording..."
+    },
+    "callTypes": {
+      "inboundCall": "Inbound Call",
+      "outboundCall": "Outbound Call",
+      "webCall": "Web Call"
+    },
+    "loadMore": "Load More Calls"
+  },
+  "callDetails": {
+    "title": "Call Details",
+    "description": "Detailed information about this call.",
+    "summary": "Call Summary",
+    "transcript": "Transcript",
+    "recording": "Recording",
+    "analysis": "Analysis",
+    "startTime": "Start Time",
+    "endTime": "End Time",
+    "duration": "Duration",
+    "status": "Status",
+    "type": "Type",
+    "from": "From",
+    "to": "To",
+    "assistant": "Assistant",
+    "downloadTranscript": "Download Transcript",
+    "downloadRecording": "Download Recording",
+    "play": "Play",
+    "pause": "Pause",
+    "stop": "Stop"
+  },
+  "onboarding": {
+    "title": "Getting Started",
+    "description": "Complete these steps to set up your account.",
+    "takeTour": "Take a Tour",
+    "tourTooltip": "View the interactive onboarding tour",
+    "steps": {
+      "profile": "Complete Profile",
+      "assistant": "Create Assistant",
+      "integration": "Connect Integration",
+      "firstCall": "Make First Call"
+    },
+    "complete": "Complete",
+    "skip": "Skip for Now",
+    "next": "Next Step",
+    "previous": "Previous",
+    "finish": "Finish Setup",
+    "congratulations": "Congratulations!",
+    "setupComplete": "Your account setup is complete. You're ready to start using Hello.",
+    "startUsing": "Start Using Hello"
+  },
+  "voiceAssistant": {
+    "title": "Voice Assistant Setup",
+    "description": "Configure your AI voice assistant.",
+    "name": "Assistant Name",
+    "personality": "Personality",
+    "voice": "Voice",
+    "language": "Language",
+    "greeting": "Greeting Message",
+    "instructions": "Instructions",
+    "save": "Save Assistant",
+    "saving": "Saving...",
+    "saved": "Assistant Saved!",
+    "saveFailed": "Save failed",
+    "test": "Test Voice",
+    "testing": "Testing...",
+    "tested": "Voice Tested!",
+    "placeholders": {
+      "name": "e.g., Sales Assistant",
+      "greeting": "Hello! How can I help you today?",
+      "instructions": "Provide specific instructions for the assistant..."
+    }
+  },
+  "meetings": {
+    "title": "Calender",
+    "description": "View and manage your scheduled meetings.",
+    "schedule": {
+      "scheduleButton": "Schedule Meeting",
+      "title": "Schedule Meeting",
+      "description": "Create a new meeting event in your calendar.",
+      "meetingTitle": "Meeting Title",
+      "date": "Date",
+      "time": "Time",
+      "duration": "Duration",
+      "participants": "Participants",
+      "pickDate": "Pick a date",
+      "selectDuration": "Select duration",
+      "duration15": "15 minutes",
+      "duration30": "30 minutes",
+      "duration45": "45 minutes",
+      "duration60": "60 minutes",
+      "descriptionPlaceholder": "Add meeting description (optional)",
+      "titleForDay": "No meetings scheduled for this day",
+      "descriptionForDay": "Click the Schedule Meeting button to create a new meeting.",
+      "noMeetings7Days": "No meetings in the next 7 days",
+      "noMeetingsMonth": "No meetings in the next month"
+    },
+    "modify": {
+      "title": "Modify Meeting",
+      "description": "Update meeting details.",
+      "updateButton": "Update Meeting"
+    },
+    "notConnected": {
+      "buttonText": "Go to Integrations",
+      "outlookTitle": "Outlook Calendar is not connected",
+      "outlookDescription": "Connect Outlook Calendar in Integrations to schedule or view meetings."
+    },
+    "noIntegration": {
+      "title": "No Calendar Integration",
+      "description": "Connect a calendar integration to view and manage your meetings. Choose from Google Calendar or Outlook Calendar.",
+      "buttonText": "Go to Integrations"
+    },
+    "errors": {
+      "fetchFailed": "Failed to fetch meetings",
+      "missingInfoTitle": "Missing Information",
+      "missingInfoDescription": "Please fill in all required fields.",
+      "schedulingFailedTitle": "Failed to schedule meeting"
+    },
+    "actions": {
+      "modify": "Modify",
+      "delete": "Delete",
+      "deleteConfirmation": "Are you sure you want to delete this meeting?",
+      "deleteMeetingTitle": "Meeting deleted successfully",
+      "joinMeet": "Join Meeting"
+    },
+    "success": {
+      "meetingScheduled": "Meeting scheduled successfully!"
+    },
+    "calendar": {
+      "noTitle": "Untitled Meeting"
+    },
+    "calendarViews": {
+      "oneDay": "1 Day",
+      "sevenDays": "7 Days",
+      "oneMonth": "1 Month"
+    },
+    "details": {
+      "justYou": "Just you"
+    }
+  },
+  "accessibility": {
+    "togglePassword": "Toggle password visibility"
+  },
+  "documents": {
+    "title": "Documents Hub",
+    "description": "Create, send, and track every contract, offer, and invoice in one place.",
+    "descriptionCustomer": "View and sign documents sent to you.",
+    "newDocument": "New document",
+    "allDocuments": "All Documents",
+    "view": "View",
+    "loading": "Loading documents...",
+    "noDocuments": "No documents match the current filters.",
+    "filters": {
+      "searchPlaceholder": "Search documents...",
+      "type": "All Types",
+      "status": "All Statuses",
+      "typePlaceholder": "Filter by type",
+      "statusPlaceholder": "Filter by status",
+      "types": {
+        "contract": "Contract",
+        "offer": "Offer",
+        "invoice": "Invoice",
+        "nda": "NDA",
+        "agreement": "Agreement",
+        "proposal": "Proposal",
+        "other": "Other"
+      },
+      "statuses": {
+        "draft": "Draft",
+        "sent": "Sent",
+        "opened": "Opened",
+        "pending_signature": "Pending Signature",
+        "signed_internal": "Signed Internal",
+        "signed_external": "Signed External",
+        "offer_accepted": "Offer Accepted",
+        "invoice_sent": "Invoice Sent",
+        "paid": "Paid",
+        "signed": "Signed",
+        "expired": "Expired"
+      }
+    },
+    "table": {
+      "title": "Title",
+      "type": "Type",
+      "status": "Status",
+      "customer": "Customer",
+      "created": "Created",
+      "updated": "Updated",
+      "actions": "Actions"
+    },
+    "create": {
+      "title": "Create Document",
+      "description": "Choose how you want to create your document.",
+      "useTemplate": {
+        "title": "Use Template",
+        "description": "Create a document from a pre-defined template. Just fill in the blanks!",
+        "features": {
+          "1": "Choose from existing templates",
+          "2": "Fill in variable values",
+          "3": "PDF is generated automatically",
+          "4": "Ready for signing immediately"
+        }
+      },
+      "uploadPdf": {
+        "title": "Upload PDF",
+        "description": "Upload your own PDF document for signing.",
+        "features": {
+          "1": "Upload any PDF file",
+          "2": "Use your own formatted document",
+          "3": "Perfect for external documents",
+          "4": "Send for signature"
+        }
+      },
+      "steps": {
+        "chooseMethod": "Choose Method",
+        "selectType": "Select Type",
+        "chooseTemplate": "Choose Template",
+        "fillVariables": "Fill Variables",
+        "selectCustomer": "Select Customer",
+        "reviewCreate": "Review & Create",
+        "uploadFile": "Upload File"
+      },
+      "form": {
+        "documentType": "Document Type",
+        "documentTitle": "Document Title",
+        "titlePlaceholder": "e.g., Employment Contract for John Doe",
+        "chooseType": "Choose type",
+        "customer": "Customer",
+        "selectCustomer": "Select customer",
+        "afterCreation": "After Creation",
+        "chooseNext": "Choose what happens next",
+        "goToDocument": "Go to document (ready for signature)",
+        "saveDraft": "Save as draft",
+        "noTemplates": "No templates available for this document type.",
+        "createTemplate": "Create a template",
+        "uploadPdfDocument": "Upload PDF Document",
+        "clickOrDrop": "Click to browse or drag and drop",
+        "fileTooSmall": "File is too small",
+        "onlyPdf": "Please upload a PDF file",
+        "remove": "Remove"
+      },
+      "review": {
+        "type": "Type",
+        "title": "Title",
+        "template": "Template",
+        "customer": "Customer",
+        "file": "File",
+        "variableValues": "Variable Values",
+        "empty": "(empty)",
+        "untitled": "Untitled",
+        "none": "None",
+        "notSelected": "Not selected"
+      },
+      "buttons": {
+        "back": "Back",
+        "next": "Next",
+        "createDocument": "Create Document",
+        "creating": "Creating..."
+      },
+      "variables": {
+        "fillValues": "Fill in the values for the template variables. These will be inserted into your document.",
+        "enterValue": "Enter {name}"
+      },
+      "errors": {
+        "selectCustomer": "Please select a customer",
+        "uploadFailed": "Failed to upload document",
+        "createFailed": "Failed to create document"
+      },
+      "success": {
+        "uploadSuccess": "Document uploaded successfully",
+        "createSuccess": "Document created successfully"
+      }
+    },
+    "detail": {
+      "documentNumber": "Document #",
+      "inbound": "INBOUND",
+      "untitled": "Untitled Document",
+      "edit": "Edit",
+      "sendForSignature": "Send for signature",
+      "revoke": "Revoke",
+      "resend": "Resend",
+      "retry": "Retry",
+      "sendAsOffer": "Send as Offer",
+      "uploadFile": "Upload File",
+      "uploading": "Uploading...",
+      "delete": "Delete",
+      "deleting": "Deleting...",
+      "loading": "Loading documents...",
+      "notFound": "Document could not be found.",
+      "tabs": {
+        "preview": "Preview",
+        "info": "Info",
+        "activity": "Activity Log",
+        "audit": "Audit Trail"
+      },
+      "metadata": {
+        "title": "Metadata",
+        "customer": "Customer",
+        "uploadedBy": "Uploaded By",
+        "created": "Created",
+        "lastUpdated": "Last Updated"
+      },
+      "signing": {
+        "readyForSignature": "Ready for Signature",
+        "description": "This document is ready for HelloSign signing. Click the button below to open the signing interface.",
+        "openSigningInterface": "Open Signing Interface",
+        "loading": "Loading...",
+        "alreadySigned": "Document is already signed. Refreshing...",
+        "failedToLoad": "Failed to load signing interface"
+      },
+      "audit": {
+        "title": "Audit Trail",
+        "signer": "Signer",
+        "email": "Email",
+        "signedAt": "Signed At",
+        "ipAddress": "IP Address",
+        "method": "Method",
+        "verification": "Verification",
+        "deviceInformation": "Device Information"
+      },
+      "modals": {
+        "revoke": {
+          "title": "Revoke Document",
+          "description": "This will cancel the signature request and reset the document to draft status. The recipient will no longer be able to sign the document.",
+          "reason": "Reason (optional)",
+          "reasonPlaceholder": "Enter the reason for revoking this document...",
+          "cancel": "Cancel",
+          "confirm": "Revoke Document",
+          "revoking": "Revoking..."
+        },
+        "resend": {
+          "title": "Resend Document for Signing",
+          "description": "This will cancel the previous signature request and send a new one to the recipient.",
+          "recipientEmail": "Recipient Email *",
+          "recipientName": "Recipient Name",
+          "message": "Message (optional)",
+          "messagePlaceholder": "Add a message to the recipient...",
+          "cancel": "Cancel",
+          "confirm": "Resend Document",
+          "resending": "Resending..."
+        },
+        "edit": {
+          "title": "Edit Document",
+          "description": "Update the document title and content. Changes will be saved immediately.",
+          "titleLabel": "Title",
+          "titlePlaceholder": "Document title",
+          "contentLabel": "Content",
+          "contentPlaceholder": "Document content...",
+          "cancel": "Cancel",
+          "save": "Save Changes",
+          "saving": "Saving..."
+        },
+        "delete": {
+          "confirm": "Are you sure you want to delete \"{title}\"? This action cannot be undone."
+        }
+      },
+      "errors": {
+        "noFile": "This document has no file attached. Please upload a PDF file before sending for signature.",
+        "mustHaveFile": "Document must have a file attached to send for signature",
+        "onlyPdf": "Only PDF files are allowed. Please upload a PDF document.",
+        "fileTooSmall": "File is too small. Please upload a file that is at least 1KB.",
+        "uploadFailed": "Failed to upload file",
+        "updateFailed": "Failed to update document",
+        "deleteFailed": "Failed to delete document",
+        "revokeFailed": "Failed to revoke document",
+        "resendFailed": "Failed to resend document"
+      },
+      "success": {
+        "fileUploaded": "File uploaded successfully",
+        "documentUpdated": "Document updated successfully",
+        "documentDeleted": "Document deleted successfully",
+        "documentRevoked": "Document revoked successfully. It has been reset to draft status.",
+        "documentResent": "Document resent for signing successfully"
+      },
+      "preview": {
+        "title": "Document Preview",
+        "download": "Download",
+        "downloadShort": "DL",
+        "print": "Print",
+        "printShort": "Print",
+        "iframeTitle": "Document preview",
+        "previewNotAvailable": "Preview not available for this file type",
+        "downloadFile": "Download File",
+        "noPreviewableContent": "This document has no previewable content."
+      },
+      "activityLog": {
+        "title": "Activity History",
+        "eventCount": "{count} events",
+        "noActivity": {
+          "title": "No activity recorded yet",
+          "description": "Activities will appear here as they happen"
+        },
+        "actions": {
+          "created": "Created",
+          "updated": "Updated",
+          "deleted": "Deleted",
+          "viewed": "Viewed",
+          "downloaded": "Downloaded",
+          "sent": "Sent",
+          "signed": "Signed",
+          "revoked": "Revoked",
+          "resent": "Resent",
+          "uploaded": "Uploaded"
+        },
+        "details": {
+          "title": "Details",
+          "fieldsUpdated": "The following fields were modified:",
+          "noAdditionalDetails": "No additional details available",
+          "jsonView": "JSON View"
+        },
+        "metadata": {
+          "documentId": "Document ID: {id}",
+          "activityId": "Activity ID: {id}"
+        }
+      }
+    },
+    "templates": {
+      "title": "Templates",
+      "description": "Manage reusable contracts, offers, NDAs, and invoice layouts.",
+      "newTemplate": "New template",
+      "library": "Template Library",
+      "loading": "Loading templates...",
+      "noTemplates": "No templates yet.",
+      "table": {
+        "name": "Name",
+        "type": "Type",
+        "status": "Active",
+        "lastUpdated": "Last Updated"
+      },
+      "create": {
+        "title": "Create Template",
+        "description": "Build reusable contract, offer, NDA, or invoice templates with dynamic variables.",
+        "details": {
+          "title": "Template Details",
+          "name": "Template Name *",
+          "namePlaceholder": "e.g., Standard Employment Contract",
+          "type": "Document Type *"
+        },
+        "content": {
+          "title": "Template Content",
+          "description": "Use {syntax} syntax to insert dynamic variables.",
+          "contentLabel": "Content *",
+          "placeholder": "Dear {{customer_name}},\n\nThis agreement is made on {{date}} between {{company_name}} (\"Company\") and {{customer_name}} (\"Client\").\n\n1. SERVICES\n   The Company agrees to provide the following services:\n   {{services_description}}\n\n2. COMPENSATION\n   The Client agrees to pay {{contract_amount}} for the services described above.\n\n3. TERMS AND CONDITIONS\n   This agreement shall remain in effect for {{contract_duration}}.\n\nSigned by:\n_________________________\n{{signer_name}}\nDate: {{date}}"
+        },
+        "variables": {
+          "title": "Variables",
+          "description": "Define the dynamic values that will be filled in when using this template.",
+          "builtIn": "Built-in Variables",
+          "custom": "Custom Variables ({count})",
+          "noCustom": "No custom variables defined yet.",
+          "addNew": "Add New Variable",
+          "namePlaceholder": "Variable name (e.g., customer_name)",
+          "descriptionPlaceholder": "Description (e.g., Customer's full name)",
+          "defaultPlaceholder": "Default value (optional)",
+          "addButton": "Add Variable",
+          "undefinedWarning": "The following variables are used in your content but not defined:",
+          "clickToAdd": "Click a variable to add it to your definitions.",
+          "inContent": "Variables in Content"
+        },
+        "buttons": {
+          "cancel": "Cancel",
+          "createTemplate": "Create Template",
+          "creating": "Creating..."
+        },
+        "errors": {
+          "nameRequired": "Template name is required",
+          "contentRequired": "Template content is required",
+          "variableNameRequired": "Variable name is required",
+          "variableInvalid": "Variable name can only contain letters, numbers, and underscores, and must start with a letter or underscore",
+          "variableExists": "Variable already exists",
+          "builtInVariable": "This is a built-in variable name",
+          "createFailed": "Failed to create template"
+        },
+        "success": {
+          "templateCreated": "Template created successfully"
+        }
+      },
+      "edit": {
+        "title": "Edit Template",
+        "templateNumber": "Template #{id}",
+        "delete": "Delete",
+        "editTitle": "Edit Template",
+        "name": "Name",
+        "type": "Type",
+        "variablesJson": "Variables JSON",
+        "content": "Content",
+        "saveChanges": "Save Changes",
+        "saving": "Saving...",
+        "loading": "Loading template...",
+        "notFound": "Template not found.",
+        "errors": {
+          "updateFailed": "Failed to update template",
+          "deleteFailed": "Failed to delete template"
+        },
+        "success": {
+          "templateUpdated": "Template updated",
+          "templateDeleted": "Template deleted"
+        }
+      }
+    },
+    "signed": {
+      "title": "Signed Documents",
+      "description": "Access fully executed agreements, offers, and invoices.",
+      "cardTitle": "Completed Signatures"
+    },
+    "pending": {
+      "title": "Pending Signature",
+      "description": "Track every document awaiting internal e-signature.",
+      "cardTitle": "Awaiting Signatures"
+    },
+    "invoices": {
+      "title": "Invoices & Bills",
+      "description": "Manage drafts, sent invoices, and payment statuses.",
+      "newInvoice": "New invoice",
+      "cardTitle": "Invoices",
+      "loading": "Loading invoices...",
+      "noInvoices": "No invoices yet.",
+      "table": {
+        "invoice": "Invoice",
+        "customer": "Customer",
+        "status": "Status",
+        "dueDate": "Due Date",
+        "amount": "Amount"
+      },
+      "create": {
+        "title": "Create Invoice",
+        "description": "Add line items, VAT, and due dates before sending to the customer.",
+        "details": {
+          "title": "Invoice Details",
+          "customer": "Customer",
+          "selectCustomer": "Select customer",
+          "dueDate": "Due Date",
+          "currency": "Currency",
+          "notes": "Notes"
+        },
+        "lineItems": {
+          "title": "Line Items",
+          "addItem": "Add Item",
+          "description": "Description",
+          "qty": "Qty",
+          "unitPrice": "Unit Price",
+          "vat": "VAT %",
+          "total": "Total",
+          "remove": "Remove",
+          "totalLabel": "Total"
+        },
+        "buttons": {
+          "createInvoice": "Create Invoice",
+          "saving": "Saving..."
+        },
+        "errors": {
+          "selectCustomer": "Select a customer",
+          "createFailed": "Failed to create invoice"
+        },
+        "success": {
+          "invoiceCreated": "Invoice created"
+        }
+      },
+      "detail": {
+        "invoiceNumber": "Invoice #{number}",
+        "summary": {
+          "title": "Summary",
+          "status": "Status",
+          "dueDate": "Due Date",
+          "total": "Total",
+          "actions": "Actions"
+        },
+        "lineItems": {
+          "title": "Line Items",
+          "noItems": "No line items.",
+          "description": "Description",
+          "quantity": "Quantity",
+          "unitPrice": "Unit Price",
+          "vat": "VAT %",
+          "total": "Total"
+        },
+        "send": {
+          "title": "Send Invoice",
+          "description": "Send this invoice to a recipient via email.",
+          "selectUser": "Select User (Optional)",
+          "loadingUsers": "Loading users...",
+          "selectUserPlaceholder": "Select a user",
+          "recipientName": "Recipient Name",
+          "recipientEmail": "Recipient Email *",
+          "cancel": "Cancel",
+          "sendInvoice": "Send Invoice",
+          "sending": "Sending..."
+        },
+        "actions": {
+          "send": "Send",
+          "markPaid": "Mark Paid",
+          "alreadyPaid": "Already Paid",
+          "processing": "Processing...",
+          "payInvoice": "Pay Invoice"
+        },
+        "loading": "Loading invoice...",
+        "notFound": "Invoice not found.",
+        "errors": {
+          "loadFailed": "Failed to load invoice",
+          "enterEmail": "Please enter recipient email",
+          "sendFailed": "Failed to send invoice",
+          "markPaidFailed": "Failed to mark invoice as paid",
+          "paymentFailed": "Failed to create payment session"
+        },
+        "success": {
+          "invoiceSent": "Invoice sent successfully",
+          "markedPaid": "Invoice marked as paid",
+          "paymentSuccess": "Payment successful! Invoice has been marked as paid.",
+          "paymentCancelled": "Payment was cancelled."
+        }
+      }
+    }
+  },
+  "scheduledCalls": {
+    "title": "Scheduled Calls",
+    "description": "View and manage your scheduled outbound calls.",
+    "search": {
+      "placeholder": "Search by phone number..."
+    },
+    "filters": {
+      "all": "All",
+      "pending": "Pending",
+      "completed": "Completed",
+      "failed": "Failed"
+    },
+    "table": {
+      "customerNumber": "Customer Number",
+      "scheduledFor": "Scheduled For",
+      "status": "Status",
+      "scheduledOn": "Scheduled On",
+      "actions": "Actions",
+      "noResults": "No scheduled calls found."
+    },
+    "loading": {
+      "freshData": "Loading scheduled calls..."
+    },
+    "common": {
+      "error": "Error"
+    },
+    "actions": {
+      "deleteCall": "Delete scheduled call"
+    },
+    "export": {
+      "button": "Export",
+      "noData": "No data to export",
+      "sheetName": "Scheduled Calls",
+      "fileName": "scheduled_calls",
+      "columns": {
+        "customerNumber": "Customer Number",
+        "status": "Status",
+        "scheduledFor": "Scheduled For",
+        "assistantId": "Assistant ID",
+        "callerId": "Caller ID",
+        "scheduledOn": "Scheduled On",
+        "recordId": "Record ID"
+      }
+    },
+    "deleteDialog": {
+      "title": "Are you sure?",
+      "description": "This action cannot be undone. This will permanently delete the scheduled call.",
+      "cancel": "Cancel",
+      "continue": "Delete"
+    },
+    "messages": {
+      "deleteSuccess": "Scheduled call deleted successfully"
+    },
+    "errors": {
+      "fetchFailed": "Failed to fetch scheduled calls. Status: {status}",
+      "deleteFailed": "Failed to delete scheduled call"
+    }
+  },
+  "createPhoneNumber": {
+    "title": "Assign Phone Number",
+    "description": "Assign a Vapi phone number to a user account",
+    "numberDetails": "Number Details",
+    "formDescription": "Enter the phone number details and select the user to assign it to",
+    "loadingUsers": "Loading users...",
+    "createAndAssign": "Create & Assign",
+    "fields": {
+      "assignToUser": "Assign to User",
+      "phoneNumberId": "Phone Number ID",
+      "aliasNumber": "Alias / Display Number"
+    },
+    "placeholders": {
+      "selectUser": "Select a user",
+      "phoneNumberId": "e.g. +1234567890 (Vapi phone number ID)",
+      "aliasNumber": "e.g. +1234567890"
+    },
+    "validation": {
+      "phoneNumberIdRequired": "Phone number ID is required",
+      "aliasNumberRequired": "Alias number is required",
+      "userRequired": "User is required",
+      "userMustSelect": "Please select a user"
+    },
+    "success": {
+      "phoneNumberCreated": "Phone number assigned",
+      "phoneNumberCreatedDesc": "Number {aliasNumber} has been assigned to {email}"
+    },
+    "errors": {
+      "fetchUsersFailed": "Failed to fetch users",
+      "loadUsersFailed": "Could not load users",
+      "createFailed": "Failed to assign phone number",
+      "creationFailed": "Assignment failed"
+    }
+  }
+}

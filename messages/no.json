@@ -1,0 +1,2348 @@
+{
+  "analytics": {
+    "title": "Oversikt",
+    "description": "Samtaleytelse og metrikker",
+    "totalCalls": "Totale Samtaler",
+    "avgDuration": "Snitt samtaletid",
+    "successRate": "Suksessrate",
+    "failureRate": "Feilrate",
+    "callsOverTime": "Samtaler Over Tid",
+    "callDuration": "Samtalevarighet Fordeling",
+    "assistantPerformance": "Assistent Ytelse",
+    "callStatusDistribution": "Samtalestatus Fordeling",
+    "timeFilters": {
+      "custom": "Egendefinerte dager",
+      "customDays": "dager",
+      "today": "I dag",
+      "7days": "7 dager",
+      "30days": "30 dager",
+      "3months": "3 måneder",
+      "all": "All tid"
+    },
+    "tabLabels": {
+      "overview": "Oversikt",
+      "calls": "Samtaler",
+      "duration": "Varighet",
+      "assistants": "Assistenter"
+    },
+    "callTypes": {
+      "Web Call": "Web Samtale",
+      "Inbound Call": "Innkommende Samtale",
+      "Outbound Call": "Utgående Samtale"
+    },
+    "callStatus": {
+      "completed": "Fullført",
+      "failed": "Mislykket",
+      "inProgress": "Pågår",
+      "cancelled": "Avbrutt"
+    },
+    "filters": {
+      "all": "Alle"
+    },
+    "assistants": {
+      "salesAgent": "Salgsagent",
+      "supportBot": "Support Bot",
+      "freshCutz": "Fresh Cutz",
+      "bookingAI": "Booking AI",
+      "defaultAssistant": "Standard Assistent"
+    },
+    "endReasons": {
+      "customer-ended-call": "Kunde Avsluttet",
+      "assistant-ended-call": "Assistent Avsluttet",
+      "customer-did-not-give-microphone-permission": "Ingen Mikrofontillatelse",
+      "assistant-said-end-call-phrase": "Avslutningsfrase Brukt",
+      "exceeded-max-duration": "Overskred Maks Varighet",
+      "exceeded-silence-threshold": "Stillhetsterskel",
+      "machine-detected": "Maskin Oppdaget"
+    },
+    "metrics": {
+      "minutes": "minutter",
+      "calls": "samtaler",
+      "percent": "%"
+    },
+    "tabs": {
+      "costs": "Kostnader",
+      "failureReasons": "Feilårsaker"
+    },
+    "charts": {
+      "costBreakdown": "Kostnadsfordeling",
+      "costBreakdownDescription": "Daglig fordeling av LLM-, STT-, TTS- og Vapi-kostnader i USD",
+      "failedCallReasons": "Årsaker til mislykkede samtaler",
+      "failedCallReasonsDescription": "Fordeling av årsaker til at samtaler ble avsluttet",
+      "noCallsInPeriod": "Ingen samtaler i denne perioden"
+    },
+    "export": "Eksporter CSV",
+    "refresh": "Oppdater",
+    "avgDurationApprox": "≈ {seconds} sek"
+  },
+  "auth": {
+    "loginPage": {
+      "signInTitle": "Velkommen tilbake",
+      "signInDescription": "Logg inn på kontoen din for å fortsette",
+      "heroTitleLine1": "Administrer virksomheten",
+      "heroTitleLine2": "din <span>med letthet.</span>",
+      "features": {
+        "analytics": "Sanntidsanalyse og rapportering",
+        "security": "Sikker datahåndtering",
+        "support": "24/7 kundestøtte"
+      },
+      "testimonial": {
+        "quote": "Det mest intuitive forretningsverktøyet vi noen gang har brukt. Det forvandlet hvordan vi sporer veksten vår.",
+        "author": "Robinson Jalut",
+        "position": "CEO, Hello."
+      }
+    },
+    "loginForm": {
+      "welcomeBack": "Velkommen tilbake",
+      "pleaseLogin": "Vennligst logg inn for å fortsette",
+      "email": "E-post",
+      "emailPlaceholder": "deg@eksempel.com",
+      "password": "Passord",
+      "accountType": "Kontotype",
+      "selectType": "Velg type...",
+      "inbound": "Innkommende",
+      "outbound": "Utgående",
+      "inboundOutbound": "Innkommende + Utgående",
+      "signingIn": "Logger inn...",
+      "signIn": "Logg inn",
+      "forgotPassword": "Glemt passordet ditt?",
+      "RememberMe": "Husk meg",
+      "SignUp": "Registrer deg",
+      "haveAccount": "Har du ikke en konto?",
+      "toasts": {
+        "loginSuccessful": "Innlogging vellykket!",
+        "welcomeBack": "Velkommen tilbake, {email}. Omdirigerer...",
+        "loginFailed": "Innlogging feilet",
+        "unexpectedError": "Uventet feil oppstod."
+      },
+      "validation": {
+        "passwordRequired": "Passord er påkrevd.",
+        "emailInvalid": "Vennligst oppgi en gyldig e-postadresse.",
+        "accountTypeRequired": "Vennligst velg en kontotype."
+      }
+    },
+    "signupPage": {
+      "welcomeTitle": "Velkommen til",
+      "createAccountTitle": "Opprett Konto",
+      "createAccountDescription": "Kom i gang med Hello i dag",
+      "fullName": "Fullt Navn",
+      "emailAddress": "E-postadresse",
+      "emailPlaceholder": "deg@eksempel.com",
+      "companyName": "Bedriftsnavn",
+      "phoneNumber": "Telefonnummer",
+      "password": "Passord",
+      "confirmPassword": "Bekreft Passord",
+      "createAccountBtn": "Opprett Konto",
+      "alreadyHaveAccount": "Har du allerede en konto?",
+      "logIn": "Logg inn",
+      "signingUp": "Registrerer...",
+      "bySigningUp": "Ved å registrere deg, samtykker du til våre",
+      "toasts": {
+        "accountCreated": "Konto opprettet!",
+        "checkEmail": "Vennligst sjekk e-posten din for verifiseringskode.",
+        "signupError": "Feil ved registrering",
+        "unexpectedError": "En uventet feil oppstod"
+      },
+      "heroTitle": "Transformer virksomheten din med AI-drevne taleassistenter",
+      "features": {
+        "support": "24/7 Automatisert Kundestøtte",
+        "leadQualification": "Intelligent Lead-Kvalifisering",
+        "crmIntegration": "Sømløs CRM-Integrasjon",
+        "analytics": "Sanntidsanalyse og Innsikt"
+      },
+      "testimonial": {
+        "quote": "Hello har transformert hvordan vi håndterer kundeforespørsler. Teamet vårt er mer effektivt enn noen gang!",
+        "author": "Sarah Johnson",
+        "position": "DEMO Vitnesbyrd"
+      },
+      "legal": {
+        "iAccept": "Jeg godtar",
+        "termsOfUse": "Vilkår for bruk",
+        "and": "og",
+        "privacyPolicy": "Personvernerklæring"
+      },
+      "copyright": "© 2024 Hello AI. Alle rettigheter forbeholdt."
+    },
+    "adminLogin": {
+      "title": "Administratorportal",
+      "description": "Skriv inn administratorlegitimasjonen din for å fortsette.",
+      "adminEmail": "Administrator e-post",
+      "adminEmailPlaceholder": "admin@eksempel.com",
+      "authenticating": "Autentiserer...",
+      "signInAsAdmin": "Logg inn som administrator",
+      "restrictedArea": "Dette er et begrenset tilgangsområde.",
+      "password": "Passord"
+    },
+    "forgotPassword": {
+      "title": "Glemt passordet ditt?",
+      "description": "Skriv inn e-postadressen din, så sender vi deg en lenke for å tilbakestille passordet ditt",
+      "emailLabel": "E-post",
+      "emailPlaceholder": "deg@eksempel.com",
+      "submitButton": "Send tilbakestillingslenke",
+      "submitting": "Sender...",
+      "backToLogin": "Tilbake til innlogging",
+      "validation": {
+        "email": "Vennligst oppgi en gyldig e-postadresse"
+      },
+      "success": {
+        "title": "Sjekk e-posten din",
+        "description": "Hvis det finnes en konto med den e-postadressen, har vi sendt deg en lenke for å tilbakestille passordet.",
+        "didNotReceive": "Fikk du ikke e-posten?",
+        "spam": "Sjekk søppelpost eller reklame",
+        "correctEmail": "Sjekk at du skrev inn riktig e-post",
+        "wait": "Vent noen minutter på at e-posten skal komme frem"
+      },
+      "toasts": {
+        "error": "Feil",
+        "failedToSend": "Kunne ikke sende tilbakestillings-e-post",
+        "successTitle": "E-post sendt!",
+        "successDesc": "En lenke for å tilbakestille passordet er sendt til din e-postadresse.",
+        "timeoutTitle": "Forespørsel tidsavbrutt",
+        "timeoutDesc": "Forespørselen tok for lang tid. Vennligst sjekk tilkoblingen din og prøv igjen.",
+        "generalErrorTitle": "Noe gikk galt",
+        "tryAgain": "Vennligst prøv igjen senere"
+      }
+    },
+    "businessInfo": {
+      "title": "Bedriftsinformasjon",
+      "description": "Fortell oss om deg selv og bedriften din for å komme i gang.",
+      "fullName": "Fullt Navn",
+      "fullNamePlaceholder": "Ola Nordmann",
+      "role": "Din Rolle",
+      "rolePlaceholder": "Velg din rolle",
+      "companyName": "Bedriftsnavn",
+      "companyNamePlaceholder": "Eksempel AS",
+      "industry": "Bransje",
+      "industryPlaceholder": "f.eks., Teknologi, Helse, Detaljhandel",
+      "phoneNumber": "Telefonnummer",
+      "phoneNumberPlaceholder": "+4712345678",
+      "submitButton": "Fullfør Onboarding",
+      "submitting": "Lagrer...",
+      "roles": {
+        "owner": "Bedriftseier",
+        "manager": "Leder",
+        "developer": "Utvikler",
+        "other": "Annet"
+      },
+      "validation": {
+        "fullNameRequired": "Fullt navn er påkrevd.",
+        "fullNameMin": "Fullt navn må være minst 2 tegn.",
+        "roleRequired": "Rolle er påkrevd.",
+        "companyNameRequired": "Bedriftsnavn er påkrevd.",
+        "companyNameMin": "Bedriftsnavn må være minst 2 tegn.",
+        "industryRequired": "Bransje er påkrevd.",
+        "phoneNumberRequired": "Telefonnummer er påkrevd.",
+        "phoneNumberMin": "Vennligst oppgi et gyldig telefonnummer."
+      },
+      "toasts": {
+        "successTitle": "Onboarding fullført!",
+        "successDesc": "Velkommen til Hello.",
+        "errorTitle": "Onboarding Feil",
+        "sessionExpired": "Økt utløpt",
+        "sessionExpiredDesc": "Vennligst bekreft e-posten din igjen for å fortsette."
+      }
+    },
+    "profile": {
+      "title": "Profil",
+      "description": "Din personlige og bedriftsinformasjon.",
+      "logo": {
+        "label": "Profilbilde",
+        "upload": "Last opp Profilbilde",
+        "change": "Endre Profilbilde",
+        "update": "Lagre Profilbilde",
+        "remove": "Fjern",
+        "saved": "Profilbilde lagret!",
+        "removed": "Profilbilde fjernet",
+        "saveError": "Kunne ikke lagre profilbilde",
+        "typeError": "Vennligst velg en bildefil",
+        "sizeError": "Bildestørrelse må være mindre enn 5MB",
+        "formatInfo": "JPG, PNG eller GIF. Maks størrelse 5MB"
+      },
+      "form": {
+        "fullName": "Fullt Navn",
+        "email": "E-post",
+        "companyName": "Bedriftsnavn",
+        "phoneNumber": "Telefonnummer",
+        "saveButton": "Lagre Profil",
+        "saving": "Lagrer...",
+        "validation": {
+          "fullName": "Fullt navn er påkrevd.",
+          "email": "Gyldig e-post er påkrevd.",
+          "companyName": "Bedriftsnavn er påkrevd.",
+          "phoneNumber": "Gyldig telefonnummer er påkrevd."
+        }
+      },
+      "success": {
+        "title": "Profil oppdatert!",
+        "description": "Din profilinformasjon har blitt lagret."
+      },
+      "error": {
+        "title": "Oppdateringsfeil",
+        "updateFailed": "Kunne ikke oppdatere profil",
+        "unexpected": "En uventet feil oppstod"
+      }
+    },
+    "profileCompletion": {
+      "title": "Fullfør profilen din",
+      "description": "Legg til noen ekstra detaljer slik at vi bedre kan forstå virksomheten din og holde kontoen i god stand.",
+      "progress": "Profilfullføring",
+      "organizationNumber": "Organisasjonsnummer",
+      "organizationNumberPlaceholder": "Skriv inn organisasjonsnummeret ditt",
+      "organizationNumberHelper": "Bokstaver, mellomrom, bindestreker og punktum er tillatt. Må være mer enn 3 tegn.",
+      "websiteUrls": "Nettside‑URLer",
+      "websiteUrlsPlaceholder": "Legg til opptil 3 nettside‑URLer",
+      "socialMediaLinks": "Lenker til sosiale medier",
+      "socialMediaLinksPlaceholder": "Legg til opptil 3 profiler for sosiale medier",
+      "cancel": "Avbryt",
+      "saving": "Lagrer...",
+      "saveChanges": "Lagre endringer",
+      "add": "Legg til",
+      "setup": {
+        "complete": "Oppsett"
+      },
+      "errors": {
+        "atLeastOneField": "Legg til minst ett felt før du lagrer.",
+        "organizationNumberDigitsOnly": "Organisasjonsnummer må kun inneholde sifre.",
+        "organizationNumberInvalidChars": "Organisasjonsnummer kan bare inneholde bokstaver, mellomrom, bindestreker og punktum.",
+        "organizationNumberMinLength": "Organisasjonsnummer må være mer enn 3 tegn.",
+        "fixUrlErrors": "Vennligst rett URL‑feilene før du lagrer.",
+        "duplicateWebsiteUrls": "Du har dupliserte nettside‑URLer. Hver nettside må være unik.",
+        "duplicateSocialMediaUrls": "Du har dupliserte lenker til sosiale medier. Hver lenke må være unik.",
+        "duplicateUrls": "Du har skrevet inn den samme URL‑en mer enn én gang.",
+        "maximumItems": "Du kan bare legge til opptil {maxTags} elementer.",
+        "invalidUrl": "Vennligst oppgi en gyldig URL.",
+        "completeUrl": "Skriv inn en fullstendig URL (for eksempel https://eksempel.no)."
+      },
+      "success": {
+        "profileUpdated": "Profil oppdatert",
+        "onboardingSaved": "De ekstra bedriftsdetaljene dine er lagret."
+      }
+    }
+  },
+  "scheduleCall": {
+    "title": "Planlegg Samtaler",
+    "description": "Sett tid og dato for å initiere samtaler for dine valgte kontakter.",
+    "form": {
+      "title": "Samtalekonfigurasjon",
+      "description": "Dette vil planlegge en individuell samtale for alle {count} valgte kontakter på angitt tid.",
+      "contactsToSchedule": "Kontakter å Planlegge",
+      "callFrom": "Ring Fra",
+      "date": "Dato",
+      "time": "Tid",
+      "pickDate": "Velg en dato",
+      "selectNumberPlaceholder": "Velg et nummer å ringe fra...",
+      "noNumbersFound": "Ingen telefonnumre funnet.",
+      "unnamedContact": "Navnløs Kontakt"
+    },
+    "buttons": {
+      "cancel": "Avbryt",
+      "confirmSchedule": "Bekreft Planlegging"
+    },
+    "validation": {
+      "allFieldsRequired": "Vennligst velg dato, tid og et nummer å ringe fra."
+    },
+    "messages": {
+      "schedulingCalls": "Planlegger samtaler..."
+    },
+    "errors": {
+      "loadNumbersFailed": "Kunne ikke laste telefonnumrene dine.",
+      "noPhoneNumbers": "Ingen av de valgte kontaktene har et primært telefonnummer."
+    }
+  },
+  "navigation": {
+    "dashboard": "Dashbord",
+    "users": "Brukere",
+    "all-documents": "Alle dokumenter",
+    "pending": "Avventer signatur",
+    "signed": "Signerte",
+    "invoices": "Fakturaer",
+    "analytics": "Oversikt",
+    "analyse": "Analysere",
+    "calls": "Anrop",
+    "phonecalls": "Telefon Samtaler",
+    "settings": "Innstillinger",
+    "store": "Butikk",
+    "profile": "Profil",
+    "reports": "Rapporter",
+    "overview": "Oversikt",
+    "assistants": "Assistenter",
+    "my-assistants": "AI-assistenter",
+    "performance": "Ytelse",
+    "statistics": "Statistikk",
+    "billing": "Fakturering",
+    "edit": "Redigere",
+    "integrations": "Integrasjoner",
+    "integration-requests": "Integrasjonsforespørsler",
+    "assistant-requests": "Assistentforespørsler",
+    "assistant-edit-requests": "Redigeringsforespørsler",
+    "phonenumbers": "Telefonnumre",
+    "success": "Suksess",
+    "notifications": "Varsler",
+    "preview": "Forhåndsvisning",
+    "help": "Hjelp",
+    "kanban": "Kanban",
+    "meeting": "Møte",
+    "calendar": "Kalender",
+    "upload": "Last opp",
+    "product": "Produkter",
+    "schedule-call": "Planlegg samtale",
+    "scheduled-calls": "Planlagte samtaler",
+    "admin": "Admin",
+    "customers": "Kunder",
+    "projects": "Prosjekter",
+    "templates": "Maler",
+    "call": {
+      "details": "Samtaledetaljer",
+      "logs": "Samtalelogger",
+      "history": "Samtalehistorikk"
+    },
+    "user": {
+      "management": "Brukeradministrasjon"
+    },
+    "api": {
+      "settings": "API-innstillinger"
+    },
+    "logout": "Logg ut",
+    "assistant": {
+      "details": "Assistentdetaljer"
+    },
+    "setup": {
+      "complete": "Fullfør konto"
+    },
+    "scripts": "Skript",
+    "create": "Opprett",
+    "voices": "Stemmer",
+    "onboarding": "Onboarding",
+    "voice-assistant": "Stemmeassistent",
+    "receipts": "Kvitteringer",
+    "documents": "Dokumenter",
+    "plan-addons": "Plan og tillegg",
+    "underReview": "Under Vurdering"
+  },
+  "userNav": {
+    "myAccount": "Min konto",
+    "active": "Aktiv",
+    "request": "Foresørsel",
+    "apply": "Søk",
+    "comingSoon": "Kommer snart",
+    "comingSoonDescription": "Håndter dine utgående samtaler",
+    "changePassword": "Endre passord",
+    "outboundAccount": "Utgående konto",
+    "inboundAccount": "Innkommende konto",
+    "requestOutbound": "Utgående konto",
+    "requestInbound": "Foresørsel Innkommende",
+    "logOut": "Logg ut"
+  },
+  "users": {
+    "title": "Brukeradministrasjon",
+    "description": "Vis, opprett og administrer alle ikke-admin brukere.",
+    "searchPlaceholder": "Søk etter brukernavn, e-post eller rolle...",
+    "createUser": "Opprett bruker",
+    "apiKeyCopied": "API-nøkkel kopiert til utklippstavle!",
+    "noUsersFound": "Ingen brukere funnet.",
+    "table": {
+      "username": "Brukernavn",
+      "email": "E-post",
+      "role": "Rolle",
+      "apiKey": "API-nøkkel",
+      "created": "Opprettet",
+      "actions": "Handlinger"
+    },
+    "roles": {
+      "inboundBasic": "Innkommende Basic",
+      "outboundBasic": "Utgående Basic",
+      "inboundAdvanced": "Innkommende Avansert",
+      "outboundAdvanced": "Utgående Avansert",
+      "inOutBasic": "Inn/Ut Basic",
+      "inOutAdvanced": "Inn/Ut Avansert"
+    },
+    "actions": {
+      "editUser": "Rediger bruker",
+      "deleteUser": "Slett bruker"
+    },
+    "errors": {
+      "fetchError": "Feil ved henting av brukere",
+      "fetchFailed": "Kunne ikke hente brukere. Status:"
+    }
+  },
+  "editUser": {
+    "title": "Rediger bruker",
+    "description": "Endre detaljene for en eksisterende bruker.",
+    "loadingDesc": "Laster brukerdata...",
+    "backToUsers": "Tilbake til brukerliste",
+    "updateUser": "Oppdater bruker",
+    "togglePassword": "Veksle passordsynlighet",
+    "passwordDescription": "La stå tom for å beholde nåværende passord.",
+    "fields": {
+      "username": "Brukernavn",
+      "email": "E-post",
+      "newPassword": "Nytt passord (valgfritt)",
+      "role": "Rolle",
+      "apiKey": "API-nøkkel",
+      "assistantId": "Assistent-ID (valgfritt)"
+    },
+    "placeholders": {
+      "username": "johndoe",
+      "email": "john.doe@example.com",
+      "password": "••••••••",
+      "selectRole": "Velg en rolle",
+      "apiKey": "Skriv inn VAPI API-nøkkel",
+      "assistantId": "Skriv inn Assistent-ID"
+    },
+    "roles": {
+      "admin": "Administrator",
+      "inboundBasic": "Innkommende skript",
+      "outboundBasic": "Utgående skript",
+      "inboundAdvanced": "Innkommende opptak",
+      "outboundAdvanced": "Utgående opptak",
+      "inboundOutboundBasic": "Inn- og utgående grunnleggende",
+      "inboundOutboundAdvanced": "Inn- og utgående avansert"
+    },
+    "validation": {
+      "usernameMin": "Brukernavn må være minst 2 tegn.",
+      "emailInvalid": "Vennligst oppgi en gyldig e-postadresse.",
+      "passwordMin": "Passord må være minst 8 tegn.",
+      "apiKeyRequired": "API-nøkkel er påkrevd."
+    },
+    "success": {
+      "userUpdated": "Bruker oppdatert!",
+      "userUpdatedDesc": "Brukernavn: {username} har blitt oppdatert."
+    },
+    "errors": {
+      "fetchFailed": "Kunne ikke hente brukerdata.",
+      "loadFailed": "Kunne ikke laste bruker",
+      "updateFailed": "Oppdatering feilet"
+    }
+  },
+  "createUser": {
+    "title": "Opprett ny bruker",
+    "description": "Fyll ut skjemaet nedenfor for å legge til en ny bruker i systemet.",
+    "userDetails": "Brukerdetaljer",
+    "formDescription": "Passordet vil bli hashet og API-nøkkelen må samsvare nøyaktig som levert av VAPI. Assistent-ID er valgfritt.",
+    "createUser": "Opprett bruker",
+    "fields": {
+      "username": "Brukernavn",
+      "email": "E-post",
+      "password": "Passord",
+      "role": "Rolle",
+      "apiKey": "API-nøkkel",
+      "assistantId": "Assistent-ID (valgfritt)"
+    },
+    "placeholders": {
+      "username": "johndoe",
+      "email": "john.doe@example.com",
+      "password": "••••••••",
+      "selectRole": "Velg en rolle",
+      "apiKey": "Skriv inn VAPI API-nøkkel",
+      "assistantId": "Skriv inn Assistent-ID"
+    },
+    "roles": {
+      "admin": "Administrator",
+      "inboundBasic": "Innkommende skript",
+      "outboundBasic": "Utgående skript",
+      "inboundAdvanced": "Innkommende opptak",
+      "outboundAdvanced": "Utgående opptak"
+    },
+    "validation": {
+      "usernameMin": "Brukernavn må være minst 2 tegn.",
+      "emailInvalid": "Vennligst oppgi en gyldig e-postadresse.",
+      "passwordMin": "Passord må være minst 8 tegn.",
+      "apiKeyRequired": "API-nøkkel er påkrevd."
+    },
+    "success": {
+      "userCreated": "Bruker opprettet!",
+      "userCreatedDesc": "Brukernavn: {username} har blitt opprettet."
+    },
+    "errors": {
+      "createFailed": "Kunne ikke opprette bruker.",
+      "loadFailed": "Kunne ikke laste roller"
+    }
+  },
+  "userProfile": {
+    "title": "Brukerprofil",
+    "description": "Administrer din personlige informasjon og preferanser.",
+    "personalInfo": "Personlig Informasjon",
+    "contactInfo": "Kontaktinformasjon",
+    "preferences": "Preferanser",
+    "saveChanges": "Lagre Endringer",
+    "cancel": "Avbryt",
+    "saving": "Lagrer...",
+    "saved": "Lagret!",
+    "saveFailed": "Lagring feilet",
+    "fields": {
+      "firstName": "Fornavn",
+      "lastName": "Etternavn",
+      "email": "E-post",
+      "phone": "Telefonnummer",
+      "timezone": "Tidssone",
+      "language": "Språk"
+    },
+    "placeholders": {
+      "firstName": "Ola",
+      "lastName": "Nordmann",
+      "email": "ola.nordmann@eksempel.com",
+      "phone": "+47 123 45 678",
+      "selectTimezone": "Velg tidssone",
+      "selectLanguage": "Velg språk"
+    },
+    "languages": {
+      "english": "Engelsk",
+      "norwegian": "Norsk"
+    },
+    "timezones": {
+      "utc": "UTC",
+      "est": "Østkysttid (ET)",
+      "pst": "Stillehavskysttid (PT)",
+      "cet": "Sentraleuropeisk Tid (CET)"
+    }
+  },
+  "changePassword": {
+    "title": "Endre Passord",
+    "description": "Oppdater kontopassordet ditt.",
+    "currentPassword": "Nåværende Passord",
+    "newPassword": "Nytt Passord",
+    "confirmNewPassword": "Bekreft Nytt Passord",
+    "changePassword": "Endre Passord",
+    "changing": "Endrer...",
+    "changed": "Passord Endret!",
+    "changeFailed": "Passordendring feilet",
+    "validation": {
+      "currentPasswordRequired": "Nåværende passord er påkrevd.",
+      "newPasswordMin": "Nytt passord må være minst 8 tegn.",
+      "passwordsMustMatch": "Passordene må være like."
+    },
+    "placeholders": {
+      "currentPassword": "Skriv inn nåværende passord",
+      "newPassword": "Skriv inn nytt passord",
+      "confirmNewPassword": "Bekreft nytt passord"
+    }
+  },
+  "billing": {
+    "title": "Fakturering",
+    "description": "Administrer abonnementet og betalingsmetodene dine.",
+    "addOns": {
+      "genericName": "Tjeneste",
+      "addedToPackage": "{name} ble lagt til pakken din",
+      "removedFromPackage": "{name} ble fjernet fra pakken din"
+    },
+    "manageSubscription": {
+      "title": "Administrer abonnementet ditt",
+      "description": "Planlegg en oppgradering eller nedgradering for neste faktureringsperiode",
+      "scheduledChangeTitle": "Planlagt endring av plan",
+      "scheduledChangeDescription": "Planen din endres til {nextPlan} den {date}",
+      "cancelScheduledChange": "Avbryt planlagt endring",
+      "scheduledChangeCancelled": "Planlagt endring av plan er avbrutt",
+      "currentPlan": "Nåværende plan",
+      "monthly": "Månedlig",
+      "annual": "Årlig",
+      "other": "Annet",
+      "minutesRemaining": "{remaining} av {total} minutter gjenstår",
+      "expires": "Utløper {date}",
+      "selectNewPackage": "Velg ny pakke",
+      "monthlyPlansOnly": "Kun månedlige planer",
+      "annualPlansOnly": "Kun årlige planer",
+      "monthlyAndAnnualPlans": "Bytt til en annen månedlig plan eller oppgrader til en årlig plan",
+      "sameCycleOnly": "Kun samme faktureringssyklus",
+      "noPackagesAvailable": "Ingen andre pakker tilgjengelig i ditt abonnementsnivå",
+      "upgrade": "Oppgrader",
+      "downgrade": "Nedgrader",
+      "scheduled": "Planlagt",
+      "switchToAnnual": "Årlig",
+      "switchToAnnualPlan": "Bytt til {planName} (Årlig)",
+      "annualSwitchSummary": "Du betaler {price} for hele året. Du mottar {minutes} minutter hver måned i 12 måneder.",
+      "annualSwitchKeepBundle": "Dine nåværende månedlige minutter fortsetter til de utløper. Årlige tildelinger starter etter det.",
+      "annualUpgradeSummary": "Du betaler oppgraderingsdifferansen. En helt ny 12-måneders syklus med {minutes} minutter/måned starter når dine nåværende minutter er brukt opp eller ved neste påfyll.",
+      "annualUpgradeNewCycle": "Dine nåværende minutter beholdes til de er brukt opp. Deretter starter et nytt 12-måneders abonnement.",
+      "upgradeTo": "Oppgrader til {planName}",
+      "downgradeTo": "Nedgrader til {planName}",
+      "changeSummary": "Din nåværende plan fortsetter til {date}. Etter det vil du bli belastet {price} for den nye planen din.",
+      "upgradeBenefit": "Du vil motta {minutes} minutter per faktureringsperiode.",
+      "upgradePaymentSummary": "Du betaler full pris på {price} for den nye planen. Fremtidige faktureringer fortsetter til denne prisen.",
+      "upgradeAppliesAtZero": "Oppgraderingen til {minutes} minutter aktiveres så snart dine nåværende minutter er brukt opp, eller ved neste faktureringsperiode.",
+      "planChangePaymentSummary": "Du betaler full pris på {price} for den nye planen. Fremtidige faktureringer fortsetter til denne prisen.",
+      "planChangeAppliesAtZero": "Din nye plan ({minutes} minutter) aktiveres så snart dine nåværende minutter er brukt opp, eller ved neste faktureringsperiode.",
+      "payAndUpgrade": "Betal og oppgrader",
+      "payAndDowngrade": "Betal og endre plan",
+      "payAndSwitch": "Betal og bytt til årlig",
+      "cancel": "Avbryt",
+      "schedulePlanChange": "Planlegg endring av plan",
+      "processing": "Behandler...",
+      "successMessage": "Endring av plan planlagt",
+      "errorMessage": "Kunne ikke planlegge endring av plan",
+      "selectPackageError": "Vennligst velg en pakke",
+      "alreadyOnPackageError": "Du er allerede på denne pakken",
+      "billingPeriod": "Faktureringsperiode",
+      "minutes": "Minutter",
+      "packageDetails": "{minutes} minutter • {days} dager",
+      "monthlySubscription": "Månedlig abonnement",
+      "annualSubscription": "Årlig abonnement",
+      "minutesPerMonth": "minutter per måned",
+      "minutesPerMonthForYear": "minutter per måned i ett år",
+      "minutesPerYear": "minutter per år",
+      "bestValue": "(Beste Verdi)",
+      "enterprise": "Bedriftsplan",
+      "enterpriseSubtitle": "AI Telefonassistent",
+      "customPricing": "Tilpasset pris for dine behov",
+      "contactSales": "Kontakt salg",
+      "unlimitedMinutes": "Ubegrensede minutter",
+      "prioritySupport": "Prioritert støtte",
+      "customIntegrations": "Tilpassede integrasjoner",
+      "dedicatedManager": "Dedikert kontoansvarlig"
+    },
+    "plan": "Nåværende Plan",
+    "subscription": "Abonnementsdetaljer",
+    "paymentMethods": "Betalingsmetoder",
+    "invoices": "Fakturahistorikk",
+    "upgrade": "Oppgrader Plan",
+    "cancel": "Avbryt Abonnement",
+    "addPaymentMethod": "Legg til Betalingsmetode",
+    "download": "Last ned",
+    "viewInvoice": "Vis Faktura",
+    "status": {
+      "active": "Aktiv",
+      "cancelled": "Avbrutt",
+      "pastDue": "Forfalt"
+    },
+    "plans": {
+      "basic": "Grunnleggende Plan",
+      "pro": "Profesjonell Plan",
+      "enterprise": "Bedriftsplan"
+    },
+    "features": {
+      "calls": "{count} månedlige samtaler",
+      "storage": "{size} lagring",
+      "support": "{level} støtte",
+      "integrations": "{count} integrasjoner"
+    },
+    "quote": {
+      "title": "Din Plan",
+      "description": "Gjennomgå dine valgte tjenester",
+      "serviceAddOns": "Tjenestetillegg",
+      "addOns": "Tillegg",
+      "selectServicesToSeePricing": "Velg tjenester for å se priser",
+      "monthlySubscription": "Månedlig abonnement",
+      "addOnServices": "Tilleggstjenester",
+      "serviceAddOnsTitle": "Tjenestetillegg",
+      "selected": "valgt",
+      "noServicesSelected": "Ingen tjenester valgt",
+      "basePlanIncluded": "Grunnplan inkludert",
+      "oneTimeSetupFees": "Engangskostnader for oppsett",
+      "setupFeeDescription": "Oppsetts- og konfigurasjonsgebyrer",
+      "totalDueToday": "Totalt å betale i dag",
+      "monthlyRecurring": "Månedlig gjentakende",
+      "proceedToCheckout": "Fortsett til kassen"
+    },
+    "pricing": {
+      "perMonth": "/mnd"
+    },
+    "checkout": {
+      "redirecting": "Omdirigerer til kassen..."
+    },
+    "errors": {
+      "selectService": "Vennligst velg minst én tjeneste",
+      "unexpectedError": "En uventet feil oppstod",
+      "checkoutFailed": "Kassering mislyktes",
+      "checkoutFailedTitle": "Kassering mislyktes",
+      "loadMinutePackagesFailed": "Kunne ikke laste minuttpakker",
+      "loadPlansFailed": "Kunne ikke laste planene dine"
+    },
+    "messages": {
+      "emergencyTopupAdded": "Nød-påfyll lagt til! ({current}/{max} påfyllinger) 🎉"
+    },
+    "settingsSection": {
+      "title": "Faktureringsinnstillinger",
+      "description": "Konfigurer automatisk fakturering og varsler"
+    },
+    "serviceInterrupted": {
+      "title": "Tjenesten er avbrutt",
+      "description": "Tjenesten din har blitt avbrutt. Vennligst kjøp en minutpakke for å fortsette å bruke dashbordet."
+    },
+    "goToBilling": "Gå til Fakturering",
+    "newUserBanner": {
+      "title": "Velkommen til Hello!",
+      "description": "For å starte samtaler trenger kontoen din tilgjengelige samtaleminutter.\\nVelg en minutpakke nedenfor for å aktivere samtaler og ta tjenesten i bruk umiddelbart.\\nDu har løpende oversikt over forbruk og status direkte i dashboardet.",
+      "browseButton": "Velg minutpakke",
+      "feature1": "Aktiveres umiddelbart",
+      "feature2": "Sanntids oversikt over minutter",
+      "feature3": "Klar til bruk med én gang",
+      "dismiss": "Lukk",
+      "noMinutesTitle": "Ingen minutter igjen",
+      "noMinutesDescription": "Du har brukt opp alle tilgjengelige samtaleminutter. Fyll på nå for å fortsette å ringe uten avbrudd.",
+      "topUpButton": "Fyll på minutter",
+      "mustBuyTitle": "Kom i gang med samtaleminutter",
+      "mustBuyDescription": "For å starte samtaler trenger kontoen din tilgjengelige samtaleminutter.\\nVelg en minutpakke nedenfor for å aktivere samtaler og ta tjenesten i bruk umiddelbart."
+    },
+    "minutePackages": {
+      "monthly": "Månedlig",
+      "annual": "Årlig",
+      "minutes": "Minutter",
+      "perMinute": "per minutt",
+      "perMonth": "per måned",
+      "callingMinutes": "samtaleminutter",
+      "daysValidity": "dagers gyldighet",
+      "premiumVoiceQuality": "Premium talekvalitet",
+      "supportIncluded": "24/7 støtte inkludert",
+      "getStarted": "Kom i gang",
+      "managePlan": "Administrer plan",
+      "processing": "Behandler...",
+      "mostPopular": "Mest populær",
+      "oneMonthValidity": "1 måneds gyldighet",
+      "twelveMonthsValidity": "12 måneders gyldighet",
+      "packageAddedSuccess": "Pakke lagt til!",
+      "purchaseFailed": "Kjøp mislyktes. Vennligst prøv igjen."
+    },
+    "success": {
+      "processing": "Behandler kjøpet ditt...",
+      "processingDescription": "Vennligst vent mens vi aktiverer minutpakken din. Dette tar vanligvis bare noen sekunder.",
+      "purchaseFailed": "Kjøp mislyktes",
+      "backToBilling": "Tilbake til fakturering",
+      "tryAgain": "Prøv igjen",
+      "purchaseSuccessful": "Kjøp vellykket!",
+      "minutePackageActivated": "Minutpakken din er aktivert og klar til bruk.",
+      "serviceSubscriptionActivated": "Tjenesteabonnementet ditt er aktivert og klart til bruk.",
+      "minutesAdded": "Minutter lagt til",
+      "newMinutePackageDetails": "Detaljer om din nye minutpakke",
+      "minutesAddedToAccount": "minutter lagt til kontoen din",
+      "bundleId": "Pakke-ID",
+      "status": "Status",
+      "active": "Aktiv",
+      "serviceActivated": "Tjeneste aktivert",
+      "newSubscriptionDetails": "Detaljer om ditt nye abonnement",
+      "goToDashboard": "Gå til dashbord",
+      "viewBilling": "Se fakturering",
+      "whatsNext": "Hva nå?",
+      "startMakingCalls": "Start samtaler",
+      "startMakingCallsDescription": "Minuttene dine er klare! Du kan nå ringe gjennom dashbordet.",
+      "trackUsage": "Spor forbruk",
+      "trackUsageDescription": "Overvåk minuttforbruket ditt og få varsler når det er lavt."
+    },
+    "minutes": {
+      "remaining": "Gjenstående minutter"
+    },
+    "settings": {
+      "autoRenewal": "Automatisk fornyelse",
+      "autoRenewalSubtitle": "Fornyer valgt minut pakke ved ny periode",
+      "autoRenewalTooltip": "Minutpakken fornyes automatisk ved slutten av faktureringsperioden, slik at tjenesten fortsetter uten avbrudd.",
+      "autoCharge": "Automatisk belastning",
+      "autoChargeSubtitle": "Belaster kortet ditt når minuttene blir lave",
+      "autoChargeTooltip": "Når tilgjengelige minutter faller under terskelen, blir betalingsmetoden din automatisk belastet for å kjøpe ekstra minutter.",
+      "autoTopup": "Automatisk påfyll av minutter",
+      "autoTopupSubtitle": "Kjøper ekstra minutter ved tom saldo",
+      "autoTopupTooltip": "Når tilgjengelige minutter er brukt opp, kjøpes en ekstra minutpakke automatisk slik at samtaler ikke stopper.",
+      "notifications": "Varsler",
+      "minutes": "minutter",
+      "minutesUsed": "brukt",
+      "autoRenewalUpdated": "Auto-fornyelse oppdatert",
+      "autoRenewalUpdateFailed": "Kunne ikke oppdatere auto-fornyelse",
+      "autoChargeUpdated": "Automatisk belastning oppdatert",
+      "autoChargeUpdateFailed": "Kunne ikke oppdatere automatisk belastning",
+      "autoTopupUpdated": "Auto-påfylling oppdatert",
+      "autoTopupUpdateFailed": "Kunne ikke oppdatere auto-påfylling",
+      "notificationsUpdated": "Varsler oppdatert",
+      "notificationsUpdateFailed": "Kunne ikke oppdatere varsler"
+    },
+    "bundles": {
+      "bundleDiscount": "Pakkerabatt",
+      "addMinutes": "100 minutter"
+    },
+    "services": {
+      "minuteTopup100": "100 Minutters Påfylling",
+      "minuteTopup100Desc": "Legg til 100 samtaleminutter til kontoen din",
+      "voiceClone": "Stemmekloning",
+      "voiceCloneDesc": "Opprett en tilpasset stemmekloning for assistenten din",
+      "phoneNumbers": "Telefonnumre",
+      "phoneNumbersDesc": "Tilleggsdedikerte telefonnumre for assistentene dine",
+      "additionalAssistants": "Tilleggsassistenter",
+      "additionalAssistantsDesc": "Legg til flere AI-assistenter til kontoen din",
+      "callWhispering": "Samtalehvisking",
+      "callWhisperingDesc": "Lytt til samtaler i sanntid og coach agenter",
+      "voicemailHandling": "Talesvarhåndtering",
+      "voicemailHandlingDesc": "Automatisk talesvar-oppdagelse og håndtering",
+      "multilingualSupport": "Flerspråklig Støtte",
+      "multilingualSupportDesc": "Støtte for 50+ språk",
+      "crmIntegration": "CRM-integrasjon",
+      "crmIntegrationDesc": "Koble til din CRM (Salesforce, HubSpot, etc.)",
+      "customAnalytics": "Tilpasset Analyse",
+      "customAnalyticsDesc": "Avansert rapportering og tilpassede dashbord",
+      "prioritySupport": "Prioritert Støtte",
+      "prioritySupportDesc": "Dedikert kontosjef og prioritert støtte",
+      "apiAccess": "API-tilgang",
+      "apiAccessDesc": "Full tilgang til vår API for tilpassede integrasjoner",
+      "integrations": "Integrasjoner",
+      "integrationsDesc": "Koble til tredjepartsverktøy og tjenester"
+    },
+    "settingsPage": {
+      "minutesAndSubscriptions": "Bruk og abonnement",
+      "minutesAndSubscriptionsDesc": "Se og administrer abonnementene/tilleggene dine",
+      "realTimeMinutes": "Sanntidsminutter",
+      "activeSubscriptions": "Aktive Abonnementer",
+      "activeBundles": "Aktive Pakker",
+      "activeBundlesDesc": "Dine gjenværende minutter og utløpsdatoer",
+      "totalMinutes": "{count} minutter",
+      "totalAvailable": "Totalt tilgjengelig på tvers av {count} pakke(r)",
+      "estimated": "Estimert",
+      "estimatedTime": "~{hours}t {minutes}m",
+      "noActiveBundles": "Ingen aktive pakker",
+      "bundleDetails": "Pakkedetaljer",
+      "bundlePagination": {
+        "showing": "Viser",
+        "of": "av",
+        "bundles": "pakker"
+      },
+      "remainingOf": "{remaining} av {total} minutter gjenstår",
+      "minutesRemaining": "Minutter igjen",
+      "percentUsed": "{percent}% brukt",
+      "usagePeriod": {
+        "label": "Bruksperiode",
+        "value": "Du bruker for øyeblikket {minutes} minutter per dag i gjennomsnitt"
+      },
+      "estimatedDaysRemaining": {
+        "label": "Med din nåværende bruk vil planen din vare omtrent",
+        "value": "{days} dager"
+      },
+      "nextRenewalDate": {
+        "label": "Neste fornyelsesdag"
+      },
+      "purchaseAdditionalMinutes": "Du kan kjøpe ytterligere 100 minutter hvis nødvendig",
+      "expired": "Utløpt",
+      "expires": "Utløper {date}",
+      "neverExpires": "Utløper aldri",
+      "daysValidity": "{days} dagers gyldighet",
+      "billingLogs": "Faktureringslogger",
+      "autoTopup": {
+        "title": "Auto-påfylling",
+        "description": "Kjøp automatisk ekstra minutter når saldoen blir lav.",
+        "disabledByAutoCharge": "Auto-påfylling er deaktivert når Automatisk belastning er aktiv.",
+        "threshold": "Utløs når gjenværende minutter faller under",
+        "minutes": "minutter",
+        "note": "Når dette er aktivert, kjøper vi automatisk en påfyllingspakke for deg når du går under denne terskelen."
+      },
+      "billingSettings": "Faktureringsinnstillinger",
+      "autoCharge": {
+        "title": "Automatisk Belastning",
+        "description": "Kjøp automatisk når lite minutter gjenstår",
+        "enable": "Aktiver",
+        "makePurchaseFirst": "⚠️ Gjør et kjøp først",
+        "threshold": "Terskel",
+        "topup": "Påfyll"
+      },
+      "autoRenewal": {
+        "title": "Auto-fornyelse",
+        "description": "Forny før pakken utløper",
+        "enable": "Aktiver",
+        "triggerHours": "Utløsningstimer",
+        "hrsBefore": "timer før"
+      },
+      "autoRetry": {
+        "title": "Auto-forsøk",
+        "description": "Prøv mislykkede betalinger på nytt",
+        "enable": "Aktiver",
+        "info": "Opptil 2 forsøk (2t, 4t forsinkelse)"
+      },
+      "notifications": {
+        "title": "Varsler",
+        "description": "E-post for faktureringshendelser",
+        "email": "E-post",
+        "changeAlertsLink": "Endre hvor du får e-postvarsler",
+        "changeAlertsLinkShort": "Administrer varsler",
+        "addEmail": "Legg til e-post",
+        "removeEmail": "Fjern",
+        "saveEmail": "Lagre",
+        "maxEmails": "Maksimum 3 e-postadresser tillatt",
+        "invalidEmail": "Ugyldig e-postformat"
+      },
+      "saveSettings": "Lagre Innstillinger",
+      "messages": {
+        "fetchError": "Kunne ikke laste faktureringsinnstillinger",
+        "saveSuccess": "Faktureringsinnstillinger oppdatert",
+        "saveError": "Kunne ikke oppdatere faktureringsinnstillinger",
+        "userMinutesError": "Kunne ikke hente brukerminutter"
+      },
+      "addOns": {
+        "genericName": "Tjeneste",
+        "addedToPackage": "{name} ble lagt til pakken din",
+        "removedFromPackage": "{name} ble fjernet fra pakken din"
+      },
+      "currentBundle": {
+        "minutesLabel": "{count} minutter",
+        "fallbackName": "Minutttpakke",
+        "manageBundle": "Administrer pakke"
+      }
+    },
+    "logs": {
+      "title": "Faktureringshistorikk",
+      "loading": "Laster din faktureringshistorikk...",
+      "recentActivity": "Nylige faktureringsaktiviteter og transaksjoner (siste {limit})",
+      "completeActivity": "Dine faktureringshendelser og transaksjoner",
+      "export": "Eksporter",
+      "searchPlaceholder": "Søk i logger...",
+      "filterEventType": "Filtrer etter hendelsestype",
+      "eventType": "Hendelsestype",
+      "filterDate": "Filtrer etter dato",
+      "period": "Periode",
+      "showingLogs": "Viser {count} av {total} logger",
+      "refresh": "Oppdater",
+      "noLogs": "Ingen faktureringslogger funnet",
+      "adjustFilters": "Prøv å justere filtrene for å se flere resultater.",
+      "emptyState": "Din faktureringsaktivitet vil vises her.",
+      "loadMore": "Last Flere Logger",
+      "paginationNotImplemented": "Paginering ikke implementert ennå",
+      "messages": {
+        "fetchError": "Kunne ikke hente faktureringshistorikk",
+        "loadError": "Feil ved lasting av faktureringshistorikk",
+        "noExport": "Ingen logger å eksportere",
+        "exportSuccess": "Faktureringslogger eksportert"
+      },
+      "eventTypes": {
+        "package_purchase": {
+          "label": "Pakkekjøp",
+          "description": "Kjøpt minuttpakke"
+        },
+        "topup_purchase": {
+          "label": "Nødpåfyll",
+          "description": "Nødpåfyll av minutter"
+        },
+        "auto_charge_success": {
+          "label": "Automatisk belastning vellykket",
+          "description": "Automatisk belastning fullført"
+        },
+        "auto_charge_failed": {
+          "label": "Automatisk belastning mislyktes",
+          "description": "Automatisk belastning feilet"
+        },
+        "bundle_expired": {
+          "label": "Pakke Utløpt",
+          "description": "Minuttpakke utløpt"
+        },
+        "low_minutes_warning": {
+          "label": "Advarsel om lite minutter",
+          "description": "Terskel for lite minutter nådd"
+        },
+        "payment_retry": {
+          "label": "Betalingsforsøk",
+          "description": "Forsøk på betaling"
+        },
+        "calls_blocked": {
+          "label": "Samtaler Blokkert",
+          "description": "Samtaler blokkert på grunn av utilstrekkelige minutter"
+        },
+        "renewal_reminder": {
+          "label": "Påminnelse om fornyelse",
+          "description": "Påminnelse om pakkefornyelse sendt"
+        },
+        "auto_renewal_success": {
+          "label": "Auto-fornyelse vellykket",
+          "description": "Automatisk fornyelse fullført"
+        },
+        "auto_renewal_failed": {
+          "label": "Auto-fornyelse mislyktes",
+          "description": "Automatisk fornyelse feilet"
+        },
+        "unknown": {
+          "label": "{type}",
+          "description": "Ukjent hendelse"
+        },
+        "subscription_activated": {
+          "label": "Abonnement Aktivert",
+          "description": "Tjenesteabonnement aktivert"
+        },
+        "package_upgrade_scheduled": {
+          "label": "Pakkeoppgradering Planlagt",
+          "description": "Planlagt oppgradering til en større pakke"
+        },
+        "package_downgrade_scheduled": {
+          "label": "Pakkenedgradering Planlagt",
+          "description": "Planlagt nedgradering til en mindre pakke"
+        },
+        "admin_package_assign": {
+          "label": "Administrator Pakketilordning",
+          "description": "Pakke tilordnet av administrator"
+        },
+        "admin_manual_topup": {
+          "label": "Administrator Påfyll",
+          "description": "Manuelt påfyll av administrator"
+        }
+      },
+      "showingRange": "Viser {start}-{end} av {total} logger",
+      "minutesCount": "{count} minutter",
+      "bundleNumber": "Pakke #{id}",
+      "previous": "Forrige",
+      "next": "Neste",
+      "periods": {
+        "today": "I dag",
+        "week": "7 dager",
+        "month": "30 dager",
+        "quarter": "3 måneder"
+      }
+    },
+    "subscriptions": {
+      "title": "Aktive Abonnementer",
+      "loading": "Laster abonnementsdata...",
+      "description": "Din nåværende abonnementsstatus og aktive tillegg",
+      "noActive": {
+        "title": "Ingen Aktive Abonnementer",
+        "message": "Du har ingen aktive abonnements-tillegg ennå.",
+        "button": "Tillegg og Abonnement"
+      },
+      "status": {
+        "active": "Abonnement Aktivt",
+        "summary": "{count} tillegg aktivt",
+        "summaryPlural": "{count} tillegg aktive"
+      },
+      "addons": {
+        "title": "Aktive Tjenestetillegg",
+        "monthly": "{cost}/mnd",
+        "mo": "/mnd",
+        "active": "Aktiv"
+      },
+      "summary": {
+        "totalCost": "Total Månedlig Kostnad:",
+        "nextBilling": "Neste Fakturering:",
+        "automatic": "Månedlig (automatisk)"
+      },
+      "actions": {
+        "manage": "Administrer Abonnement",
+        "addMore": "Legg til Flere Tjenester"
+      },
+      "errors": {
+        "fetchFailed": "Kunne ikke hente abonnement",
+        "loadFailed": "Kunne ikke laste abonnementsdata"
+      }
+    },
+    "alerts": {
+      "lowMinutes": {
+        "title": "Advarsel om Lite Minutter",
+        "description": "Få varsel når du har lite minutter igjen",
+        "enable": "Aktiver varsler",
+        "threshold": "Terskel",
+        "unit": "minutter",
+        "info": "Du vil bli varslet når dine totale minutter faller under denne terskelen"
+      },
+      "expiry": {
+        "title": "Utløpsvarsel",
+        "description": "Få varsel før pakkene dine utløper",
+        "enable": "Aktiver varsler",
+        "warningTime": "Varslingstid",
+        "unit": "timer",
+        "info": "Du vil bli varslet dette antallet timer før en pakke utløper"
+      },
+      "paymentFailures": {
+        "title": "Betalingsfeil",
+        "description": "Få varsel om mislykkede betalingsforsøk",
+        "enable": "Aktiver varsler"
+      },
+      "messages": {
+        "fetchError": "Kunne ikke laste varslingsinnstillinger",
+        "saveSuccess": "Varslingsinnstillinger oppdatert",
+        "saveError": "Kunne ikke oppdatere varslingsinnstillinger"
+      }
+    },
+    "manageBundleDialog": {
+      "title": "Administrer Ditt Abonnement",
+      "description": "Planlegg en oppgradering eller nedgradering for din neste faktureringsperiode",
+      "scheduledChange": {
+        "title": "Planlagt Planendring",
+        "message": "Din plan vil endres til {name} den {date}",
+        "cancelButton": "Avbryt Planlagt Endring"
+      },
+      "currentPlan": {
+        "badge": "Nåværende Plan",
+        "monthly": "Månedlig",
+        "annual": "Årlig",
+        "other": "Annet",
+        "minutesRemaining": "{remaining} av {total} minutter gjenstår",
+        "expires": "Utløper {date}"
+      },
+      "selectPackage": {
+        "title": "Velg Ny Pakke",
+        "monthlyOnly": "Kun månedlige planer",
+        "annualOnly": "Kun årlige planer",
+        "sameBillingCycle": "Kun samme faktureringssyklus",
+        "noPackages": "Ingen andre pakker tilgjengelig i ditt abonnementstier"
+      },
+      "package": {
+        "upgrade": "Oppgradering",
+        "downgrade": "Nedgradering",
+        "scheduled": "Planlagt",
+        "details": "{minutes} minutter • {days} dager",
+        "nameFormat": "{minutes} Minutter",
+        "descriptionMonthly": "Månedlig abonnement - {minutes} minutter per måned (Beste verdi)",
+        "descriptionAnnual": "Årlig abonnement - {minutes} minutter per år (Beste verdi)"
+      },
+      "summary": {
+        "upgrade": "Oppgrader til {name}",
+        "downgrade": "Nedgrader til {name}",
+        "message": "Din nåværende plan vil fortsette til {date}. Etter det vil du bli belastet {price} for din nye plan.",
+        "upgradeBonus": "Du vil motta {minutes} minutter per faktureringsperiode."
+      },
+      "actions": {
+        "cancel": "Avbryt",
+        "processing": "Behandler...",
+        "scheduleChange": "Planlegg Planendring"
+      },
+      "errors": {
+        "loadPackagesFailed": "Kunne ikke laste tilgjengelige pakker",
+        "selectPackage": "Vennligst velg en pakke",
+        "alreadyOnPackage": "Du er allerede på denne pakken",
+        "scheduleFailed": "Kunne ikke planlegge planendring",
+        "timeout": "Forespørselen tok for lang tid. Vennligst prøv igjen.",
+        "cancelFailed": "Kunne ikke avbryte planlagt endring",
+        "cancelSuccess": "Planlagt planendring avbrutt",
+        "scheduleSuccess": "Planendring planlagt"
+      }
+    }
+  },
+  "settings": {
+    "title": "Innstillinger",
+    "description": "Administrer kontoen, passordet og preferansene dine.",
+    "changeNotificationsLink": "Gå til notifikasjonsvarsler",
+    "tabs": {
+      "profile": "Profil",
+      "account": "Konto",
+      "security": "Sikkerhet",
+      "billing": "Fakturering",
+      "alerts": "Varsler"
+    },
+    "deleteAccount": {
+      "title": "Slett Kontoen Min",
+      "description": "Permanent sletting av kontoen din vil fjerne alle dataene dine.",
+      "warningTitle": "Denne handlingen kan ikke angres",
+      "warningDescription": "Følgende data vil bli permanent slettet:",
+      "items": {
+        "nameEmailPhone": "Navn, e-post og telefonnummer",
+        "recordingsAndTranscripts": "Opptak og transkripsjoner",
+        "chatAndCrm": "Chat og CRM-data",
+        "integrations": "Integrasjoner",
+        "profileAndSettings": "Profil og innstillinger",
+        "trainingData": "Treningsdata"
+      },
+      "legalNote": "Vi kan beholde enkelte data i samsvar med juridiske forpliktelser.",
+      "dialog": {
+        "body1": "Denne handlingen er permanent og kan ikke angres.",
+        "body2": "Alle dataene dine vil bli permanent slettet.",
+        "cancel": "Avbryt",
+        "confirm": "Slett kontoen min",
+        "deleting": "Sletter..."
+      }
+    }
+  },
+  "integrations": {
+    "title": "Integrasjoner",
+    "description": "Koble til dine favorittverktøy og tjenester.",
+    "connected": "Tilkoblet",
+    "notConnected": "Ikke Tilkoblet",
+    "connect": "Koble til",
+    "disconnect": "Koble fra",
+    "configure": "Konfigurer",
+    "apiKey": "API-nøkkel",
+    "webhookUrl": "Webhook URL",
+    "save": "Lagre",
+    "cancel": "Avbryt",
+    "saving": "Lagrer...",
+    "saved": "Lagret!",
+    "saveFailed": "Lagring feilet",
+    "popular": "Populære Integrasjoner",
+    "all": "Alle Integrasjoner",
+    "search": "Søk integrasjoner...",
+    "noResults": "Ingen integrasjoner funnet.",
+    "request": {
+      "buttonText": "Be om integrasjon",
+      "modalTitle": "Be om ny integrasjon",
+      "modalDescription": "Fortell oss hvilken integrasjon du trenger, så jobber vi med å legge den til.",
+      "integrationNameLabel": "Integrasjonsnavn",
+      "integrationNamePlaceholder": "f.eks., Salesforce, HubSpot, Slack",
+      "notesLabel": "Tilleggsnotater (Valgfritt)",
+      "notesPlaceholder": "Beskriv bruksområdet ditt eller spesifikke krav...",
+      "cancelButton": "Avbryt",
+      "submitButton": "Send Forespørsel",
+      "validationError": "Vennligst oppgi et integrasjonsnavn.",
+      "successMessage": "Integrasjonsforespørsel sendt inn!",
+      "errorMessage": "Kunne ikke sende inn forespørsel."
+    },
+    "connection": {
+      "disconnectConfirmation": "Er du sikker på at du vil koble fra? Dette vil stoppe synkronisering for denne integrasjonen.",
+      "disconnectSuccess": "Frakoblet",
+      "disconnectFailed": "Kunne ikke koble fra"
+    },
+    "cards": {
+      "googleTitle": "Google Kalender",
+      "googleDescription": "Synkroniser møter og hendelser med Google Kalender",
+      "outlookTitle": "Outlook Kalender",
+      "outlookDescription": "Synkroniser møter og hendelser med Outlook Kalender",
+      "connected": "Tilkoblet",
+      "disconnected": "Frakoblet",
+      "enabled": "Aktivert",
+      "disabled": "Deaktivert",
+      "processing": "Behandler...",
+      "switchEmail": "Bytt e-post"
+    },
+    "errors": {
+      "fetchStatusFailed": "Kunne ikke hente integrasjonsstatus"
+    }
+  },
+  "assistants": {
+    "title": "Assistenter",
+    "myAssistants": "Mine Assistenter",
+    "pageDescription": "Administrer dine AI taleassistenter.",
+    "myAssistantsDescription": "Vis og administrer dine tildelte AI-assistenter",
+    "total": "totalt",
+    "createAssistant": "Opprett Assistent",
+    "editAssistant": "Rediger Assistent",
+    "deleteAssistant": "Slett Assistent",
+    "name": "Assistentnavn",
+    "description": "Beskrivelse",
+    "status": "Status",
+    "actions": "Handlinger",
+    "active": "Aktiv",
+    "inactive": "Inaktiv",
+    "draft": "Utkast",
+    "published": "Publisert",
+    "search": "Søk assistenter...",
+    "noAssistants": "Ingen assistenter funnet.",
+    "noAssistantsAssigned": {
+      "title": "Ingen assistenter tildelt",
+      "description": "Du har ingen assistenter tildelt kontoen din ennå. Vennligst kontakt administratoren din for å få tildelt assistenter.",
+      "needAssistants": "Trenger du assistenter?",
+      "needAssistantsDescription": "Assistenter er nødvendige for å ringe. Hver assistent kommer med skript og stemmer som bestemmer hvordan samtalene dine håndteres. Kontakt administratoren din for å komme i gang."
+    },
+    "noAssistantsAvailable": {
+      "title": "Ingen assistenter tilgjengelig ennå",
+      "analyticsDescription": "Du har ingen assistenter tilknyttet kontoen din, så det er ingen samtaleanalyse å vise. Be om en ny assistent for å komme i gang.",
+      "callsDescription": "Du trenger en assistent for å se samtaler. Be om en ny assistent, og en administrator vil vurdere og tildele den til kontoen din."
+    },
+    "create": {
+      "title": "Opprett Ny Assistent",
+      "description": "Bygg en tilpasset AI taleassistent for din bedrift.",
+      "namePlaceholder": "f.eks., Salgsassistent",
+      "descriptionPlaceholder": "Beskriv hva denne assistenten gjør...",
+      "create": "Opprett Assistent",
+      "creating": "Oppretter...",
+      "created": "Assistent Opprettet!"
+    },
+    "edit": {
+      "title": "Rediger Assistent",
+      "description": "Endre konfigurasjonen til assistenten din.",
+      "save": "Lagre Endringer",
+      "saving": "Lagrer...",
+      "saved": "Endringer Lagret!",
+      "saveFailed": "Lagring feilet",
+      "editNameTitle": "Rediger Assistentnavn",
+      "editNamePlaceholder": "Skriv inn assistentnavn",
+      "editDescriptionPlaceholder": "Skriv inn assistentbeskrivelse (valgfritt)",
+      "descriptionCharCount": "{count} tegn",
+      "noDescription": "Ingen beskrivelse ennå",
+      "editScriptTitle": "Rediger Skriptinnhold for {name}",
+      "autoSyncDescription": "✨ Auto-synkronisering: Dette skriptet vil automatisk synkroniseres til Vapi når du lagrer! Innholdet blir assistentens systemprompt.",
+      "editingScript": "Redigerer: {name} ({type})",
+      "editing": "Redigerer: {name}",
+      "scriptContentLabel": "Skriptinnhold / Systemprompt",
+      "scriptContentPlaceholder": "Skriv inn skriptinnhold...",
+      "scriptContentNote": "Dette innholdet vil bli brukt som systemprompt for AI-assistenten din i Vapi.",
+      "firstMessageLabel": "Første Melding (Valgfritt)",
+      "firstMessagePlaceholder": "Hva skal assistenten si når samtalen starter? (f.eks., 'Hei! Hvordan kan jeg hjelpe deg i dag?')",
+      "firstMessageDescription": "Dette er hilsningsmeldingen assistenten din vil si ved starten av hver samtale.",
+      "saveChanges": "Lagre Endringer",
+      "saveAndSync": "Lagre og Synkroniser til Vapi",
+      "savingAndSyncing": "Lagrer og Synkroniserer...",
+      "scriptUpdated": "Skript oppdatert i Vapi! 🎉",
+      "changeVoiceTitle": "Endre Stemme for {name}",
+      "voiceSelectionDescription": "🎤 Stemmevalg: Velg fra ekte Vapi-stemmer (11Labs).",
+      "currentVoice": "Nåværende: {name}",
+      "selectVoice": "Velg Stemme",
+      "selectVoicePlaceholder": "Velg en stemme",
+      "loadingVoices": "Laster stemmer fra Vapi...",
+      "voicesAvailable": "{count} stemmer tilgjengelige fra Vapi (11Labs)",
+      "selectedVoicePreview": "Forhåndsvisning av Valgt Stemme:",
+      "name": "Navn:",
+      "type": "Type:",
+      "language": "Språk:",
+      "provider": "Leverandør:",
+      "descriptionLabel": "Beskrivelse:",
+      "testVoice": "🔊 Test Stemme",
+      "connecting": "Kobler til...",
+      "playing": "Spiller... (Klikk for å stoppe)",
+      "previewNote": "Klikk på knappen for å høre en live forhåndsvisning av denne stemmen",
+      "saveVoice": "Lagre Stemme",
+      "savingVoice": "Lagrer.. ",
+      "voiceUpdated": "Stemme oppdatert i Vapi! 🎤",
+      "pleaseSelectVoice": "Vennligst velg en stemme",
+      "editAssistantTitle": "Rediger Assistent",
+      "editAssistantDescription": "Oppdater navn, hilsning, skript og stemme på ett sted. Du kan også forhåndsvise den valgte stemmen.",
+      "assistantNameLabel": "Assistentnavn",
+      "typeText": "Skriv Tekst",
+      "uploadFile": "Last opp Fil",
+      "clearAll": "Tøm alt",
+      "scriptPlaceholder": "Skriv inn skriptinnholdet eller systempromptet her...",
+      "scriptTip": "Tips: Du kan også bytte til filopplasting hvis du har dokumenter klare",
+      "fileUploadTip": "Støttet: PDF, DOCX, TXT, ZIP-filer (maks 5MB hver)",
+      "knowledgeBase": "Kunnskapsbase / Filopplasting",
+      "firstMessageLabel2": "Første Melding",
+      "noVoicesFound": "Ingen stemmer funnet med de valgte filtrene",
+      "clearFilters": "Fjern filtre",
+      "showMoreVoices": "Vis flere stemmer ({count} igjen)",
+      "loading": "Laster...",
+      "assistantUpdated": "Assistent oppdatert"
+    },
+    "delete": {
+      "title": "Slett Assistent",
+      "description": "Er du sikker på at du vil slette denne assistenten? Denne handlingen kan ikke angres.",
+      "confirm": "Ja, Slett",
+      "cancel": "Avbryt",
+      "deleted": "Assistent Slettet!"
+    },
+    "validation": {
+      "assistantNameRequired": "Assistentnavn er påkrevd",
+      "firstMessageRequired": "Første melding er påkrevd",
+      "scriptContentRequired": "Systemprompt / Skriptinnhold er påkrevd"
+    },
+    "stats": {
+      "myAssistants": "Mine Assistenter",
+      "totalScripts": "Totale Skript",
+      "totalVoices": "Totale Stemmer"
+    },
+    "filters": {
+      "searchPlaceholder": "Søk assistenter...",
+      "filterByType": "Filtrer etter type",
+      "allTypes": "Alle typer",
+      "inbound": "Innkommende",
+      "outbound": "Utgående",
+      "both": "Begge",
+      "comingSoon": "Kommer snart"
+    },
+    "card": {
+      "phoneNumbers": "Telefonnumre",
+      "active": "Aktiv",
+      "type": "Typer",
+      "language": "Språk",
+      "voice": "Stemme",
+      "script": "Skript",
+      "model": "Modell",
+      "vapiAssistantId": "VAPI Assistent-ID",
+      "notSet": "Ikke satt",
+      "loading": "Laster…",
+      "default": "Standard",
+      "selectAssistant": "Velg en Assistent",
+      "selectAssistantDescription": "Velg en assistent fra listen til venstre for å se detaljert informasjon, skript og stemmeinnstillinger.",
+      "assistantList": "Assistentliste",
+      "phone": "telefon",
+      "phones": "telefoner",
+      "noPhoneAssigned": "Telefonnummer ikke tildelt ennå"
+    },
+    "request": {
+      "requestNew": "Be om Ny Assistent",
+      "requestPhoneNumber": "Be om Telefonnummer",
+      "underReview": "Under Vurdering",
+      "pendingApproval": "Forespørselen din venter på administratorgodkjenning. Du vil bli varslet når den er behandlet.",
+      "phoneRequestReviewDescription": "Forespørselen din om telefonnummer blir gjennomgått av teamet vårt. Når den er godkjent og et nummer er tildelt kontoen din, vil det automatisk vises her.",
+      "phoneRequestNotification": "Du vil bli varslet når telefonnummeret ditt er klart til bruk.",
+      "phoneRequestSubmitted": "Forespørsel om telefonnummer er sendt",
+      "phoneRequestFailed": "Kunne ikke sende forespørsel om telefonnummer",
+      "requestNewTitle": "Be om Ny Assistent",
+      "requestNewDescription": "Send inn en forespørsel om en ny assistent. En administrator vil vurdere og opprette den for deg. Oppgi så mye detaljer som mulig for å hjelpe administratoren med å konfigurere den riktig.",
+      "editRequestTitle": "Rediger Assistentforespørsel",
+      "editRequestDescription": "Oppdater detaljene for assistentforespørselen din mens den fortsatt venter på vurdering.",
+      "assistantName": "Assistentnavn",
+      "assistantNameRequired": "Assistentnavn *",
+      "type": "Typer",
+      "typeRequired": "Type *",
+      "selectType": "Velg type",
+      "selectLanguage": "Velg språk",
+      "firstMessage": "Første Melding (Åpningshilsen)",
+      "firstMessageRequired": "Første Melding (Åpningshilsen) *",
+      "firstMessageDescription": "Dette er det assistenten vil si når en samtale starter",
+      "firstMessagePlaceholder": "f.eks., Hei! Takk for at du ringer. Hvordan kan jeg hjelpe deg i dag?",
+      "scriptContent": "Systemprompt / Skriptinnhold",
+      "scriptContentRequired": "Systemprompt / Skriptinnhold *",
+      "scriptContentDescription": "Beskriv hvordan assistenten skal oppføre seg og svare. Dette er systempromptet som veileder AI-en.",
+      "scriptContentPlaceholder": "f.eks., Du er en hjelpsom salgsassistent. Målet ditt er å forstå kundens behov og veilede dem til den beste løsningen...",
+      "voicePreference": "Stemmevalg",
+      "voicePreferenceDescription": "Administrator vil velge den nærmest matchende stemmen fra tilgjengelige alternativer",
+      "selectVoiceType": "Velg foretrukket stemmetype",
+      "noPreference": "Ingen Preferanse",
+      "maleVoice": "Mannlig Stemme",
+      "femaleVoice": "Kvinnelig Stemme",
+      "neutralVoice": "Nøytral Stemme",
+      "youngVoice": "Ung Stemme",
+      "matureVoice": "Moden Stemme",
+      "professionalVoice": "Profesjonell Stemme",
+      "friendlyVoice": "Vennlig Stemme",
+      "useCaseDescription": "Beskrivelse av Bruksområde",
+      "useCasePlaceholder": "Beskriv hvordan du planlegger å bruke denne assistenten...",
+      "additionalNotes": "Tilleggsnotater",
+      "notesPlaceholder": "Eventuelle spesifikke krav eller preferanser...",
+      "cancel": "Avbryt",
+      "submitRequest": "Send Forespørsel",
+      "submitting": "Sender...",
+      "updateRequest": "Oppdater Forespørsel",
+      "updating": "Oppdaterer...",
+      "submitSuccess": "Assistentforespørsel sendt inn!",
+      "updateSuccess": "Assistentforespørsel oppdatert!",
+      "editRequestSent": "Redigeringsforespørsel sendt",
+      "adminReviewMessage": "Forespørselen din vil bli gjennomgått av en administrator. Du får beskjed når den er godkjent og assistenten er klar til bruk.",
+      "needActiveBundle": "Du trenger en aktiv minuttpakke for å be om en assistent. Vennligst kjøp en minuttpakke først.",
+      "assistantNamePlaceholder": "f.eks. Inngående salgsassistent",
+      "assistantNameDescription": "Gi assistenten et tydelig, beskrivende navn slik at teamet ditt vet hva den gjør.",
+      "typeDescription": "Velg om denne assistenten skal håndtere innkommende samtaler, utgående samtaler eller begge deler.",
+      "languageDescription": "Velg hovedspråket assistenten skal bruke i samtaler.",
+      "descriptionOptional": "Valgfritt: Legg til ekstra kontekst eller notater som hjelper administratoren å konfigurere assistenten."
+    },
+    "messages": {
+      "failedToLoadAssistants": "Kunne ikke laste assistenter",
+      "failedToLoadVoices": "Kunne ikke laste tilgjengelige stemmer",
+      "showingDefaultVoices": "Viser standardstemmer (Vapi-tilkobling utilgjengelig)",
+      "nameRequired": "Navn er påkrevd",
+      "scriptRequired": "Skriptinnhold er påkrevd"
+    },
+    "languages": {
+      "english": "Engelsk",
+      "spanish": "Spanielsk",
+      "french": "Fransk",
+      "german": "Tysk",
+      "italian": "Italiensk",
+      "portuguese": "Portugisisk",
+      "norwegian": "Norsk"
+    },
+    "fileupload": {
+      "selected_single": "fil valgt",
+      "selected_multiple": "filer valgt",
+      "add_single": "Legg til ny",
+      "add_multiple": "Legg til flere",
+      "remove_all": "Fjern alle",
+      "remove_file": "Fjern fil",
+      "upload_instructions": "Klikk eller dra for å laste opp",
+      "upload_drag_active": "Slipp filer her",
+      "file_requirements": {
+        "single": "Maks {maxSize}MB • {accept}",
+        "multiple": "Opptil {maxFiles} filer • Maks {maxSize}MB hver • {accept}"
+      },
+      "scroll_hint": "Rull →",
+      "file_types": {
+        "image": "Bilde",
+        "pdf": "PDF",
+        "doc": "Dokument",
+        "text": "Tekst",
+        "archive": "Arkiv",
+        "file": "Fil"
+      },
+      "alerts": {
+        "max_files": "Maksimalt {maxFiles} filer tillatt",
+        "file_too_large": "Filen \"{fileName}\" overstiger {maxSize}MB grensen",
+        "unsupported_format": "Filen \"{fileName}\" er ikke et støttet format. Godtatt: {accept}"
+      }
+    }
+  },
+  "common": {
+    "loading": "Laster...",
+    "noData": "Ingen data tilgjengelig",
+    "error": "En feil oppstod",
+    "unknown": "Ukjent"
+  },
+  "calls": {
+    "title": "Samtaler",
+    "description": "Vis og administrer samtalehistorikken din.",
+    "search": "Søk samtaler...",
+    "searchPlaceholder": "Søk etter telefonnummer, dato, transkripsjon eller type",
+    "filter": "Filter",
+    "dateRange": "Datoperiode",
+    "dateLabel": "Dato",
+    "timeRangePlaceholder": "Tidsperiode",
+    "status": "Status",
+    "type": "Type",
+    "duration": "Varighet",
+    "actions": "Handlinger",
+    "viewDetails": "Vis Detaljer",
+    "download": "Last ned",
+    "exportButton": "Eksporter",
+    "clear": "Fjern",
+    "export": {
+      "button": "Eksporter",
+      "sheetName": "Samtaler",
+      "fileName": "Samtaler",
+      "noData": "Ingen data å eksportere",
+      "downloadXlsx": "Last ned xlsx",
+      "short": "Eksporter"
+    },
+    "noCalls": "Ingen samtaler funnet.",
+    "noResults": "Ingen samtaler funnet.",
+    "noSummary": "Ingen oppsummering tilgjengelig",
+    "noTranscript": "Ingen transkripsjon tilgjengelig",
+    "filters": {
+      "allTime": "Alle perioder",
+      "today": "I dag",
+      "last7Days": "7 dager",
+      "last30Days": "30 dager",
+      "last3Months": "3 måneder",
+      "last6Months": "6 måneder",
+      "thisMonth": "Denne måneden",
+      "lastMonth": "Forrige måned",
+      "allStatuses": "Alle statuser",
+      "pickDate": "Velg en dato",
+      "clearFilters": "Fjern filtre"
+    },
+    "statuses": {
+      "completed": "Fullført",
+      "failed": "Feilet",
+      "inProgress": "Pågående",
+      "cancelled": "Avbrutt",
+      "ended": "Avsluttet",
+      "queued": "I kø",
+      "ringing": "Ringer",
+      "initiated": "Initiert",
+      "in-progress": "Pågående"
+    },
+    "types": {
+      "inbound": "Innkommende",
+      "outbound": "Utgående",
+      "web": "Web Samtale"
+    },
+    "table": {
+      "phoneNumber": "Telefonnummer",
+      "type": "Typer",
+      "status": "Status",
+      "startedAt": "Startet kl",
+      "endedAt": "Avsluttet kl",
+      "endReason": "Avslutningsårsak",
+      "summary": "Oppsummering",
+      "actions": "Handlinger"
+    },
+    "details": {
+      "summary": "Samtaleoppsummering",
+      "transcript": "Transkripsjon",
+      "recording": "Opptak",
+      "loadingDetails": "Laster transkripsjon og opptak..."
+    },
+    "callTypes": {
+      "inboundCall": "Innkommende Samtale",
+      "outboundCall": "Utgående Samtale",
+      "webCall": "Web Samtale"
+    },
+    "loadMore": "Last flere samtaler"
+  },
+  "callDetails": {
+    "title": "Samtaledetaljer",
+    "description": "Detaljert informasjon om denne samtalen.",
+    "summary": "Samtaleoppsummering",
+    "transcript": "Transkripsjon",
+    "recording": "Opptak",
+    "analysis": "Analyse",
+    "startTime": "Starttid",
+    "endTime": "Sluttid",
+    "duration": "Varighet",
+    "status": "Status",
+    "type": "Type",
+    "from": "Fra",
+    "to": "Til",
+    "assistant": "Assistent",
+    "downloadTranscript": "Last ned Transkripsjon",
+    "downloadRecording": "Last ned Opptak",
+    "play": "Spill av",
+    "pause": "Pause",
+    "stop": "Stopp"
+  },
+  "updatePassword": {
+    "title": "Oppdater Passord",
+    "description": "Skriv inn ditt nåværende passord og et nytt passord for å oppdatere legitimasjonen din.",
+    "fields": {
+      "currentPassword": "Nåværende Passord",
+      "newPassword": "Nytt Passord",
+      "confirmNewPassword": "Bekreft Nytt Passord"
+    },
+    "placeholders": {
+      "password": "••••••••"
+    },
+    "buttons": {
+      "updatePassword": "Oppdater Passord"
+    },
+    "accessibility": {
+      "togglePassword": "Bytt passordsynlighet"
+    },
+    "validation": {
+      "currentPasswordRequired": "Nåværende passord er påkrevd",
+      "newPasswordMinLength": "Passord må være minst 8 tegn",
+      "confirmPasswordRequired": "Vennligst bekreft passordet ditt",
+      "passwordsNoMatch": "Passordene stemmer ikke overens"
+    },
+    "messages": {
+      "passwordUpdated": "Passord oppdatert vellykket"
+    },
+    "errors": {
+      "unexpectedError": "En uventet feil oppstod",
+      "tryAgain": "Vennligst prøv igjen",
+      "updateFailed": "Kunne ikke oppdatere passord"
+    }
+  },
+  "onboarding": {
+    "title": "Kom i Gang",
+    "description": "Fullfør disse trinnene for å sette opp kontoen din.",
+    "takeTour": "Ta en omvisning",
+    "tourTooltip": "Se den interaktive introduksjonen",
+    "steps": {
+      "profile": "Fullfør Profil",
+      "assistant": "Opprett Assistent",
+      "integration": "Koble til Integrasjon",
+      "firstCall": "Utfør Første Samtale"
+    },
+    "complete": "Fullfør",
+    "skip": "Hopp over for nå",
+    "next": "Neste Trinn",
+    "previous": "Forrige",
+    "finish": "Fullfør Oppsett",
+    "congratulations": "Gratulerer!",
+    "setupComplete": "Kontooppsettet ditt er fullført. Du er klar til å begynne å bruke Hello.",
+    "startUsing": "Begynn å Bruke Hello"
+  },
+  "voiceAssistant": {
+    "title": "Stemmeassistent Oppsett",
+    "description": "Konfigurer din AI stemmeassistent.",
+    "name": "Assistentnavn",
+    "personality": "Personlighet",
+    "voice": "Stemme",
+    "language": "Språk",
+    "greeting": "Velkomstmelding",
+    "instructions": "Instruksjoner",
+    "save": "Lagre Assistent",
+    "saving": "Lagrer...",
+    "saved": "Assistent Lagret!",
+    "saveFailed": "Lagring feilet",
+    "test": "Test Stemme",
+    "testing": "Tester...",
+    "tested": "Stemme Testet!",
+    "placeholders": {
+      "name": "f.eks., Salgsassistent",
+      "greeting": "Hallo! Hvordan kan jeg hjelpe deg i dag?",
+      "instructions": "Gi spesifikke instruksjoner for assistenten..."
+    }
+  },
+  "meetings": {
+    "title": "kalender",
+    "description": "Se og administrer dine planlagte møter.",
+    "schedule": {
+      "scheduleButton": "Planlegg møte",
+      "title": "Planlegg møte",
+      "description": "Opprett et nytt møtearrangement i kalenderen din.",
+      "meetingTitle": "Møtetittel",
+      "date": "Dato",
+      "time": "Tid",
+      "duration": "Varighet",
+      "participants": "Deltakere",
+      "pickDate": "Velg en dato",
+      "selectDuration": "Velg varighet",
+      "duration15": "15 minutter",
+      "duration30": "30 minutter",
+      "duration45": "45 minutter",
+      "duration60": "60 minutter",
+      "descriptionPlaceholder": "Legg til møtebeskrivelse (valgfritt)",
+      "titleForDay": "Ingen møter planlagt for denne dagen",
+      "descriptionForDay": "Klikk på Planlegg møte-knappen for å opprette et nytt møte.",
+      "noMeetings7Days": "Ingen møter de neste 7 dagene",
+      "noMeetingsMonth": "Ingen møter neste måned"
+    },
+    "modify": {
+      "title": "Endre møte",
+      "description": "Oppdater møtedetaljer.",
+      "updateButton": "Oppdater møte"
+    },
+    "notConnected": {
+      "buttonText": "Gå til integrasjoner",
+      "outlookTitle": "Outlook Kalender er ikke koblet til",
+      "outlookDescription": "Koble til Outlook Kalender i Integrasjoner for å planlegge eller se møter."
+    },
+    "noIntegration": {
+      "title": "Ingen kalenderintegrasjon",
+      "description": "Koble til en kalenderintegrasjon for å se og administrere møtene dine. Velg mellom Google Calendar eller Outlook Calendar.",
+      "buttonText": "Gå til integrasjoner"
+    },
+    "errors": {
+      "fetchFailed": "Kunne ikke hente møter",
+      "missingInfoTitle": "Manglende informasjon",
+      "missingInfoDescription": "Vennligst fyll ut alle obligatoriske felt.",
+      "schedulingFailedTitle": "Kunne ikke planlegge møte"
+    },
+    "actions": {
+      "modify": "Endre",
+      "delete": "Slett",
+      "deleteConfirmation": "Er du sikker på at du vil slette dette møtet?",
+      "deleteMeetingTitle": "Møte slettet",
+      "joinMeet": "Bli med i møte"
+    },
+    "success": {
+      "meetingScheduled": "Møte planlagt!"
+    },
+    "calendar": {
+      "noTitle": "Møte uten tittel"
+    },
+    "calendarViews": {
+      "oneDay": "1 dag",
+      "sevenDays": "7 dager",
+      "oneMonth": "1 måned"
+    },
+    "details": {
+      "justYou": "Bare deg"
+    }
+  },
+  "accessibility": {
+    "togglePassword": "Veksle passordsynlighet"
+  },
+  "documents": {
+    "title": "Dokumenthubb",
+    "description": "Opprett, send og spor hver kontrakt, tilbud og faktura på ett sted.",
+    "descriptionCustomer": "Se og signer dokumenter sendt til deg.",
+    "newDocument": "Nytt dokument",
+    "allDocuments": "Alle dokumenter",
+    "view": "Vis",
+    "loading": "Laster dokumenter...",
+    "noDocuments": "Ingen dokumenter samsvarer med de nåværende filtrene.",
+    "filters": {
+      "searchPlaceholder": "Søk dokumenter...",
+      "type": "Alle typer",
+      "status": "Alle statuser",
+      "typePlaceholder": "Filtrer etter type",
+      "statusPlaceholder": "Filtrer etter status",
+      "types": {
+        "contract": "Kontrakt",
+        "offer": "Tilbud",
+        "invoice": "Faktura",
+        "nda": "NDA",
+        "agreement": "Avtale",
+        "proposal": "Forslag",
+        "other": "Annet"
+      },
+      "statuses": {
+        "draft": "Utkast",
+        "sent": "Sendt",
+        "opened": "Åpnet",
+        "pending_signature": "Avventer signatur",
+        "signed_internal": "Signert intern",
+        "signed_external": "Signert ekstern",
+        "offer_accepted": "Tilbud akseptert",
+        "invoice_sent": "Faktura sendt",
+        "paid": "Betalt",
+        "signed": "Signert",
+        "expired": "Utløpt"
+      }
+    },
+    "table": {
+      "title": "Tittel",
+      "type": "Typer",
+      "status": "Status",
+      "customer": "Kunde",
+      "created": "Opprettet",
+      "updated": "Oppdatert",
+      "actions": "Handlinger"
+    },
+    "create": {
+      "title": "Opprett dokument",
+      "description": "Velg hvordan du vil opprette dokumentet ditt.",
+      "useTemplate": {
+        "title": "Bruk mal",
+        "description": "Opprett et dokument fra en forhåndsdefinert mal. Bare fyll ut feltene!",
+        "features": {
+          "1": "Velg fra eksisterende maler",
+          "2": "Fyll inn variabelverdier",
+          "3": "PDF genereres automatisk",
+          "4": "Klar for signering umiddelbart"
+        }
+      },
+      "uploadPdf": {
+        "title": "Last opp PDF",
+        "description": "Last opp din egen PDF-dokument for signering.",
+        "features": {
+          "1": "Last opp hvilken som helst PDF-fil",
+          "2": "Bruk ditt eget formaterte dokument",
+          "3": "Perfekt for eksterne dokumenter",
+          "4": "Send for signering"
+        }
+      },
+      "steps": {
+        "chooseMethod": "Velg metode",
+        "selectType": "Velg type",
+        "chooseTemplate": "Velg mal",
+        "fillVariables": "Fyll variabler",
+        "selectCustomer": "Velg kunde",
+        "reviewCreate": "Gjennomgå og opprett",
+        "uploadFile": "Last opp fil"
+      },
+      "form": {
+        "documentType": "Dokumenttype",
+        "documentTitle": "Dokumenttittel",
+        "titlePlaceholder": "f.eks. Ansettelseskontrakt for John Doe",
+        "chooseType": "Velg type",
+        "customer": "Kunde",
+        "selectCustomer": "Velg kunde",
+        "afterCreation": "Etter opprettelse",
+        "chooseNext": "Velg hva som skjer videre",
+        "goToDocument": "Gå til dokument (klar for signering)",
+        "saveDraft": "Lagre som utkast",
+        "noTemplates": "Ingen maler tilgjengelig for denne dokumenttypen.",
+        "createTemplate": "Opprett en mal",
+        "uploadPdfDocument": "Last opp PDF-dokument",
+        "clickOrDrop": "Klikk for å bla eller dra og slipp",
+        "fileTooSmall": "Filen er for liten",
+        "onlyPdf": "Vennligst last opp en PDF-fil",
+        "remove": "Fjern"
+      },
+      "review": {
+        "type": "Typer",
+        "title": "Tittel",
+        "template": "Mal",
+        "customer": "Kunde",
+        "file": "Fil",
+        "variableValues": "Variabelverdier",
+        "empty": "(tom)",
+        "untitled": "Uten tittel",
+        "none": "Ingen",
+        "notSelected": "Ikke valgt"
+      },
+      "buttons": {
+        "back": "Tilbake",
+        "next": "Neste",
+        "createDocument": "Opprett dokument",
+        "creating": "Oppretter..."
+      },
+      "variables": {
+        "fillValues": "Fyll inn verdiene for malvariablene. Disse vil bli satt inn i dokumentet ditt.",
+        "enterValue": "Skriv inn {name}"
+      },
+      "errors": {
+        "selectCustomer": "Vennligst velg en kunde",
+        "uploadFailed": "Kunne ikke laste opp dokument",
+        "createFailed": "Kunne ikke opprette dokument"
+      },
+      "success": {
+        "uploadSuccess": "Dokument lastet opp",
+        "createSuccess": "Dokument opprettet"
+      }
+    },
+    "detail": {
+      "documentNumber": "Dokument #",
+      "inbound": "INNKOMMENDE",
+      "untitled": "Dokument uten tittel",
+      "edit": "Rediger",
+      "sendForSignature": "Send for signering",
+      "revoke": "Tilbakekall",
+      "resend": "Send på nytt",
+      "retry": "Prøv igjen",
+      "sendAsOffer": "Send som tilbud",
+      "uploadFile": "Last opp fil",
+      "uploading": "Laster opp...",
+      "delete": "Slett",
+      "deleting": "Sletter...",
+      "loading": "Laster dokumenter...",
+      "notFound": "Dokumentet ble ikke funnet.",
+      "tabs": {
+        "preview": "Forhåndsvisning",
+        "info": "Info",
+        "activity": "Aktivitetslogg",
+        "audit": "Revisjonsspor"
+      },
+      "metadata": {
+        "title": "Metadata",
+        "customer": "Kunde",
+        "uploadedBy": "Lastet opp av",
+        "created": "Opprettet",
+        "lastUpdated": "Sist oppdatert"
+      },
+      "signing": {
+        "readyForSignature": "Klar for signering",
+        "description": "Dette dokumentet er klart for HelloSign-signering. Klikk på knappen nedenfor for å åpne signeringsgrensesnittet.",
+        "openSigningInterface": "Åpne signeringsgrensesnitt",
+        "loading": "Laster...",
+        "alreadySigned": "Dokumentet er allerede signert. Oppdaterer...",
+        "failedToLoad": "Kunne ikke laste signeringsgrensesnitt"
+      },
+      "audit": {
+        "title": "Revisjonsspor",
+        "signer": "Signatar",
+        "email": "E-post",
+        "signedAt": "Signert kl",
+        "ipAddress": "IP-adresse",
+        "method": "Metode",
+        "verification": "Verifisering",
+        "deviceInformation": "Enhetsinformasjon"
+      },
+      "modals": {
+        "revoke": {
+          "title": "Tilbakekall dokument",
+          "description": "Dette vil avbryte signeringsforespørselen og tilbakestille dokumentet til utkaststatus. Mottakeren vil ikke lenger kunne signere dokumentet.",
+          "reason": "Årsak (valgfritt)",
+          "reasonPlaceholder": "Skriv inn årsaken til å tilbakekalle dette dokumentet...",
+          "cancel": "Avbryt",
+          "confirm": "Tilbakekall dokument",
+          "revoking": "Tilbakekaller..."
+        },
+        "resend": {
+          "title": "Send dokument på nytt for signering",
+          "description": "Dette vil avbryte den forrige signeringsforespørselen og sende en ny til mottakeren.",
+          "recipientEmail": "Mottaker e-post *",
+          "recipientName": "Mottaker navn",
+          "message": "Melding (valgfritt)",
+          "messagePlaceholder": "Legg til en melding til mottakeren...",
+          "cancel": "Avbryt",
+          "confirm": "Send dokument på nytt",
+          "resending": "Sender på nytt..."
+        },
+        "edit": {
+          "title": "Rediger dokument",
+          "description": "Oppdater dokumenttittel og innhold. Endringer vil bli lagret umiddelbart.",
+          "titleLabel": "Tittel",
+          "titlePlaceholder": "Dokumenttittel",
+          "contentLabel": "Innhold",
+          "contentPlaceholder": "Dokumentinnhold...",
+          "cancel": "Avbryt",
+          "save": "Lagre endringer",
+          "saving": "Lagrer..."
+        },
+        "delete": {
+          "confirm": "Er du sikker på at du vil slette \"{title}\"? Denne handlingen kan ikke angres."
+        }
+      },
+      "errors": {
+        "noFile": "Dette dokumentet har ingen vedlegg. Vennligst last opp en PDF-fil før du sender for signering.",
+        "mustHaveFile": "Dokumentet må ha en vedlegg for å sende for signering",
+        "onlyPdf": "Kun PDF-filer er tillatt. Vennligst last opp et PDF-dokument.",
+        "fileTooSmall": "Filen er for liten. Vennligst last opp en fil som er minst 1KB.",
+        "uploadFailed": "Kunne ikke laste opp fil",
+        "updateFailed": "Kunne ikke oppdatere dokument",
+        "deleteFailed": "Kunne ikke slette dokument",
+        "revokeFailed": "Kunne ikke tilbakekalle dokument",
+        "resendFailed": "Kunne ikke sende dokument på nytt"
+      },
+      "success": {
+        "fileUploaded": "Fil lastet opp",
+        "documentUpdated": "Dokument oppdatert",
+        "documentDeleted": "Dokument slettet",
+        "documentRevoked": "Dokument tilbakekalt. Det har blitt tilbakestilt til utkaststatus.",
+        "documentResent": "Dokument sendt på nytt for signering"
+      },
+      "preview": {
+        "title": "Dokumentforhåndsvisning",
+        "download": "Last ned",
+        "downloadShort": "Ned",
+        "print": "Skriv ut",
+        "printShort": "Skriv",
+        "iframeTitle": "Dokumentforhåndsvisning",
+        "previewNotAvailable": "Forhåndsvisning ikke tilgjengelig for denne filtypen",
+        "downloadFile": "Last ned fil",
+        "noPreviewableContent": "Dette dokumentet har ikke forhåndsvisningsinnhold."
+      },
+      "activityLog": {
+        "title": "Aktivitetslogg",
+        "eventCount": "{count} hendelser",
+        "noActivity": {
+          "title": "Ingen aktivitet registrert ennå",
+          "description": "Aktiviteter vil vises her når de skjer"
+        },
+        "actions": {
+          "created": "Opprettet",
+          "updated": "Oppdatert",
+          "deleted": "Slettet",
+          "viewed": "Vist",
+          "downloaded": "Lastet ned",
+          "sent": "Sendt",
+          "signed": "Signert",
+          "revoked": "Tilbakekalt",
+          "resent": "Sendt på nytt",
+          "uploaded": "Lastet opp"
+        },
+        "details": {
+          "title": "Detaljer",
+          "fieldsUpdated": "Følgende felt ble endret:",
+          "noAdditionalDetails": "Ingen flere detaljer tilgjengelig",
+          "jsonView": "JSON-visning"
+        },
+        "metadata": {
+          "documentId": "Dokument-ID: {id}",
+          "activityId": "Aktivitet-ID: {id}"
+        }
+      }
+    },
+    "templates": {
+      "title": "Maler",
+      "description": "Administrer gjenbrukbare kontrakter, tilbud, NDA-er og fakturalayouts.",
+      "newTemplate": "Ny mal",
+      "library": "Malbibliotek",
+      "loading": "Laster maler...",
+      "noTemplates": "Ingen maler ennå.",
+      "table": {
+        "name": "Navn",
+        "type": "Typer",
+        "status": "Aktiv",
+        "lastUpdated": "Sist oppdatert"
+      },
+      "create": {
+        "title": "Opprett mal",
+        "description": "Bygg gjenbrukbare kontrakt-, tilbud-, NDA- eller fakturalmaler med dynamiske variabler.",
+        "details": {
+          "title": "Maldetaljer",
+          "name": "Malnavn *",
+          "namePlaceholder": "f.eks. Standard ansettelseskontrakt",
+          "type": "Dokumenttype *"
+        },
+        "content": {
+          "title": "Malinnhold",
+          "description": "Bruk {syntax} syntaks for å sette inn dynamiske variabler.",
+          "contentLabel": "Innhold *",
+          "placeholder": "Kjære {{customer_name}},\n\nDenne avtalen inngås den {{date}} mellom {{company_name}} (\"Selskapet\") og {{customer_name}} (\"Klient\").\n\n1. TJENESTER\n   Selskapet samtykker i å levere følgende tjenester:\n   {{services_description}}\n\n2. GODTGJØRELSE\n   Klienten samtykker i å betale {{contract_amount}} for tjenestene beskrevet ovenfor.\n\n3. VILKÅR OG BETINGELSER\n   Denne avtalen skal gjelde i {{contract_duration}}.\n\nSignert av:\n_________________________\n{{signer_name}}\nDato: {{date}}"
+        },
+        "variables": {
+          "title": "Variabler",
+          "description": "Definer de dynamiske verdiene som vil bli fylt inn når du bruker denne malen.",
+          "builtIn": "Innebygde variabler",
+          "custom": "Egendefinerte variabler ({count})",
+          "noCustom": "Ingen egendefinerte variabler definert ennå.",
+          "addNew": "Legg til ny variabel",
+          "namePlaceholder": "Variabelnavn (f.eks. customer_name)",
+          "descriptionPlaceholder": "Beskrivelse (f.eks. Kundens fulle navn)",
+          "defaultPlaceholder": "Standardverdi (valgfritt)",
+          "addButton": "Legg til variabel",
+          "undefinedWarning": "Følgende variabler brukes i innholdet ditt, men er ikke definert:",
+          "clickToAdd": "Klikk på en variabel for å legge den til i definisjonene dine.",
+          "inContent": "Variabler i innhold"
+        },
+        "buttons": {
+          "cancel": "Avbryt",
+          "createTemplate": "Opprett mal",
+          "creating": "Oppretter..."
+        },
+        "errors": {
+          "nameRequired": "Malnavn er påkrevd",
+          "contentRequired": "Malinnhold er påkrevd",
+          "variableNameRequired": "Variabelnavn er påkrevd",
+          "variableInvalid": "Variabelnavn kan bare inneholde bokstaver, tall og understreker, og må starte med en bokstav eller understrek",
+          "variableExists": "Variabel finnes allerede",
+          "builtInVariable": "Dette er et innebygd variabelnavn",
+          "createFailed": "Kunne ikke opprette mal"
+        },
+        "success": {
+          "templateCreated": "Mal opprettet"
+        }
+      },
+      "edit": {
+        "title": "Rediger mal",
+        "templateNumber": "Mal #{id}",
+        "delete": "Slett",
+        "editTitle": "Rediger mal",
+        "name": "Navn",
+        "type": "Typer",
+        "variablesJson": "Variabler JSON",
+        "content": "Innhold",
+        "saveChanges": "Lagre endringer",
+        "saving": "Lagrer...",
+        "loading": "Laster mal...",
+        "notFound": "Mal ikke funnet.",
+        "errors": {
+          "updateFailed": "Kunne ikke oppdatere mal",
+          "deleteFailed": "Kunne ikke slette mal"
+        },
+        "success": {
+          "templateUpdated": "Mal oppdatert",
+          "templateDeleted": "Mal slettet"
+        }
+      }
+    },
+    "signed": {
+      "title": "Signerte dokumenter",
+      "description": "Få tilgang til fullt utførte avtaler, tilbud og fakturaer.",
+      "cardTitle": "Fullførte signaturer"
+    },
+    "pending": {
+      "title": "Venter på signering",
+      "description": "Spor hvert dokument som venter på intern e-signering.",
+      "cardTitle": "Venter på signaturer"
+    },
+    "invoices": {
+      "title": "Fakturaer og regninger",
+      "description": "Administrer utkast, sendte fakturaer og betalingsstatuser.",
+      "newInvoice": "Ny faktura",
+      "cardTitle": "Fakturaer",
+      "loading": "Laster fakturaer...",
+      "noInvoices": "Ingen fakturaer ennå.",
+      "table": {
+        "invoice": "Faktura",
+        "customer": "Kunde",
+        "status": "Status",
+        "dueDate": "Forfallsdato",
+        "amount": "Beløp"
+      },
+      "create": {
+        "title": "Opprett faktura",
+        "description": "Legg til linjeelementer, mva og forfallsdatoer før du sender til kunden.",
+        "details": {
+          "title": "Fakturadetaljer",
+          "customer": "Kunde",
+          "selectCustomer": "Velg kunde",
+          "dueDate": "Forfallsdato",
+          "currency": "Valuta",
+          "notes": "Notater"
+        },
+        "lineItems": {
+          "title": "Linjeelementer",
+          "addItem": "Legg til element",
+          "description": "Beskrivelse",
+          "qty": "Ant",
+          "unitPrice": "Enhetspris",
+          "vat": "MVA %",
+          "total": "Totalt",
+          "remove": "Fjern",
+          "totalLabel": "Totalt"
+        },
+        "buttons": {
+          "createInvoice": "Opprett faktura",
+          "saving": "Lagrer..."
+        },
+        "errors": {
+          "selectCustomer": "Velg en kunde",
+          "createFailed": "Kunne ikke opprette faktura"
+        },
+        "success": {
+          "invoiceCreated": "Faktura opprettet"
+        }
+      },
+      "detail": {
+        "invoiceNumber": "Faktura #{number}",
+        "summary": {
+          "title": "Sammendrag",
+          "status": "Status",
+          "dueDate": "Forfallsdato",
+          "total": "Totalt",
+          "actions": "Handlinger"
+        },
+        "lineItems": {
+          "title": "Linjeelementer",
+          "noItems": "Ingen linjeelementer.",
+          "description": "Beskrivelse",
+          "quantity": "Antall",
+          "unitPrice": "Enhetspris",
+          "vat": "MVA %",
+          "total": "Totalt"
+        },
+        "send": {
+          "title": "Send faktura",
+          "description": "Send denne fakturaen til en mottaker via e-post.",
+          "selectUser": "Velg bruker (valgfritt)",
+          "loadingUsers": "Laster brukere...",
+          "selectUserPlaceholder": "Velg en bruker",
+          "recipientName": "Mottaker navn",
+          "recipientEmail": "Mottaker e-post *",
+          "cancel": "Avbryt",
+          "sendInvoice": "Send faktura",
+          "sending": "Sender..."
+        },
+        "actions": {
+          "send": "Send",
+          "markPaid": "Merk som betalt",
+          "alreadyPaid": "Allerede betalt",
+          "processing": "Behandler...",
+          "payInvoice": "Betal faktura"
+        },
+        "loading": "Laster faktura...",
+        "notFound": "Faktura ikke funnet.",
+        "errors": {
+          "loadFailed": "Kunne ikke laste faktura",
+          "enterEmail": "Vennligst skriv inn mottaker e-post",
+          "sendFailed": "Kunne ikke sende faktura",
+          "markPaidFailed": "Kunne ikke merke faktura som betalt",
+          "paymentFailed": "Kunne ikke opprette betalingssesjon"
+        },
+        "success": {
+          "invoiceSent": "Faktura sendt",
+          "markedPaid": "Faktura merket som betalt",
+          "paymentSuccess": "Betaling vellykket! Fakturaen har blitt merket som betalt.",
+          "paymentCancelled": "Betalingen ble avbrutt."
+        }
+      }
+    }
+  },
+  "scheduledCalls": {
+    "title": "Planlagte Samtaler",
+    "description": "Se og administrer dine planlagte utgående samtaler.",
+    "search": {
+      "placeholder": "Søk etter telefonnummer..."
+    },
+    "filters": {
+      "all": "Alle",
+      "pending": "Venter",
+      "completed": "Fullført",
+      "failed": "Mislykket"
+    },
+    "table": {
+      "customerNumber": "Kundenummer",
+      "scheduledFor": "Planlagt For",
+      "status": "Status",
+      "scheduledOn": "Planlagt Den",
+      "actions": "Handlinger",
+      "noResults": "Ingen planlagte samtaler funnet."
+    },
+    "loading": {
+      "freshData": "Laster planlagte samtaler..."
+    },
+    "common": {
+      "error": "Feil"
+    },
+    "actions": {
+      "deleteCall": "Slett planlagt samtale"
+    },
+    "export": {
+      "button": "Eksporter",
+      "noData": "Ingen data å eksportere",
+      "sheetName": "Planlagte Samtaler",
+      "fileName": "planlagte_samtaler",
+      "columns": {
+        "customerNumber": "Kundenummer",
+        "status": "Status",
+        "scheduledFor": "Planlagt For",
+        "assistantId": "Assistent-ID",
+        "callerId": "Anrops-ID",
+        "scheduledOn": "Planlagt Den",
+        "recordId": "Post-ID"
+      }
+    },
+    "deleteDialog": {
+      "title": "Er du sikker?",
+      "description": "Denne handlingen kan ikke angres. Dette vil permanent slette den planlagte samtalen.",
+      "cancel": "Avbryt",
+      "continue": "Slett"
+    },
+    "messages": {
+      "deleteSuccess": "Planlagt samtale slettet"
+    },
+    "errors": {
+      "fetchFailed": "Kunne ikke hente planlagte samtaler. Status: {status}",
+      "deleteFailed": "Kunne ikke slette planlagt samtale"
+    }
+  },
+  "createPhoneNumber": {
+    "title": "Tildel telefonnummer",
+    "description": "Tildel et Vapi-telefonnummer til en brukerkonto",
+    "numberDetails": "Nummerdetaljer",
+    "formDescription": "Skriv inn telefonnummerdetaljer og velg brukeren det skal tildeles",
+    "loadingUsers": "Laster brukere...",
+    "createAndAssign": "Opprett og tildel",
+    "fields": {
+      "assignToUser": "Tildel til bruker",
+      "phoneNumberId": "Telefonnummer-ID",
+      "aliasNumber": "Alias / Visningsnummer"
+    },
+    "placeholders": {
+      "selectUser": "Velg en bruker",
+      "phoneNumberId": "f.eks. +1234567890 (Vapi telefonnummer-ID)",
+      "aliasNumber": "f.eks. +1234567890"
+    },
+    "validation": {
+      "phoneNumberIdRequired": "Telefonnummer-ID er påkrevd",
+      "aliasNumberRequired": "Aliasnummer er påkrevd",
+      "userRequired": "Bruker er påkrevd",
+      "userMustSelect": "Velg en bruker"
+    },
+    "success": {
+      "phoneNumberCreated": "Telefonnummer tildelt",
+      "phoneNumberCreatedDesc": "Nummer {aliasNumber} er tildelt {email}"
+    },
+    "errors": {
+      "fetchUsersFailed": "Kunne ikke hente brukere",
+      "loadUsersFailed": "Kunne ikke laste brukere",
+      "createFailed": "Kunne ikke tildele telefonnummer",
+      "creationFailed": "Tildeling mislyktes"
+    }
+  }
+}
